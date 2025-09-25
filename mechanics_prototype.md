@@ -162,9 +162,10 @@ For new players or casual sessions, remove the 3‑minute Trade timer entirely. 
 * **Leader Decks** – one mini‑deck per Leader, 8–12 cards total (*baseline: 6 Policies + 1 signature Export + 1 signature Tactic*). Once empty, you can no longer draw from it.
 * **Global Export deck** – shared pile, 50 cards for prototype play. Distinct blue card back.
 * **Global Tactic deck** – shared pile, 50 cards for prototype play. Distinct red card back.
+* **Global Policy deck** – shared pile, 50 cards for prototype play. Distinct green card back.
 
 **Draw Phase Rule**
-Each round, a player draws the number shown on their Leader tile and may divide those draws among **any** of the three piles above. (Ignore a Leader Deck if it is empty.)
+Each round, a player draws the number shown on their Leader tile and may divide those draws among **any** of the four piles above. (Ignore a Leader Deck if it is empty.)
 
 **Play Limits**
 
@@ -174,7 +175,21 @@ Each round, a player draws the number shown on their Leader tile and may divide 
 **Tactic Timing**
 *Tactic cards (lightning‑bolt icon) may be played at any time before the Trade phase ends.*
 
-**Rarity Curve for Export and Tactic decks**
+**Policy Mechanics**
+*Policy cards from the Global Policy deck work alongside Leader-specific Policies. During the Policy phase, players may play **1 Policy card total** (either from their hand or from the Global Policy deck). Global Policy cards provide broader economic effects, while Leader Policies offer more specialized abilities.*
+
+**Policy Card Types & Effects:**
+* **Economic Policies** - Direct GDP bonuses, trade route modifiers, or income multipliers
+* **Trade Policies** - Influence bonuses, dispute resolution advantages, or export slot expansions  
+* **Disruptive Policies** - Target opponents' trade routes, force policy discards, or impose economic sanctions
+* **Defensive Policies** - Protect against tactics, maintain trade routes, or provide catch-up bonuses
+
+**Policy Resolution Order:**
+* Policies resolve simultaneously when revealed, but conflicting effects are resolved by the **poorest player** (lowest GDP)
+* Some Policies have ongoing effects that persist until replaced or destroyed
+* Policy slots on Leader boards can hold both Leader and Global Policy cards
+
+**Rarity Curve for Export, Tactic, and Policy decks**
 
 | Rarity       | Copies × Cards | Total | % of 50‑card deck |
 | ------------ | -------------- | ----- | ----------------- |
@@ -188,4 +203,5 @@ Each round, a player draws the number shown on their Leader tile and may divide 
 
 * Exports played: \~8
 * Tactics played: \~7.5–10
+* Policies played: \~5 (mix of Leader and Global Policy cards)
 * Export slot limit: 3–5 slots on a Leader board; refilling drives the Export play‑rate.

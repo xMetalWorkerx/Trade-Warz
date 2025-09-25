@@ -49,12 +49,13 @@ Effects resolve in this specific order:
 
 ### Card Types & Decks
 
-**Three Card Pools:**
+**Four Card Pools:**
 - **Leader Decks** (8-12 cards each) - Personal mini-decks with signature cards
 - **Global Export Deck** (50 cards) - Blue-backed trade goods
 - **Global Tactic Deck** (50 cards) - Red-backed action cards
+- **Global Policy Deck** (50 cards) - Green-backed policy cards
 
-**Rarity Distribution:**
+**Rarity Distribution (for Global decks):**
 - **Common**: 48% (3 copies × 8 cards = 24 total)
 - **Uncommon**: 32% (2 copies × 8 cards = 16 total)  
 - **Rare**: 20% (1 copy × 10 cards = 10 total)
@@ -86,8 +87,8 @@ Effects resolve in this specific order:
 
 **Replayability Through Asymmetry:**
 - Each leader's unique deck and abilities
-- Shared deck rarity system ensures fresh combos every session
-- Expect ~2 "jaw-dropper" rare cards per player per game
+- Four shared deck rarity system ensures fresh combos every session
+- Expect ~2 "jaw-dropper" rare cards per player per game from each global deck
 
 ## 🎨 Game Variants
 
