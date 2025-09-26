@@ -4,7 +4,7 @@
 **Theme**: [Brief description of the leader's satirical representation]
 
 ### Basic Information
-- **Draw Rate**: [Number of cards drawn per turn]
+- **Hand Size**: [Number of cards in hand limit]
 - **Export Slots**: [Number and configuration of trade routes]
 - **Starting GDP**: [Initial GDP value]
 - **Unique Mechanic**: [Special ability or rule]

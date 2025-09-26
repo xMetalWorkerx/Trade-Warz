@@ -19,21 +19,21 @@ This directory contains specifications and designs for each playable leader in T
 ### USA - Economic Powerhouse
 - **Starting GDP**: 8
 - **Export Slots**: 4
-- **Draw Rate**: 2 cards per turn
+- **Hand Size**: 8 cards
 - **Unique Ability**: +1 GDP per trade route
 - **Signature Cards**: 8 cards (3 Exports, 3 Policies, 2 Tactics)
 
 ### China - Manufacturing Advantage
 - **Starting GDP**: 7
 - **Export Slots**: 4
-- **Draw Rate**: 2 cards per turn
+- **Hand Size**: 7 cards
 - **Unique Ability**: +1 Influence in disputes
 - **Signature Cards**: 8 cards (3 Exports, 3 Policies, 2 Tactics)
 
 ### Russia - Energy Dominance
 - **Starting GDP**: 6
 - **Export Slots**: 3
-- **Draw Rate**: 2 cards per turn
+- **Hand Size**: 6 cards
 - **Unique Ability**: +2 GDP when destroying routes
 - **Signature Cards**: 8 cards (3 Exports, 3 Policies, 2 Tactics)
 

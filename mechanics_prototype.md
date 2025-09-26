@@ -45,11 +45,11 @@ Whether you're a policy wonk or just here for the memes, *Tariff Warz* delivers 
 
 1. **Event Flip** – resolve text, leave globals in play. *(\~15 s)*
 2. **Upkeep** – resolve effects in **C → M → Y → K** order (see below).
-3. **Draw** – everyone draws the number printed on their Leader tile.
+3. **Draw** – each player draws up to their leader's hand size limit.
 4. **Policy** – each player may play **1** Policy card (face‑down ➜ 3‑2‑1 flip).
 5. **Trade Phase** – **start the 3‑minute Trade timer** when the first Export is placed.
 6. **Income** – collect GDP, slide cube on Leader GDP track.
-7. **Cleanup** – discard to **7** cards; reset timer for next round.
+7. **Cleanup** – reset timer for next round.
 
 ---
 
