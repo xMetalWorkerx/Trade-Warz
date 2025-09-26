@@ -2,136 +2,150 @@
 
 ## Overview
 
-This document explores the concept of influence accumulating with trading partners at the end of each round, similar to how GDP is accumulated. This would create a secondary resource system that affects dispute resolution and potentially other game mechanics.
+This document defines the influence system for Trade Warz, inspired by Civilization's city-state mechanics. Players accumulate influence with specific trading partners, creating territorial control and scaling benefits.
 
 ## Core Concept
 
-**Influence Accumulation**: At the end of each round, players gain influence tokens equal to the total influence from their active trade routes. This influence accumulates with specific trading partners and can be used in future disputes or other game effects.
+**Trading Partner Influence**: Each trading partner tracks influence separately for each player. Influence accumulates from trade routes and can be modified by cards. Players receive scaling benefits based on their influence level with each trading partner, plus bonuses for having the most influence (suzerainty).
 
 ---
 
-## Implementation Options
+## Implementation
 
-### Option 1: Player Money Tokens from Bank
-**Mechanism**: Use existing GDP tokens to track influence
-- **Pros**: No additional components needed, simple to implement
-- **Cons**: Could be confusing (GDP vs influence tokens), limited by available tokens
-- **Implementation**: Players take GDP tokens from bank equal to their route influence, place them on trading partner cards
+### Trading Partner Cards with Influence Tracks
+**Mechanism**: Each trading partner card has influence tracks for each player
+- **Pros**: Visual clarity, easy to read, thematic fit
+- **Cons**: Requires trading partner cards with influence tracks
+- **Implementation**: Each trading partner card has 4-6 influence tracks (one per player), use cubes to track influence levels
 
-### Option 2: Separate Influence Tokens
-**Mechanism**: Dedicated influence tokens for each player
-- **Pros**: Clear distinction from GDP, unlimited supply, thematic clarity
-- **Cons**: Additional component cost, more complex setup
-- **Implementation**: Each player has colored influence tokens, place them on trading partner cards
-
-### Option 3: Influence Track on Trading Partner Cards
-**Mechanism**: Track influence with cubes or markers on trading partner cards
-- **Pros**: Visual clarity, no token management, easy to read
-- **Cons**: Requires trading partner cards with influence tracks, limited range
-- **Implementation**: Each trading partner card has influence tracks, move cubes to track accumulated influence
+### Influence Tracking
+- **Range**: 0-10 influence per trading partner per player
+- **Visual**: Colored cubes on influence tracks
+- **Updates**: Move cubes when influence changes
 
 ---
 
 ## Influence Accumulation Rules
 
 ### Basic Accumulation
-1. **End of Round**: After Income phase, each player calculates total influence from active routes
-2. **Placement**: Place influence tokens on trading partner cards where routes are established
-3. **Accumulation**: Influence tokens remain on trading partner cards until used or removed
+1. **End of Round**: After Income phase, each player gains influence with trading partners equal to influence from active routes
+2. **Per Trading Partner**: Influence is tracked separately for each trading partner
+3. **Persistent**: Influence remains with trading partners until modified by cards or route destruction
 
-### Influence Usage
-- **Dispute Resolution**: Spend influence tokens to add to dispute resolution (1 influence = 1 dispute bonus)
-- **Special Effects**: Some cards may require spending influence tokens
-- **Trading Partner Control**: High influence may grant special abilities or bonuses
+### Influence Sources
+- **Trade Routes**: Gain influence equal to route's influence value each round
+- **Policy Cards**: Some policies may grant influence with specific trading partners
+- **Tactic Cards**: Some tactics may increase/decrease influence with trading partners
+- **Route Destruction**: Losing a route reduces influence with that trading partner
+
+---
+
+## Influence Benefits System
+
+### Scaling Benefits (Based on Influence Level)
+**0-2 Influence**: No benefits
+**3-4 Influence**: +1 GDP per round from this trading partner
+**5-6 Influence**: +2 GDP per round from this trading partner
+**7-8 Influence**: +3 GDP per round from this trading partner
+**9-10 Influence**: +4 GDP per round from this trading partner
+
+### Suzerainty Bonuses (Most Influence)
+**Suzerainty**: Player with the most influence with a trading partner gets:
+- **Economic Bonus**: +2 GDP per round from this trading partner
+- **Dispute Advantage**: +2 Influence in disputes involving this trading partner
+- **Special Ability**: Unique benefit based on trading partner type
+
+### Trading Partner Types & Suzerainty Abilities
+**Small Markets**: +1 export slot when you have suzerainty
+**Medium Markets**: +1 GDP per route to this trading partner when you have suzerainty
+**Large Markets**: +1 Influence in all disputes when you have suzerainty
 
 ---
 
 ## Strategic Implications
 
-### Influence as Secondary Resource
-- **Investment vs Immediate Use**: Players must decide between building influence or spending it
-- **Trading Partner Control**: Accumulating influence with specific partners creates territorial control
-- **Dispute Advantage**: Stored influence provides insurance for future disputes
+### Territorial Control
+- **Influence Investment**: Players must decide which trading partners to focus on
+- **Suzerainty Competition**: Multiple players may compete for control of valuable trading partners
+- **Defensive Positioning**: High influence provides protection against route destruction
 
-### Strategic Depth
-- **Influence Hoarding**: Players might accumulate influence for big dispute wins
-- **Influence Spending**: Players might spend influence immediately for tactical advantages
-- **Territorial Control**: High influence with trading partners creates defensive advantages
+### Economic Strategy
+- **Scaling Benefits**: Higher influence provides better economic returns
+- **Suzerainty Rewards**: Controlling trading partners provides significant advantages
+- **Route Prioritization**: Players may prioritize routes to trading partners they can control
 
----
-
-## Balance Considerations
-
-### Influence Economy
-- **Accumulation Rate**: How much influence per round? (1-3 per route seems reasonable)
-- **Spending Costs**: How much influence for different effects? (1-5 influence for various effects)
-- **Maximum Storage**: Is there a cap on stored influence? (Probably not, but could be)
-
-### Interaction with Existing Mechanics
-- **Dispute Resolution**: Influence adds to existing "Influence + blind bid" system
-- **Route Destruction**: What happens to stored influence when routes are destroyed?
-- **Policy Effects**: Some policies might affect influence accumulation or spending
+### Tactical Depth
+- **Influence Warfare**: Cards may target opponent influence with specific trading partners
+- **Suzerainty Disruption**: Tactics may reduce opponent influence to steal suzerainty
+- **Route Protection**: High influence may protect against certain destructive effects
 
 ---
 
 ## Example Implementation
 
 ### Influence Accumulation Phase
-1. **Calculate**: Each player totals influence from active routes
-2. **Place**: Place influence tokens on trading partner cards
-3. **Record**: Update influence totals (if using tracks)
+1. **Calculate**: Each player gains influence with trading partners equal to route influence
+2. **Update**: Move cubes on trading partner influence tracks
+3. **Check Suzerainty**: Determine who has most influence with each trading partner
 
-### Influence Spending
-- **Dispute Bonus**: Spend 1-3 influence for +1-3 to dispute resolution
-- **Route Protection**: Spend 2 influence to prevent route destruction
-- **Special Actions**: Spend 3-5 influence for unique effects
+### Example Trading Partner: "Emerging Market"
+**Player A**: 5 influence (3-4 level: +1 GDP per round)
+**Player B**: 7 influence (7-8 level: +3 GDP per round) - **SUZERAINTY**
+**Player C**: 2 influence (0-2 level: no benefits)
+**Player D**: 4 influence (3-4 level: +1 GDP per round)
 
-### Trading Partner Control
-- **Suzerainty**: Player with most influence gets special bonuses
-- **Defensive Bonus**: High influence provides protection against certain effects
-- **Economic Bonus**: Influence might provide small GDP bonuses
+**Player B Benefits**:
+- +3 GDP per round (scaling benefit)
+- +2 GDP per round (suzerainty bonus)
+- +1 export slot (small market suzerainty ability)
+- +2 Influence in disputes involving this trading partner
+
+### Influence Warfare Example
+**Tactic Card**: "Economic Sanctions"
+- **Effect**: Target player loses 2 influence with chosen trading partner
+- **Strategic Use**: Reduce opponent's influence to steal suzerainty
 
 ---
 
 ## Design Questions
 
-### 1. Component Choice
-- **Money Tokens**: Simple but potentially confusing
-- **Influence Tokens**: Clear but additional cost
-- **Influence Tracks**: Visual but requires card redesign
+### 1. Influence Tracks
+- **Range**: 0-10 influence per trading partner per player
+- **Visual**: Colored cubes on influence tracks
+- **Updates**: Move cubes when influence changes
 
-### 2. Influence Economy
-- **Accumulation Rate**: How much influence per route per round?
-- **Spending Costs**: What do different effects cost?
-- **Storage Limits**: Is there a maximum stored influence?
+### 2. Suzerainty Benefits
+- **Economic**: +2 GDP per round from controlled trading partner
+- **Dispute**: +2 Influence in disputes involving controlled trading partner
+- **Special**: Unique ability based on trading partner type
 
 ### 3. Game Balance
-- **Dispute Impact**: How much should influence affect disputes?
-- **Strategic Depth**: Does this add meaningful decisions?
-- **Complexity**: Is this worth the added complexity?
+- **Scaling**: Benefits scale with influence level (0-10)
+- **Competition**: Multiple players compete for suzerainty
+- **Warfare**: Cards can target opponent influence
 
 ---
 
 ## Recommendation
 
-**Option 2: Separate Influence Tokens** seems most promising because:
+**Trading Partner Cards with Influence Tracks** is the best approach because:
 
-1. **Clarity**: Clear distinction from GDP tokens
-2. **Flexibility**: Unlimited supply allows for any influence amounts
-3. **Thematic Fit**: Influence as a separate resource makes thematic sense
-4. **Strategic Depth**: Creates interesting resource management decisions
+1. **Visual Clarity**: Easy to see influence levels at a glance
+2. **Thematic Fit**: Trading partners as "city-states" makes perfect sense
+3. **Strategic Depth**: Creates territorial control and competition
+4. **Scalable**: Benefits scale naturally with influence investment
 
 ### Proposed Implementation
-- **Influence Tokens**: Each player has 20-30 colored influence tokens
-- **Accumulation**: 1 influence per route per round (from route's influence value)
-- **Storage**: Place tokens on trading partner cards
-- **Usage**: Spend tokens for dispute bonuses, special effects, or trading partner control
+- **Trading Partner Cards**: Each has influence tracks for all players
+- **Influence Range**: 0-10 per trading partner per player
+- **Scaling Benefits**: 0-2 (none), 3-4 (+1 GDP), 5-6 (+2 GDP), 7-8 (+3 GDP), 9-10 (+4 GDP)
+- **Suzerainty**: Most influence gets +2 GDP + special ability + dispute bonus
 
 ### Balance Framework
 - **Accumulation**: 1-3 influence per route per round
-- **Dispute Bonus**: 1 influence = +1 to dispute resolution
-- **Special Effects**: 2-5 influence for various effects
-- **Trading Partner Control**: Player with most influence gets bonuses
+- **Scaling**: Benefits increase with influence investment
+- **Competition**: Suzerainty provides significant advantages
+- **Warfare**: Cards can disrupt opponent influence
 
 ---
 

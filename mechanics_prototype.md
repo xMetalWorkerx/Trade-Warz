@@ -119,7 +119,7 @@ Resolve effects in the mnemonic CMYK order shown below. Each card shows one corn
 * Untimed. Each player totals GDP from routes, Policies, Events, etc.
 * **GDP Sources**: Trade routes (60-70%), Policies (20-25%), Tactics (10-15%)
 * **Trade Route Formula**: Export Value + Trading Partner Bonus + Route Multipliers
-* **Influence Accumulation**: Each player gains influence tokens equal to total influence from active routes
+* **Influence Accumulation**: Each player gains influence with trading partners equal to influence from active routes
 * Slide a cube on the Leader's GDP track for quick tabletop auditing.
 * *See `design_docs/gdp_economy.md` for detailed economic framework*
 * *See `design_docs/influence_accumulation.md` for influence accumulation mechanics*
