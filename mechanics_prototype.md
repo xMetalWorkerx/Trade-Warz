@@ -117,7 +117,10 @@ Resolve effects in the mnemonic CMYK order shown below. Each card shows one corn
 ### 6 Income Phase
 
 * Untimed. Each player totals GDP from routes, Policies, Events, etc.
+* **GDP Sources**: Trade routes (60-70%), Policies (20-25%), Tactics (10-15%)
+* **Trade Route Formula**: Export Value + Trading Partner Bonus + Route Multipliers
 * Slide a cube on the Leader's GDP track for quick tabletop auditing.
+* *See `design_docs/gdp_economy.md` for detailed economic framework*
 
 ### 7 Cleanup Phase
 
@@ -179,10 +182,10 @@ Each round, a player draws the number shown on their Leader tile and may divide 
 *Policy cards from the Global Policy deck work alongside Leader-specific Policies. During the Policy phase, players may play **1 Policy card total** (either from their hand or from the Global Policy deck). Global Policy cards provide broader economic effects, while Leader Policies offer more specialized abilities.*
 
 **Policy Card Types & Effects:**
-* **Economic Policies** - Direct GDP bonuses, trade route modifiers, or income multipliers
-* **Trade Policies** - Influence bonuses, dispute resolution advantages, or export slot expansions  
-* **Disruptive Policies** - Target opponents' trade routes, force policy discards, or impose economic sanctions
-* **Defensive Policies** - Protect against tactics, maintain trade routes, or provide catch-up bonuses
+* **Economic Policies** - Direct GDP bonuses (+2-4 GDP/round), trade route modifiers (+1 GDP/route), or income multipliers
+* **Trade Policies** - Influence bonuses (+1-2 Influence), dispute resolution advantages, or export slot expansions (+1 slot)
+* **Disruptive Policies** - Target opponents' trade routes (-2-4 GDP), force policy discards, or impose economic sanctions
+* **Defensive Policies** - Protect against tactics, maintain trade routes, or provide catch-up bonuses (+1 GDP/round when behind)
 
 **Policy Resolution Order:**
 * Policies resolve simultaneously when revealed, but conflicting effects are resolved by the **poorest player** (lowest GDP)

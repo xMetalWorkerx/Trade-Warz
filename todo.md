@@ -23,11 +23,13 @@
 ### 9. Victory Condition Edge Cases
 - **Resolution**: Highest GDP wins. If tied at 50+ GDP, play continues until tie is broken.
 
-## 🔄 Deferred to Future Development
+## ✅ Resolved Issues
 
 ### 2. GDP Economy Balance
-- **Status**: Mechanic to be designed later
-- **Notes**: GDP will come from trade routes (Export + Trading Partner), Policies, and Tactics
+- **Status**: DESIGNED - Comprehensive framework created in `design_docs/gdp_economy.md`
+- **Resolution**: Trade routes provide 60-70% of GDP, policies 20-25%, tactics 10-15%
+- **Formula**: Export Value + Trading Partner Bonus + Route Multipliers
+- **Next**: Create placeholder cards and test the economic engine
 
 ## 💡 Ideas for Future Consideration
 

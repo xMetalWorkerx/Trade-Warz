@@ -128,13 +128,15 @@ Trade Warz/
 - Hand size management when Leader decks empty
 - Tactic timing restrictions
 - Victory condition edge cases
+- GDP economy framework and balance system
 
 ### Future Development 🔄
-- GDP economy balance tuning
+- ✅ GDP economy framework designed (see `design_docs/gdp_economy.md`)
 - Fast-Pass token concept refinement
 - Art style finalization (6 options under consideration)
 - Leader ability design and testing
 - Component production planning
+- Prototype card creation and testing
 
 ## 🎨 Visual Design
 
