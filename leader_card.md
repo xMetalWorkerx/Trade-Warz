@@ -2,8 +2,8 @@
 
 ## Physical Layout
 
-### Leader Board (Large Format)
-Each leader gets a substantial board (larger than a standard card) with:
+### Leader Board (Player Board)
+Each leader gets a substantial board that stays in front of the player (not on the main game board) with:
 
 **Top Section: Export Slots**
 - **4-6 numbered export slots** arranged horizontally along the top

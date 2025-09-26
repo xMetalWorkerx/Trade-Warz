@@ -33,17 +33,25 @@ The main game board serves as the world map where trading partners are placed, c
 - **Placement**: Free placement anywhere on world map
 - **Design**: Cards placed directly on map surface
 
-#### Deck Areas
-- **Export Deck**: Top-left corner
-- **Tactic Deck**: Top-right corner  
-- **Policy Deck**: Bottom-left corner
-- **Event Deck**: Bottom-right corner
-- **Discard Piles**: Adjacent to each deck
+#### Fixed Board Elements
+- **Communal Decks**: Center of board (fixed spots)
+  - **Export Deck**: Center-left
+  - **Tactic Deck**: Center-right
+  - **Policy Deck**: Center-bottom
+  - **Event Deck**: Center-top
+- **Discard Piles**: Adjacent to each deck (fixed spots)
+- **GDP Tracks**: Left and right edges (fixed tracks)
+- **Round Tracker**: Top center (fixed track)
+- **Timer Area**: Center of board (fixed spot)
+- **Rules Reference**: Bottom center (fixed area)
 
-#### Player Areas
-- **GDP Tracks**: Left and right edges
-- **Round Tracker**: Top center
-- **Timer Area**: Center of board
+#### Flexible Elements
+- **Trading Partner Cards**: Can be placed anywhere on the world map
+- **No predetermined spots**: Players choose placement during setup
+
+#### Player-Specific Elements
+- **Leader Boards**: Stay in front of each player (not on main board)
+- **Player Components**: Influence cubes, GDP tokens, etc. stay with players
 
 ---
 
@@ -115,15 +123,17 @@ The main game board serves as the world map where trading partners are placed, c
 - **Design**: Cards placed directly on map surface
 - **Color**: Cards have their own borders and colors
 
-#### Deck Areas
-- **Size**: 4" × 3" each
-- **Design**: Clear borders, deck labels
-- **Material**: Raised or indented areas
-
-#### Player Tracks
+#### Fixed Board Elements
+- **Communal Deck Areas**: 4" × 3" each in center of board with clear borders and labels
 - **GDP Tracks**: 18" × 1" along left and right edges
 - **Round Tracker**: 6" × 1" at top center
-- **Material**: Raised tracks with clear markings
+- **Rules Reference**: 6" × 4" at bottom center
+- **Material**: Raised or indented areas for all fixed elements
+
+#### Trading Partner Cards
+- **Size**: 3" × 2" (landscape orientation)
+- **Placement**: Directly on world map surface
+- **No fixed spots**: Players choose placement during setup
 
 ### Visual Design
 
@@ -147,10 +157,10 @@ The main game board serves as the world map where trading partners are placed, c
 
 ### Game Setup
 1. **Unfold Board**: Place board in center of table
-2. **Place Trading Partners**: Players collaboratively place trading partner cards on the world map
-3. **Setup Decks**: Place all decks in their designated areas
-4. **Initialize Tracks**: Set all GDP tracks to 0, round tracker to 1
-5. **Distribute Components**: Give each player their influence cubes
+2. **Setup Fixed Elements**: Place all communal decks in center of board, initialize tracks
+3. **Place Trading Partners**: Players collaboratively place trading partner cards on the world map
+4. **Setup Player Areas**: Each player places their leader board in front of them
+5. **Distribute Components**: Give each player their influence cubes and GDP tokens
 
 ### Trading Partner Placement Process
 1. **Collaborative Setup**: All players work together to place trading partner cards
