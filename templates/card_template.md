@@ -4,8 +4,9 @@
 **Type**: [Export/Tactic/Policy] | **Rarity**: [Common/Uncommon/Rare] | **Leader**: [Global/Specific Leader]
 
 ### Gameplay Information
-- **Cost**: [GDP cost if applicable]
+- **Cost**: [GDP cost to play]
 - **Influence**: [Influence value for exports]
+- **Revenue**: [GDP revenue per round for exports]
 - **CMYK Timing**: [C/M/Y/K - when this effect triggers]
 
 ### Effect
