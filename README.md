@@ -132,6 +132,8 @@ Trade Warz/
 
 ### Future Development 🔄
 - ✅ GDP economy framework designed (see `design_docs/gdp_economy.md`)
+- ✅ Influence accumulation system designed (see `design_docs/influence_accumulation.md`)
+- ✅ Trading partner roster created (see `design_docs/trading_partners.md`)
 - Fast-Pass token concept refinement
 - Art style finalization (6 options under consideration)
 - Leader ability design and testing

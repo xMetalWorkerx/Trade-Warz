@@ -123,6 +123,7 @@ Resolve effects in the mnemonic CMYK order shown below. Each card shows one corn
 * Slide a cube on the Leader's GDP track for quick tabletop auditing.
 * *See `design_docs/gdp_economy.md` for detailed economic framework*
 * *See `design_docs/influence_accumulation.md` for influence accumulation mechanics*
+* *See `design_docs/trading_partners.md` for trading partner roster and abilities*
 
 ### 7 Cleanup Phase
 
