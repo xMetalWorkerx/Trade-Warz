@@ -32,11 +32,11 @@
 ### Round Sequence (45-60 minutes total)
 1. **Event Flip** (~15 seconds) - Resolve global effects
 2. **Upkeep** - Resolve effects in **C → M → Y → K** order (see below)
-3. **Draw** - Each player draws based on their Leader tile
+3. **Draw** - Each player draws up to their leader's hand size limit
 4. **Policy** - Play 1 Policy card face-down, reveal simultaneously
 5. **Trade Phase** - **3-minute timer** for Export placement and disputes
 6. **Income** - Collect GDP and track on Leader board
-7. **Cleanup** - Discard to 7 cards, reset timer
+7. **Cleanup** - Reset timer (no hand size management needed)
 
 ### Upkeep Phase (CMYK System)
 Effects resolve in this specific order:
@@ -76,6 +76,7 @@ Effects resolve in this specific order:
 **Three Playable Leaders (Prototype):**
 - USA, China, Russia
 - **Asymmetric Export Slots**: 3-4 slots per leader for variety
+- **Asymmetric Hand Sizes**: USA (8 cards), China (7 cards), Russia (6 cards)
 - **Unique Abilities**: Each leader has signature Exports, Tactics, and Policies
 
 ## 🎲 Strategic Depth

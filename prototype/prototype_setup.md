@@ -46,19 +46,19 @@
 
 ### USA - Economic Powerhouse
 - **Starting GDP**: 8
-- **Draw Rate**: 2 cards per turn
+- **Hand Size**: 8 cards
 - **Unique Ability**: +1 GDP per trade route
 - **Export Slots**: 4
 
 ### China - Manufacturing Advantage
 - **Starting GDP**: 7
-- **Draw Rate**: 2 cards per turn
+- **Hand Size**: 7 cards
 - **Unique Ability**: +1 Influence in disputes
 - **Export Slots**: 4
 
 ### Russia - Energy Dominance
 - **Starting GDP**: 6
-- **Draw Rate**: 2 cards per turn
+- **Hand Size**: 6 cards
 - **Unique Ability**: +2 GDP when destroying routes
 - **Export Slots**: 3
 
@@ -78,11 +78,11 @@
 ### 2. First Round
 - **Event**: Draw and resolve top event card
 - **Upkeep**: Resolve any ongoing effects (C→M→Y→K order)
-- **Draw**: Each player draws 2 cards (or their leader's draw rate)
+- **Draw**: Each player draws up to their leader's hand size limit
 - **Policy**: Each player may play 1 policy card face-down, reveal simultaneously
 - **Trade**: 3-minute timer for export placement and disputes
 - **Income**: Collect GDP from routes, policies, events
-- **Cleanup**: Discard to 7 cards, reset timer
+- **Cleanup**: Reset timer (no hand size management needed)
 
 ---
 
@@ -133,7 +133,7 @@
 ## Quick Reference
 
 ### Turn Order
-1. **Event** → 2. **Upkeep** → 3. **Draw** → 4. **Policy** → 5. **Trade (3 min)** → 6. **Income** → 7. **Cleanup**
+1. **Event** → 2. **Upkeep** → 3. **Draw (to hand size)** → 4. **Policy** → 5. **Trade (3 min)** → 6. **Income** → 7. **Cleanup**
 
 ### Card Types
 - **Blue (Exports)**: Trade routes, generate GDP + influence

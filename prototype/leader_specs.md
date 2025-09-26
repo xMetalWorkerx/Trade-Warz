@@ -8,7 +8,7 @@
 
 ### Basic Stats
 - **Starting GDP**: 8
-- **Draw Rate**: 2 cards per turn
+- **Hand Size**: 8 cards
 - **Export Slots**: 4
 - **Theme**: Freedom, capitalism, economic dominance
 
@@ -28,7 +28,7 @@
 
 ### Prototype Balance Notes
 - **Starting GDP**: High enough to establish early routes
-- **Draw Rate**: Standard 2 cards allows for consistent card flow
+- **Hand Size**: Largest hand size provides information advantage and more strategic options
 - **Export Slots**: 4 slots enable wide strategy
 
 ---
@@ -37,7 +37,7 @@
 
 ### Basic Stats
 - **Starting GDP**: 7
-- **Draw Rate**: 2 cards per turn
+- **Hand Size**: 7 cards
 - **Export Slots**: 4
 - **Theme**: Manufacturing, digital economy, state control
 
@@ -57,6 +57,7 @@
 
 ### Prototype Balance Notes
 - **Starting GDP**: Slightly lower than USA but still competitive
+- **Hand Size**: Balanced hand size provides efficient card management
 - **Influence Bonus**: Makes disputes more favorable
 - **Copying Ability**: Creates interesting tactical decisions
 
@@ -66,7 +67,7 @@
 
 ### Basic Stats
 - **Starting GDP**: 6
-- **Draw Rate**: 2 cards per turn
+- **Hand Size**: 6 cards
 - **Export Slots**: 3
 - **Theme**: Energy, resource control, aggressive tactics
 
@@ -86,6 +87,7 @@
 
 ### Prototype Balance Notes
 - **Starting GDP**: Lowest but has destruction bonuses to catch up
+- **Hand Size**: Smallest hand size forces focused strategy and efficient card use
 - **Export Slots**: Only 3 slots force focus on high-value routes
 - **Destruction Theme**: Creates aggressive, disruptive gameplay
 
@@ -97,6 +99,11 @@
 1. **USA**: 8 starting GDP, +1 GDP per route
 2. **China**: 7 starting GDP, cost reduction abilities
 3. **Russia**: 6 starting GDP, destruction bonuses
+
+### Hand Size & Card Management
+1. **USA**: 8 cards (information advantage, more strategic options)
+2. **China**: 7 cards (balanced efficiency, streamlined operations)
+3. **Russia**: 6 cards (focused strategy, efficient card use)
 
 ### Dispute Advantage
 1. **China**: +1 Influence in all disputes

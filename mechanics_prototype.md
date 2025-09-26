@@ -73,8 +73,11 @@ Resolve effects in the mnemonic CMYK order shown below. Each card shows one corn
 
 ### 3 Draw Phase
 
-* Everyone draws simultaneously.
-* The draw icon is printed large on each Leader tile and shown enlarged in the rulebook.
+* Each player draws up to their leader's hand size limit.
+* **USA**: Draw up to 8 cards
+* **China**: Draw up to 7 cards  
+* **Russia**: Draw up to 6 cards
+* The hand size is printed large on each Leader tile and shown enlarged in the rulebook.
 
 ### 4 Policy Phase
 
@@ -127,8 +130,8 @@ Resolve effects in the mnemonic CMYK order shown below. Each card shows one corn
 
 ### 7 Cleanup Phase
 
-* Discard down to **7** cards.
 * Reset the Trade timer.
+* No hand size management needed - each leader maintains their own hand size limit.
 
 ---
 
@@ -164,7 +167,7 @@ For new players or casual sessions, remove the 3‑minute Trade timer entirely. 
 * **Global Policy deck** – shared pile, 15 cards for prototype play. Distinct green card back.
 
 **Draw Phase Rule**
-Each round, a player draws the number shown on their Leader tile and may divide those draws among **any** of the four piles above. (Ignore a Leader Deck if it is empty.)
+Each round, a player draws up to their leader's hand size limit and may draw from **any** of the four piles above. (Ignore a Leader Deck if it is empty.)
 
 **Play Limits**
 
@@ -204,3 +207,4 @@ Each round, a player draws the number shown on their Leader tile and may divide 
 * Tactics played: \~3-5
 * Policies played: \~3-4 (mix of Leader and Global Policy cards)
 * Export slot limit: 3–4 slots on a Leader board; refilling drives the Export play‑rate.
+* Hand size management: Each leader maintains their own hand size (USA: 8, China: 7, Russia: 6)

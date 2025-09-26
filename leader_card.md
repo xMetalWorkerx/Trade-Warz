@@ -61,7 +61,7 @@ The three playable leaders in the prototype represent major economic powers:
 
 ### Leader Specifications
 - **Starting GDP**: USA (8), China (7), Russia (6)
-- **Draw Rate**: 2 cards per turn for all leaders
+- **Hand Size**: USA (8 cards), China (7 cards), Russia (6 cards)
 - **Unique Abilities**: Each leader has distinct economic advantages
 - **Signature Cards**: 8 cards per leader (3 Exports, 3 Policies, 2 Tactics)
 
