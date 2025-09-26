@@ -17,9 +17,9 @@ The GDP economy is the heart of Trade Warz, designed to create interesting strat
 **Base Formula**: `Export Value + Trading Partner Bonus + Route Multipliers`
 
 #### Export Cards (Blue-backed)
-- **Common Exports**: 2-4 GDP cost, 2-4 GDP revenue per round
-- **Uncommon Exports**: 3-5 GDP cost, 3-5 GDP revenue per round
-- **Rare Exports**: 4-7 GDP cost, 4-7 GDP revenue per round
+- **Common Exports**: 2-4 GDP cost, 2-3 GDP revenue per round, 1-3 influence
+- **Uncommon Exports**: 3-5 GDP cost, 2-4 GDP revenue per round, 2-3 influence
+- **Rare Exports**: 4-7 GDP cost, 3-5 GDP revenue per round, 1-2 influence
 
 #### Trading Partner Bonuses
 - **Small Markets**: +1 GDP (emerging economies)
@@ -32,7 +32,7 @@ The GDP economy is the heart of Trade Warz, designed to create interesting strat
 - **Route Chains**: +1 GDP per connected route (if you have 3+ routes to same partner)
 
 #### Example Trade Route
-- Rare Export (5 GDP cost, 5 GDP revenue) + Large Market (+3 GDP) + First Route (+1 GDP) = **9 GDP per round**
+- Rare Export (5 GDP cost, 3 GDP revenue, +2 influence) + Large Market (+3 GDP) + First Route (+1 GDP) = **7 GDP per round, +2 influence**
 
 ### 2. Policy Cards (Secondary - 20-25% of GDP)
 
@@ -121,21 +121,21 @@ The GDP economy is the heart of Trade Warz, designed to create interesting strat
 ## Mathematical Examples
 
 ### Example 1: Conservative Player (Round 3)
-- 3 Trade Routes: (3+2+1) + (4+3+0) + (2+1+1) = **16 GDP revenue**
+- 3 Trade Routes: (2+2+1) + (2+3+0) + (3+1+1) = **15 GDP revenue, +6 influence**
 - 1 Economic Policy: +2 GDP per round = **2 GDP**
-- **Total**: 18 GDP per round
+- **Total**: 17 GDP per round, +6 influence
 
 ### Example 2: Aggressive Player (Round 3)
-- 2 Trade Routes: (5+3+2) + (4+2+1) = **17 GDP revenue**
+- 2 Trade Routes: (3+3+2) + (4+2+1) = **15 GDP revenue, +5 influence**
 - 1 Trade Policy: +1 GDP per route = **2 GDP**
 - 1 Tactic: +4 GDP immediately = **4 GDP**
-- **Total**: 23 GDP this round
+- **Total**: 21 GDP this round, +5 influence
 
 ### Example 3: Disruptive Player (Round 3)
-- 2 Trade Routes: (3+2+0) + (2+1+0) = **8 GDP revenue**
+- 2 Trade Routes: (2+2+0) + (3+1+0) = **8 GDP revenue, +3 influence**
 - 1 Disruptive Policy: -3 GDP to leader = **-3 GDP to opponent**
 - 1 Tactic: Destroy opponent's route = **-6 GDP to opponent**
-- **Net Effect**: 8 GDP for me, -9 GDP for opponent
+- **Net Effect**: 8 GDP for me, -9 GDP for opponent, +3 influence
 
 ---
 
