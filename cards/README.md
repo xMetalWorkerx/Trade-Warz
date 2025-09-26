@@ -1,5 +1,7 @@
 # Card Design
 
+**⚠️ SUPERSEDED BY PROTOTYPE** - The example cards in this directory have been replaced by the complete 99-card prototype. See `../prototype/` directory for the current card sets.
+
 This directory contains card designs and specifications for Trade Warz.
 
 ## Structure

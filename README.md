@@ -50,15 +50,15 @@ Effects resolve in this specific order:
 ### Card Types & Decks
 
 **Four Card Pools:**
-- **Leader Decks** (8-12 cards each) - Personal mini-decks with signature cards
-- **Global Export Deck** (50 cards) - Blue-backed trade goods
-- **Global Tactic Deck** (50 cards) - Red-backed action cards
-- **Global Policy Deck** (50 cards) - Green-backed policy cards
+- **Leader Decks** (8 cards each) - Personal mini-decks with signature cards
+- **Global Export Deck** (15 cards) - Blue-backed trade goods
+- **Global Tactic Deck** (15 cards) - Red-backed action cards
+- **Global Policy Deck** (15 cards) - Green-backed policy cards
 
 **Rarity Distribution (for Global decks):**
-- **Common**: 48% (3 copies × 8 cards = 24 total)
-- **Uncommon**: 32% (2 copies × 8 cards = 16 total)  
-- **Rare**: 20% (1 copy × 10 cards = 10 total)
+- **Common**: 40% (6 cards)
+- **Uncommon**: 40% (6 cards)  
+- **Rare**: 20% (3 cards)
 
 ### Trade Phase (The Heart of the Game)
 
@@ -73,9 +73,9 @@ Effects resolve in this specific order:
 
 ### Leader Asymmetry
 
-**Six Playable Leaders:**
-- USA, China, Russia, EU ("the eww"), Saudi Arabia, Brazil
-- **Asymmetric Export Slots**: 4-6 slots per leader for variety
+**Three Playable Leaders (Prototype):**
+- USA, China, Russia
+- **Asymmetric Export Slots**: 3-4 slots per leader for variety
 - **Unique Abilities**: Each leader has signature Exports, Tactics, and Policies
 
 ## 🎲 Strategic Depth
@@ -103,6 +103,17 @@ Trade Warz/
 ├── leader_card.md           # Leader board design and layout
 ├── art_styles.md            # Visual design exploration
 ├── todo.md                  # Development priorities and issues
+├── prototype/               # Complete playable prototype
+│   ├── prototype_cards.md   # Original 20 cards
+│   ├── leader_decks.md      # Leader-specific cards (24 cards)
+│   ├── global_decks.md      # Global card pools (55 cards)
+│   ├── prototype_setup.md   # Setup and rules guide
+│   ├── leader_specs.md      # Leader specifications
+│   └── playtest_guide.md    # Playtesting framework
+├── design_docs/             # Core design documentation
+├── cards/                   # Example card designs
+├── leaders/                 # Leader specifications
+├── templates/               # Design templates
 └── images/                  # Art assets and reference materials
     ├── 1000016926.png
     └── Gu75QaiX0AADJxE.jpg
@@ -110,7 +121,7 @@ Trade Warz/
 
 ## 📋 Current Development Status
 
-⚠️ **Prototype Status**: This design is in active development and requires extensive playtesting for balance. Leaders must be rigorously tested to prevent overpowered abilities (avoiding "Skullclamp scenarios"). Recommended: blind Leader selection and win rate tracking during testing.
+✅ **Prototype Complete**: 99-card prototype is ready for playtesting! The game includes 3 fully-designed leaders with unique abilities, 55 global cards, and complete rules framework. Ready for extensive balance testing and player feedback.
 
 ### Key Design Goals
 
@@ -130,15 +141,20 @@ Trade Warz/
 - Victory condition edge cases
 - GDP economy framework and balance system
 
-### Future Development 🔄
+### Completed Development ✅
 - ✅ GDP economy framework designed (see `design_docs/gdp_economy.md`)
 - ✅ Influence accumulation system designed (see `design_docs/influence_accumulation.md`)
 - ✅ Trading partner roster created (see `design_docs/trading_partners.md`)
-- Fast-Pass token concept refinement
+- ✅ Complete 99-card prototype created (see `prototype/` directory)
+- ✅ Leader ability design and testing framework
+- ✅ Prototype card creation and testing setup
+
+### Next Development Phase 🔄
+- Extensive playtesting and balance testing
 - Art style finalization (6 options under consideration)
-- Leader ability design and testing
 - Component production planning
-- Prototype card creation and testing
+- Expansion to 6 leaders (EU, Saudi Arabia, Brazil)
+- Full card set expansion (50+ cards per global deck)
 
 ## 🎨 Visual Design
 

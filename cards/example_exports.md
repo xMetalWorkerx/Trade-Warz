@@ -1,5 +1,7 @@
 # Example Export Cards
 
+**⚠️ SUPERSEDED BY PROTOTYPE** - These example cards have been replaced by the complete 99-card prototype. See `../prototype/` directory for the current card sets.
+
 ## Common Exports (2-4 GDP cost, balanced revenue + influence + effects)
 
 ### Freedom Corn

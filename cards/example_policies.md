@@ -1,5 +1,7 @@
 # Example Policy Cards
 
+**⚠️ SUPERSEDED BY PROTOTYPE** - These example cards have been replaced by the complete 99-card prototype. See `../prototype/` directory for the current card sets.
+
 ## Economic Policies (2-4 GDP cost, +2-4 GDP/round)
 
 ### Tax Cuts for the Rich

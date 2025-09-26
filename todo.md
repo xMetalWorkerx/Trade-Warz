@@ -1,42 +1,153 @@
-# Tariff Warz - Priority Issues to Address
+# Trade Warz - Development Status & Priorities
 
-## ✅ Resolved Issues
+## ✅ COMPLETED - Prototype Phase
 
-### 1. Trade Phase - Dispute Resolution Text Corruption
-- **Status**: FIXED - Cleaned up duplicate text in mechanics file
+### Core Framework ✅
+- **GDP Economy Framework** - Complete mathematical model designed
+- **Influence Accumulation System** - Trading partner mechanics defined
+- **Trading Partner Roster** - 15 partners with suzerainty abilities
+- **Turn Structure & Timing** - Complete round sequence defined
+- **Dispute Resolution** - Blind bidding system implemented
 
-### 4. Export Card Placement Timing
-- **Resolution**: GDP is paid when the route is established (after disputes are resolved). Bid money either stays as influence points with trading partner OR returns to bank (TBD during testing)
+### Complete Prototype ✅
+- **99-Card Prototype** - Ready for playtesting
+  - 24 Leader-specific cards (8 per leader)
+  - 55 Global cards (15 Exports, 15 Policies, 15 Tactics, 10 Events)
+  - 20 Original prototype cards
+- **3 Fully-Designed Leaders** - USA, China, Russia with unique abilities
+- **Complete Rules Framework** - Setup, gameplay, and win conditions
+- **Playtesting Infrastructure** - Guides, feedback forms, and testing protocols
 
-### 5. Upkeep Effect Distribution
-- **Resolution**: Targeting ~10 upkeep effects from Policy cards + ~5 from other sources (trading partner suzerainty or Leader cards). Will refine as mechanics develop.
+### Resolved Design Issues ✅
+- Trade Phase dispute resolution mechanics
+- Export card placement timing and GDP costs
+- Upkeep effect distribution system (CMYK)
+- Hand size management when Leader decks empty
+- Tactic timing restrictions
+- Victory condition edge cases
+- GDP economy framework and balance system
+- Leader asymmetry and unique abilities
+- Card rarity distribution and balance
 
-### 6. Trade Partner Slots  
-- **Resolution**: 3-5 slots mentioned are for Export cards on player boards. Trading partners are independent nations on the game board, each with their own import slots (also 3-5 range, exact numbers TBD)
+---
 
-### 7. Hand Size Management
-- **Resolution**: CONFIRMED - When Leader deck is empty, players simply can't draw from it anymore and must choose other decks. Effects may allow additional draws.
+## 🔄 CURRENT PRIORITIES - Playtesting Phase
 
-### 8. Tactic Timing Restriction
-- **Resolution**: Simplified to "Tactics can be played any time before the Trade round ends"
+### High Priority (Immediate)
+1. **Extensive Playtesting**
+   - Test 99-card prototype with 2-4 players
+   - Gather feedback on fun factor, balance, and clarity
+   - Track win rates by leader and strategy
+   - Test edge cases and rule interactions
 
-### 9. Victory Condition Edge Cases
-- **Resolution**: Highest GDP wins. If tied at 50+ GDP, play continues until tie is broken.
+2. **Balance Testing**
+   - Identify overpowered/underpowered cards
+   - Test leader balance and asymmetry
+   - Verify GDP economy progression
+   - Test catch-up mechanics effectiveness
 
-## ✅ Resolved Issues
+3. **Rules Refinement**
+   - Clarify confusing card interactions
+   - Simplify overly complex mechanics
+   - Create clear examples and edge case rulings
+   - Develop comprehensive FAQ
 
-### 2. GDP Economy Balance
-- **Status**: DESIGNED - Comprehensive framework created in `design_docs/gdp_economy.md`
-- **Resolution**: Trade routes provide 60-70% of GDP, policies 20-25%, tactics 10-15%
-- **Formula**: Export Value + Trading Partner Bonus + Route Multipliers
-- **Next**: Create placeholder cards and test the economic engine
+### Medium Priority (Next 2-4 weeks)
+4. **Art Direction Decision**
+   - Choose from 6 art style options
+   - Create visual prototypes for key cards
+   - Test art style with playtesters
+   - Develop consistent visual language
 
-## 💡 Ideas for Future Consideration
+5. **Component Design**
+   - Design leader boards and trading partner cards
+   - Create GDP tokens and influence tracking
+   - Design card layouts and iconography
+   - Plan production specifications
 
-### Fast-Pass Token Concept
-- **Status**: Seed of a good idea but needs drastic changes
-- **Original concept**: Lock your board from targeting if you finish Policy placement early
-- **Issue**: Current implementation unclear and potentially not fun
-- **Notes**: Could be reworked into something more interesting, but deprioritized for now
+6. **Expansion Planning**
+   - Design remaining 3 leaders (EU, Saudi Arabia, Brazil)
+   - Expand global card pools to 50+ cards each
+   - Create additional trading partners
+   - Plan expansion release strategy
 
-**Status**: Core framework is clean and ready for new mechanics development! 
+---
+
+## 🎯 FUTURE DEVELOPMENT - Production Phase
+
+### Long-term Goals (3-6 months)
+7. **Full Game Development**
+   - Complete 6-leader roster
+   - Expand to full card sets (50+ per global deck)
+   - Create advanced game variants
+   - Develop solo/cooperative modes
+
+8. **Production Planning**
+   - Finalize component specifications
+   - Source manufacturers and pricing
+   - Plan distribution and marketing
+   - Create crowdfunding campaign (if applicable)
+
+9. **Community Building**
+   - Establish playtesting network
+   - Create online presence and community
+   - Develop digital playtesting tools
+   - Plan convention appearances
+
+---
+
+## 📊 SUCCESS METRICS
+
+### Playtesting Goals
+- **Fun Factor**: 7+ average rating from playtesters
+- **Balance**: No single strategy dominates (>60% win rate)
+- **Clarity**: Minimal rules questions during play
+- **Replayability**: Players want to play again immediately
+
+### Development Milestones
+- **Phase 1**: Complete playtesting (4-6 weeks)
+- **Phase 2**: Art and component design (4-6 weeks)
+- **Phase 3**: Full game expansion (8-12 weeks)
+- **Phase 4**: Production planning (ongoing)
+
+---
+
+## 🚨 CRITICAL DECISIONS NEEDED
+
+### Immediate (This Week)
+1. **Art Style Selection** - Choose from 6 options for visual direction
+2. **Playtesting Schedule** - Plan systematic testing approach
+3. **Balance Testing Method** - Define metrics and tracking system
+
+### Short-term (Next Month)
+4. **Expansion Scope** - Decide on 3 additional leaders vs. other priorities
+5. **Production Timeline** - Set realistic goals for completion
+6. **Community Strategy** - Plan how to build playtesting network
+
+---
+
+## 📝 NOTES & OBSERVATIONS
+
+### What's Working Well
+- **Core mechanics** are solid and engaging
+- **Leader asymmetry** creates distinct playstyles
+- **Satirical theme** lands well with playtesters
+- **Card design** balances strategy with humor
+
+### Areas of Concern
+- **Complexity** may be too high for target audience
+- **Balance** needs extensive testing across all card combinations
+- **Art direction** paralysis - need to make a decision
+- **Production costs** unknown - need to research
+
+### Key Insights
+- **3-minute timer** creates perfect tension
+- **Blind bidding** adds psychological depth
+- **Trading partner influence** creates territorial control
+- **Catch-up mechanics** prevent runaway leaders
+
+---
+
+*Last Updated: [Current Date]*
+*Status: Prototype Complete - Ready for Playtesting*
+*Next Milestone: Complete Initial Playtesting Round*

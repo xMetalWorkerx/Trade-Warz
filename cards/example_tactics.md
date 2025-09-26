@@ -1,5 +1,7 @@
 # Example Tactic Cards
 
+**⚠️ SUPERSEDED BY PROTOTYPE** - These example cards have been replaced by the complete 99-card prototype. See `../prototype/` directory for the current card sets.
+
 ## Instant GDP Effects (1-2 GDP cost, +3-6 GDP immediately)
 
 ### Quantitative Easing

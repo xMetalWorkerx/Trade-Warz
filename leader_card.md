@@ -31,8 +31,10 @@ When a player wins a trade dispute or places an export unopposed:
 
 ## Design Decisions
 
-### Export Slot Count: Asymmetric (+/-1)
-- Leaders will have **4, 5, or 6 export slots** for variety
+### Export Slot Count: Asymmetric (3-4 slots)
+- **USA**: 4 export slots (economic powerhouse)
+- **China**: 4 export slots (manufacturing advantage)
+- **Russia**: 3 export slots (focused energy strategy)
 - Small asymmetry creates leader personality without major balance issues
 - Affects economic capacity and strategic focus
 
@@ -49,16 +51,21 @@ When a player wins a trade dispute or places an export unopposed:
 - Creates dynamic tactical layer with policy management
 
 ## Leader Countries/Regions
-The six playable leaders represent major economic powers:
+The three playable leaders in the prototype represent major economic powers:
 
-1. **USA** 
-2. **China**
-3. **Russia** 
-4. **EU** (European Union) - *pronounced "the eww"*
-5. **Saudi Arabia**
-6. **Brazil**
+1. **USA** - Economic powerhouse with 4 export slots
+2. **China** - Manufacturing advantage with 4 export slots  
+3. **Russia** - Energy dominance with 3 export slots
 
-*Leader names, abilities, and asymmetric slot counts to be developed later.*
+*Additional leaders (EU, Saudi Arabia, Brazil) planned for future expansion.*
+
+### Leader Specifications
+- **Starting GDP**: USA (8), China (7), Russia (6)
+- **Draw Rate**: 2 cards per turn for all leaders
+- **Unique Abilities**: Each leader has distinct economic advantages
+- **Signature Cards**: 8 cards per leader (3 Exports, 3 Policies, 2 Tactics)
+
+*See `prototype/leader_specs.md` for complete leader specifications.*
 
 ## Visual Design Notes
 - Cards protruding under the board minimizes board space while maintaining clear organization
@@ -66,6 +73,7 @@ The six playable leaders represent major economic powers:
 - Large format allows for leader-specific artwork and information
 
 ## Implementation Notes
-- Update mechanics_prototype.md to reflect 4-6 export slots (currently lists 3-5)
-- Suzerainty mechanics will need to be defined for extra trade route card usage
-- Policy destruction mechanics need to be integrated into Tactic and Event design
+- ✅ Export slot counts updated to reflect prototype (3-4 slots)
+- ✅ Suzerainty mechanics defined in trading partner system
+- ✅ Policy destruction mechanics integrated into Tactic and Event design
+- ✅ Complete leader specifications available in prototype directory

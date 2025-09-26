@@ -31,7 +31,7 @@ Hit **50 GDP** for an instant Economic Boom *or* top the GDP chart after Round 5
 
 1. **One‑deck teach, three‑deck depth** – players draw from any pile (Exports, Tactics, Leader Decks), fueling micro‑decisions without bogging the pace.
 2. **Every card a story** – rare "bomb" Tactics explode into table‑wide headlines, while commons keep economies humming.  Expect \~2 jaw‑droppers per player.
-3. **Catch‑up baked in** – poorest player resolves disputes first; Fast‑Pass lets the quick lock their boards against last‑second sabotage.
+3. **Catch‑up baked in** – poorest player resolves disputes first; reverse-GDP order prevents runaway leaders.
 
 Whether you're a policy wonk or just here for the memes, *Tariff Warz* delivers a compact, comedic blast of economic brinkmanship that's easy to set up, wicked to master, and impossible to play just once.
 
@@ -80,7 +80,7 @@ Resolve effects in the mnemonic CMYK order shown below. Each card shows one corn
 
 * Each player may play **one** Policy card face‑down, then reveal simultaneously on a 3‑2‑1 count.
 * **Tie resolution:** if timing or effects conflict, the **poorest player** (lowest current GDP) decides the order or wins any direct contest.
-* Certain Policies may refresh a spent Fast‑Pass token or impose additional GDP costs; resolve these immediately after reveal.
+* Certain Policies may impose additional GDP costs; resolve these immediately after reveal.
 
 ### 5 Trade Phase (timed)
 
@@ -129,13 +129,6 @@ Resolve effects in the mnemonic CMYK order shown below. Each card shows one corn
 
 * Discard down to **7** cards.
 * Reset the Trade timer.
-* Flip any expended Fast‑Pass tokens face‑up if recharged by card text.
-
----
-
-## Fast‑Pass Token (might cut)
-
-*Each player starts with one. If you finish Policy placement early, toss it in to ******************************lock****************************** your board—no one may target you for the rest of the round. Certain Policies or Events can refresh spent tokens.*
 
 ---
 
@@ -165,10 +158,10 @@ For new players or casual sessions, remove the 3‑minute Trade timer entirely. 
 
 **Card Pools**
 
-* **Leader Decks** – one mini‑deck per Leader, 8–12 cards total (*baseline: 6 Policies + 1 signature Export + 1 signature Tactic*). Once empty, you can no longer draw from it.
-* **Global Export deck** – shared pile, 50 cards for prototype play. Distinct blue card back.
-* **Global Tactic deck** – shared pile, 50 cards for prototype play. Distinct red card back.
-* **Global Policy deck** – shared pile, 50 cards for prototype play. Distinct green card back.
+* **Leader Decks** – one mini‑deck per Leader, 8 cards total (*3 Exports + 3 Policies + 2 Tactics*). Once empty, you can no longer draw from it.
+* **Global Export deck** – shared pile, 15 cards for prototype play. Distinct blue card back.
+* **Global Tactic deck** – shared pile, 15 cards for prototype play. Distinct red card back.
+* **Global Policy deck** – shared pile, 15 cards for prototype play. Distinct green card back.
 
 **Draw Phase Rule**
 Each round, a player draws the number shown on their Leader tile and may divide those draws among **any** of the four piles above. (Ignore a Leader Deck if it is empty.)
@@ -197,17 +190,17 @@ Each round, a player draws the number shown on their Leader tile and may divide 
 
 **Rarity Curve for Export, Tactic, and Policy decks**
 
-| Rarity       | Copies × Cards | Total | % of 50‑card deck |
-| ------------ | -------------- | ----- | ----------------- |
-| **Common**   | 3 × 8          | 24    | 48 %              |
-| **Uncommon** | 2 × 8          | 16    | 32 %              |
-| **Rare**     | 1 × 10         | 10    | 20 %              |
+| Rarity       | Cards | Total | % of 15‑card deck |
+| ------------ | ----- | ----- | ----------------- |
+| **Common**   | 6     | 6     | 40 %              |
+| **Uncommon** | 6     | 6     | 40 %              |
+| **Rare**     | 3     | 3     | 20 %              |
 
-*In a typical 4‑player, 5‑round session (\~40 draws from each shared deck), each player sees on average about 2 rares, 3–4 uncommons, and 4–5 commons.*
+*In a typical 4‑player, 5‑round session (\~20 draws from each shared deck), each player sees on average about 1 rare, 2–3 uncommons, and 2–3 commons.*
 
 **Prototype Play Rates (per player)**
 
-* Exports played: \~8
-* Tactics played: \~7.5–10
-* Policies played: \~5 (mix of Leader and Global Policy cards)
-* Export slot limit: 3–5 slots on a Leader board; refilling drives the Export play‑rate.
+* Exports played: \~4-6
+* Tactics played: \~3-5
+* Policies played: \~3-4 (mix of Leader and Global Policy cards)
+* Export slot limit: 3–4 slots on a Leader board; refilling drives the Export play‑rate.
