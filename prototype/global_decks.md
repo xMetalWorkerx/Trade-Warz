@@ -10,7 +10,7 @@
 **Type**: Export | **Rarity**: Common | **Leader**: Global
 - **Cost**: 3 GDP
 - **Influence**: 1
-- **Revenue**: 3 GDP/round
+- **Revenue**: 4 GDP/round
 - **Effect**: If this Export wasn't targeted by a Tactic this round, gain +1 GDP at Income.
 - **Flavor Text**: *"Productivity juice, now with inflation foam."*
 
@@ -18,7 +18,7 @@
 **Type**: Export | **Rarity**: Rare | **Leader**: Global
 - **Cost**: 6 GDP
 - **Influence**: 3
-- **Revenue**: 5 GDP/round
+- **Revenue**: 7 GDP/round
 - **Effect**: When placed, gain +1 Influence with any Trading Partner.
 - **Flavor Text**: *"Precision engineering, imprecise emissions."*
 
@@ -26,7 +26,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: Global
 - **Cost**: 4 GDP
 - **Influence**: 1
-- **Revenue**: 4 GDP/round
+- **Revenue**: 5 GDP/round
 - **Effect**: If destroyed, you lose +2 additional GDP.
 - **Flavor Text**: *"Pairs well with recessions."*
 
@@ -34,7 +34,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: Global
 - **Cost**: 4 GDP
 - **Influence**: 2
-- **Revenue**: 3 GDP/round
+- **Revenue**: 4 GDP/round
 - **Effect**: If this route is assigned to **Japan** or any player controls **Japan** as a Trading Partner, this produces +1 GDP/round.
 - **Flavor Text**: *"Earworms you can trade on."*
 
@@ -42,7 +42,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: Global
 - **Cost**: 4 GDP
 - **Influence**: 2
-- **Revenue**: 4 GDP/round
+- **Revenue**: 5 GDP/round
 - **Effect**: The first time this would be destroyed each round, prevent that destruction.
 - **Flavor Text**: *"Shiny rocks beat shaky markets."*
 
@@ -50,7 +50,7 @@
 **Type**: Export | **Rarity**: Common | **Leader**: Global
 - **Cost**: 2 GDP
 - **Influence**: 1
-- **Revenue**: 2 GDP/round
+- **Revenue**: 3 GDP/round
 - **Effect**: Opponents pay +1 GDP to dispute this route.
 - **Flavor Text**: *"Tariffs can't stop the syrup."*
 
@@ -58,7 +58,7 @@
 **Type**: Export | **Rarity**: Rare | **Leader**: Global
 - **Cost**: 5 GDP
 - **Influence**: 2
-- **Revenue**: 4 GDP/round
+- **Revenue**: 6 GDP/round
 - **Effect**: When placed, you may reassign one of your other Exports to a different Trading Partner (resolve disputes normally).
 - **Flavor Text**: *"We move goods, drama, and deadlines."*
 
@@ -66,7 +66,7 @@
 **Type**: Export | **Rarity**: Common | **Leader**: Global
 - **Cost**: 3 GDP
 - **Influence**: 1
-- **Revenue**: 3 GDP/round
+- **Revenue**: 4 GDP/round
 - **Effect**: If no one targets you with a Tactic this round, gain +1 GDP at Income.
 - **Flavor Text**: *"Five-star bubble economy."*
 
@@ -74,7 +74,7 @@
 **Type**: Export | **Rarity**: Rare | **Leader**: Global
 - **Cost**: 6 GDP
 - **Influence**: 2
-- **Revenue**: 5 GDP/round
+- **Revenue**: 7 GDP/round
 - **Effect**: During any round an Event is revealed, this produces –1 GDP.
 - **Flavor Text**: *"Thick, rich, and PR-poor."*
 
@@ -82,7 +82,7 @@
 **Type**: Export | **Rarity**: Common | **Leader**: Global
 - **Cost**: 2 GDP
 - **Influence**: 1
-- **Revenue**: 2 GDP/round
+- **Revenue**: 3 GDP/round
 - **Effect**: When placed, draw 1 card, then discard 1 card.
 - **Flavor Text**: *"Press 1 for profit, 2 for synergy."*
 
@@ -90,7 +90,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: Global
 - **Cost**: 3 GDP
 - **Influence**: 2
-- **Revenue**: 3 GDP/round
+- **Revenue**: 4 GDP/round
 - **Effect**: If you control routes to 3+ different Trading Partners, this produces +1 GDP/round.
 - **Flavor Text**: *"Network effects since 1511."*
 
@@ -98,7 +98,7 @@
 **Type**: Export | **Rarity**: Common | **Leader**: Global
 - **Cost**: 3 GDP
 - **Influence**: 2
-- **Revenue**: 3 GDP/round
+- **Revenue**: 4 GDP/round
 - **Effect**: The next Export you play this round costs –1 GDP.
 - **Flavor Text**: *"Threads of destiny, priced to move."*
 
@@ -106,7 +106,7 @@
 **Type**: Export | **Rarity**: Rare | **Leader**: Global
 - **Cost**: 5 GDP
 - **Influence**: 1
-- **Revenue**: 4 GDP/round
+- **Revenue**: 6 GDP/round
 - **Effect**: While active, you may bank up to 2 unspent GDP between rounds.
 - **Flavor Text**: *"Time is money; we sell both."*
 
@@ -114,7 +114,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: Global
 - **Cost**: 3 GDP
 - **Influence**: 1
-- **Revenue**: 2 GDP/round
+- **Revenue**: 3 GDP/round
 - **Effect**: At Income, if you have less GDP than the leader, this produces +2 GDP this round.
 - **Flavor Text**: *"Boom today, reform tomorrow."*
 
@@ -122,7 +122,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: Global
 - **Cost**: 4 GDP
 - **Influence**: 2
-- **Revenue**: 4 GDP/round
+- **Revenue**: 5 GDP/round
 - **Effect**: If an Event destroys any Export this round, destroy this after Income.
 - **Flavor Text**: *"Skyscrapers on speedrun mode."*
 
@@ -367,6 +367,12 @@
 **Type**: Event | **Rarity**: Rare | **Leader**: Global
 - **Effect**: Each player chooses: **Gain +4 GDP and discard a random card**, or **Lose 2 GDP and draw 2 cards**.
 - **Flavor Text**: *"Surprise rate hike! Choose your pain."*
+
+### Trade War Escalates
+**Type**: Event | **Rarity**: Uncommon | **Leader**: Global
+- **Effect**: Remove 1 unoccupied route slot from each Large Market trading partner.
+- **Duration**: This round only
+- **Flavor Text**: *"When giants fight, everyone loses trade opportunities."*
 
 ---
 

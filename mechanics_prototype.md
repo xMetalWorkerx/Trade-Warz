@@ -117,8 +117,16 @@ Players simultaneously draw up to their leader's hand size limit from ANY combin
 - All players act simultaneously during the timer
 - 30-second warning at 2:30 mark
 
+#### Route Slot Limitations
+- Each trading partner has limited route slots (3-5 based on market size)
+- Once all slots are filled, no new routes can be established there
+- Established routes occupy slots until destroyed
+- Players cannot target occupied slots with new Export cards
+- Special rare cards may affect existing routes (see card descriptions)
+
 #### Placing Exports
 - Place Export cards **face-down** on any open Trade Partner slot
+- **Check slot availability before placing** - cannot target filled slots
 - You may place multiple Exports during the timer
 - No limit on number of Exports played (except available slots and GDP)
 - **No takebacks:** Once placed, cards cannot be moved
@@ -261,6 +269,7 @@ Each leader features unique:
 ### Key Rules to Remember
 - ✅ Trade routes are **PERMANENT** once established
 - ✅ Influence **ACCUMULATES** and never decreases naturally
+- ✅ **Check slot availability before placing Exports**
 - ✅ Poorest player wins ties and resolves disputes first
 - ✅ Tactics can be played anytime before Trade Phase ends
 - ✅ Only ONE Policy per round

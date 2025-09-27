@@ -2,166 +2,271 @@
 
 ## Overview
 
-Trading partners function as "city-states" in Trade Warz, inspired by Civilization's influence system. Players compete for influence with these nations to gain scaling economic benefits and suzerainty bonuses.
+Trading partners function as "city-states" in Trade Warz, inspired by Civilization's influence system. Players compete for **permanent influence** with these nations to gain scaling economic benefits and suzerainty bonuses.
 
 ## Core Mechanics
 
+- **Route Slots**: Each trading partner has limited route slots (3-5 based on market size)
 - **Influence Tracks**: Each trading partner has influence tracks for all players (0-10 range)
 - **Scaling Benefits**: Higher influence provides better economic returns
 - **Suzerainty**: Player with most influence gets special bonuses
-- **Market Size**: Determines base GDP bonus (+1 Small, +2 Medium, +3 Large)
+- **Market Size**: Determines route slots (Small=3, Medium=4, Large=5)
+
+## Route Slot Distribution
+
+### Large Markets (5 Route Slots)
+- **India** - "World's Call Center"
+- **Japan** - "Precision Factory"  
+- **Brazil** - "Resource Titan"
+
+### Medium Markets (4 Route Slots)
+- **Mexico** - "Maquiladora Express"
+- **Turkey** - "Crossroads Empire"
+- **South Korea** - "Tech Dragons"
+- **Australia** - "Pacific Miner"
+- **Canada** - "Friendly Giant"
+- **Indonesia** - "Island Network"
+
+### Small Markets (3 Route Slots)
+- **Singapore** - "Trade Nexus"
+- **Argentina** - "Crisis Expert"
+- **Switzerland** - "Vault of Europe"
+- **Vietnam** - "Rising Tiger"
+- **UAE** - "Desert Oasis"
+- **Nigeria** - "African Giant"
 
 ---
 
 ## Trading Partner Roster
 
-### Large Markets (+3 GDP Base Bonus)
+### Large Markets (5 Route Slots Each)
 
 #### 1. India – "World's Call Center"
-- **Economic Identity**: Services, IT outsourcing, massive labor pool
-- **Suzerainty Ability**: Once per round, copy another player's policy card after it's played (representing "outsourcing" their ideas)
-- **Flavor Text**: *"Please hold while your global economy is connected."*
-- **Strategic Value**: High - policy copying is powerful and flexible
+**Route Slots**: 5 (high demand service economy)
+**Economic Identity**: Services, IT, massive labor force
 
-#### 2. Japan – "Land of the Rising Debt"
-- **Economic Identity**: Advanced tech, precision manufacturing, aging population
-- **Suzerainty Ability**: Your tactics cost 1 less GDP (they'll perfect your plan more efficiently)
-- **Flavor Text**: *"Made in Japan: batteries included, demographics not."*
-- **Strategic Value**: High - cost reduction for tactics is valuable
+**Influence Thresholds & Bonuses:**
+- **3 Influence - "Outsourcing Partner"**: +1 card when you play a Policy
+- **6 Influence - "Tech Support"**: Once per round, look at an opponent's hand
+- **9 Influence - "Development Hub"**: Your Policies cost 1 less GDP
 
-### Medium Markets (+2 GDP Base Bonus)
+**Suzerainty**: Copy another player's Policy card after it's played (once per round)
 
-#### 3. South Korea – "Samsungia"
-- **Economic Identity**: Electronics, pop culture, fast adoption
-- **Suzerainty Ability**: Each round, peek at the top 2 tactics cards and keep 1
-- **Flavor Text**: *"Powered by K-Pop and semiconductors."*
-- **Strategic Value**: Medium-High - card advantage is useful
+*Why 5 slots?* India's massive service sector can handle multiple trade relationships simultaneously.
 
-#### 4. Australia – "Mine-O-Rama"
-- **Economic Identity**: Minerals, agriculture, niche global supplier
-- **Suzerainty Ability**: Whenever you win a trade route, gain +1 extra GDP (their raw resources boost deals)
-- **Flavor Text**: *"World's quarry, with bonus kangaroos."*
-- **Strategic Value**: Medium - scales with route success
+#### 2. Japan – "Precision Factory"
+**Route Slots**: 5 (advanced manufacturing capacity)
+**Economic Identity**: High-tech manufacturing, efficiency culture
 
-#### 5. Canada – "Maple Monopoly"
-- **Economic Identity**: Resources (oil, timber), stable services
-- **Suzerainty Ability**: Ignore the first negative global effect each round (friendly neighbor immunity)
-- **Flavor Text**: *"Sorry, but we'll politely not collapse."*
-- **Strategic Value**: Medium - defensive protection
+**Influence Thresholds & Bonuses:**
+- **3 Influence - "Just-In-Time"**: +1 GDP when you win a dispute
+- **6 Influence - "Kaizen Culture"**: Your Export cards cost 1 less GDP
+- **9 Influence - "Automation Nation"**: Draw an extra card each turn
 
-#### 6. Mexico – "NAFTA Nachos"
-- **Economic Identity**: Manufacturing, cheap labor, border logistics
-- **Suzerainty Ability**: GDP income from trade routes is increased by +1 (they supercharge supply chains)
-- **Flavor Text**: *"When life gives you lemons, we assemble them for export."*
-- **Strategic Value**: High - affects all route income
+**Suzerainty**: Your Tactics cost 1 less GDP (minimum 0)
 
-#### 7. Turkey – "Strait to Business"
-- **Economic Identity**: Logistics, crossroads of Europe/Asia, volatile politics
-- **Suzerainty Ability**: Once per round, redirect a global effect onto another player (they control chokepoints)
-- **Flavor Text**: *"Bridging continents and grudges."*
-- **Strategic Value**: Medium-High - tactical redirection
+*Why 5 slots?* Japan's sophisticated economy supports multiple specialized trade routes.
 
-#### 8. Indonesia – "Spice Islands 2.0"
-- **Economic Identity**: Resources, huge domestic market, islands everywhere
-- **Suzerainty Ability**: At the start of trade, gain +1 GDP if you have influence with 3+ partners (they thrive in networks)
-- **Flavor Text**: *"The archipelago that keeps your arch alive."*
-- **Strategic Value**: Medium - rewards wide influence strategy
+#### 3. Brazil – "Resource Titan"
+**Route Slots**: 5 (vast natural resources)
+**Economic Identity**: Agriculture, minerals, energy resources
 
-#### 9. United Arab Emirates – "Dubai-land"
-- **Economic Identity**: Oil wealth → luxury, air travel, trade hub
-- **Suzerainty Ability**: Gain +1 GDP whenever a player plays a tactic (petrodollar rebound)
-- **Flavor Text**: *"Where sand turns into skyscrapers."*
-- **Strategic Value**: Medium - scales with game activity
+**Influence Thresholds & Bonuses:**
+- **3 Influence - "Raw Materials"**: +1 GDP from routes to resource-poor nations
+- **6 Influence - "BRICS Partnership"**: +2 influence when establishing routes to other BRICS nations
+- **9 Influence - "Commodity King"**: All your Export cards gain +1 base GDP value
 
-### Small Markets (+1 GDP Base Bonus)
+**Suzerainty**: Once per round, destroy an opponent's route to gain 3 GDP
 
-#### 10. Nigeria – "OPEC Jr."
-- **Economic Identity**: Oil, growing population
-- **Suzerainty Ability**: Whenever a resource event appears, you gain +1 GDP
-- **Flavor Text**: *"Fueling tomorrow's traffic jam today."*
-- **Strategic Value**: Low-Medium - event dependent
-
-#### 11. South Africa – "BRICS 'n' Mortar"
-- **Economic Identity**: Mining, finance hub for Africa
-- **Suzerainty Ability**: Gain +1 influence on any trading partner when you win a blind bid (leveraging deals)
-- **Flavor Text**: *"Shiny rocks, shiny deals."*
-- **Strategic Value**: Medium - helps build influence elsewhere
-
-#### 12. Singapore – "Port of Call"
-- **Economic Identity**: Finance, shipping hub
-- **Suzerainty Ability**: Once per round, trade one card in hand for a random draw (they facilitate swaps)
-- **Flavor Text**: *"Where cargo meets capitalism."*
-- **Strategic Value**: Medium - card cycling
-
-#### 13. Vietnam – "The Other Workshop of the World"
-- **Economic Identity**: Manufacturing, textiles, emerging industrial base
-- **Suzerainty Ability**: Whenever you play a policy, reduce its cost by 1 GDP (cheap labor)
-- **Flavor Text**: *"Because even cheap goods need a backup plan."*
-- **Strategic Value**: Medium - cost reduction for policies
-
-#### 14. Switzerland – "Neutral Bankers"
-- **Economic Identity**: Finance, luxury goods, neutrality
-- **Suzerainty Ability**: Store 1 unspent GDP between rounds (hidden vaults)
-- **Flavor Text**: *"War? We prefer interest."*
-- **Strategic Value**: Medium - GDP banking
-
-#### 15. Argentina – "Perón and On and On"
-- **Economic Identity**: Agriculture, chronic financial crises
-- **Suzerainty Ability**: When you lose a bid, draw 1 card (they default but keep going)
-- **Flavor Text**: *"Don't cry for GDP, Argentina."*
-- **Strategic Value**: Low-Medium - consolation prize
+*Why 5 slots?* Brazil's diverse resources attract many trading partners.
 
 ---
 
-## Strategic Analysis
+### Medium Markets (4 Route Slots Each)
 
-### High-Value Trading Partners
-1. **India** - Policy copying is extremely powerful
-2. **Japan** - Tactic cost reduction scales well
-3. **Mexico** - Route income bonus affects all routes
-4. **Turkey** - Global effect redirection is tactically valuable
+#### 4. Mexico – "Maquiladora Express"
+**Route Slots**: 4 (major manufacturing hub)
+**Economic Identity**: Manufacturing bridge between US and Latin America
 
-### Balanced Trading Partners
-- **South Korea** - Card advantage is useful
-- **Australia** - Scales with route success
-- **Canada** - Defensive protection
-- **South Africa** - Helps build influence elsewhere
+**Influence Thresholds & Bonuses:**
+- **3 Influence - "Border Economy"**: +1 GDP if USA player has routes here
+- **5 Influence - "Labor Advantage"**: Export placement here costs 1 less
+- **7 Influence - "NAFTA Highway"**: Your routes here generate +1 GDP
 
-### Niche Trading Partners
-- **Nigeria** - Event dependent
-- **Argentina** - Consolation prize for losing
-- **Switzerland** - GDP banking for specific strategies
+**Suzerainty**: All your trade routes (anywhere) give +1 GDP
+
+*Why 4 slots?* Significant manufacturing capacity but geographically concentrated.
+
+#### 5. Turkey – "Crossroads Empire"
+**Route Slots**: 4 (strategic location)
+**Economic Identity**: Europe-Asia trade bridge, regional power
+
+**Influence Thresholds & Bonuses:**
+- **3 Influence - "Transit Fees"**: +1 GDP when any player establishes routes here
+- **5 Influence - "East Meets West"**: Redirect one Tactic per round
+- **7 Influence - "Regional Power"**: +2 influence in disputes for Middle East/European partners
+
+**Suzerainty**: Redirect a global effect to another player (once per round)
+
+*Why 4 slots?* Important trade hub but regional focus limits capacity.
+
+#### 6. South Korea – "Tech Dragons"
+**Route Slots**: 4 (advanced economy)
+**Economic Identity**: Technology, cultural exports, innovation
+
+**Influence Thresholds & Bonuses:**
+- **3 Influence - "K-Wave"**: +1 influence with any partner when you play a Tactic
+- **5 Influence - "Chaebol Protection"**: Immune to one route destruction per round
+- **7 Influence - "5G Speed"**: Play Tactics at any time (even during opponents' turns)
+
+**Suzerainty**: Peek at top 2 Tactics and keep 1 each round
+
+*Why 4 slots?* High-tech economy but smaller than Japan/China.
+
+#### 7. Australia – "Pacific Miner"
+**Route Slots**: 4 (resource exporter)
+**Economic Identity**: Mining, agriculture, Asia-Pacific focus
+
+**Influence Thresholds & Bonuses:**
+- **3 Influence - "Dig Deep"**: +1 GDP from routes to Asian partners
+- **5 Influence - "Pacific Trade"**: +2 influence in disputes with Asian partners
+- **7 Influence - "Resource Lock"**: Opponents pay 1 extra GDP for routes here
+
+**Suzerainty**: +1 GDP whenever you win a trade route (anywhere)
+
+*Why 4 slots?* Major resource exporter with focused markets.
+
+#### 8. Canada – "Friendly Giant"
+**Route Slots**: 4 (resource wealth)
+**Economic Identity**: Resources, services, US integration
+
+**Influence Thresholds & Bonuses:**
+- **3 Influence - "USMCA Partner"**: +1 GDP if USA has routes here
+- **5 Influence - "Arctic Shield"**: Immune to GDP-reduction effects
+- **7 Influence - "Commonwealth"**: +1 influence with English-speaking partners
+
+**Suzerainty**: Ignore first negative global effect each round
+
+*Why 4 slots?* Large economy but concentrated trade relationships.
+
+#### 9. Indonesia – "Island Network"
+**Route Slots**: 4 (emerging market)
+**Economic Identity**: Large population, resources, strategic location
+
+**Influence Thresholds & Bonuses:**
+- **3 Influence - "Archipelago"**: +1 GDP if you have routes to 3+ partners
+- **5 Influence - "ASEAN Hub"**: +1 influence with all Southeast Asian partners
+- **7 Influence - "Maritime Control"**: Opponents must pay 1 GDP to dispute here
+
+**Suzerainty**: +1 GDP per round for each different partner you have routes with
+
+*Why 4 slots?* Growing economy with increasing trade capacity.
 
 ---
 
-## Design Notes
+### Small Markets (3 Route Slots Each)
 
-### Regional Distribution
-- **Asia**: 4 partners (India, Japan, South Korea, Vietnam, Indonesia)
-- **Americas**: 3 partners (Canada, Mexico, Argentina)
-- **Europe**: 2 partners (Turkey, Switzerland)
-- **Africa**: 2 partners (Nigeria, South Africa)
-- **Middle East**: 1 partner (UAE)
-- **Oceania**: 1 partner (Australia)
+#### 10. Singapore – "Trade Nexus"
+**Route Slots**: 3 (small but efficient)
+**Economic Identity**: Finance, shipping, efficiency
 
-### Economic Diversity
-- **Manufacturing**: South Korea, Mexico, Vietnam
-- **Resources**: Australia, Canada, Nigeria, South Africa, UAE
-- **Services**: India, Singapore, Switzerland
-- **Technology**: Japan, South Korea
-- **Agriculture**: Argentina, Australia
-- **Finance**: Singapore, Switzerland, UAE
+**Influence Thresholds & Bonuses:**
+- **2 Influence - "Free Port"**: First Export each round costs 1 less
+- **4 Influence - "Banking Hub"**: Store 1 GDP between rounds
+- **6 Influence - "Trade Master"**: Draw 2 cards, keep 1 when establishing routes
 
-### Suzerainty Ability Types
-- **Card Manipulation**: India, South Korea, Singapore, Argentina
-- **Cost Reduction**: Japan, Vietnam
-- **GDP Bonuses**: Australia, Mexico, Nigeria, UAE, Indonesia
-- **Influence Building**: South Africa
-- **Defensive**: Canada, Turkey
-- **Utility**: Switzerland
+**Suzerainty**: Trade 1 card for random draw (once per round)
+
+*Why 3 slots?* Tiny nation with limited physical capacity but high efficiency.
+
+#### 11. Argentina – "Crisis Expert"
+**Route Slots**: 3 (volatile economy)
+**Economic Identity**: Agriculture, perpetual crisis, beef exports
+
+**Influence Thresholds & Bonuses:**
+- **2 Influence - "Crisis Mode"**: +1 card when you have least GDP
+- **4 Influence - "Beef Baron"**: +2 GDP from agricultural Exports
+- **6 Influence - "Default King"**: Once per round, refuse to pay a GDP cost
+
+**Suzerainty**: Draw 1 card when losing bids
+
+*Why 3 slots?* Economic instability limits trade partnerships.
+
+#### 12. Switzerland – "Vault of Europe"
+**Route Slots**: 3 (selective trading)
+**Economic Identity**: Banking, luxury, neutrality
+
+**Influence Thresholds & Bonuses:**
+- **2 Influence - "Swiss Account"**: Hide 2 GDP from victory calculation
+- **4 Influence - "Safe Haven"**: Immune to Tactics targeting your GDP
+- **6 Influence - "Banking Cartel"**: Convert influence to GDP 1:1 (twice per round)
+
+**Suzerainty**: Store 2 unspent GDP between rounds
+
+*Why 3 slots?* Selective, high-value trade relationships only.
+
+#### 13. Vietnam – "Rising Tiger"
+**Route Slots**: 3 (emerging manufacturer)
+**Economic Identity**: Manufacturing alternative to China
+
+**Influence Thresholds & Bonuses:**
+- **2 Influence - "Cheap Labor"**: Routes here cost 1 less GDP
+- **4 Influence - "China Alternative"**: +2 GDP if China has no routes here
+- **6 Influence - "Manufacturing Surge"**: Copy one Chinese Export's abilities
+
+**Suzerainty**: Policies cost 1 less GDP
+
+*Why 3 slots?* Growing but still developing trade capacity.
+
+#### 14. UAE – "Desert Oasis"
+**Route Slots**: 3 (specialized economy)
+**Economic Identity**: Oil, finance, aviation hub
+
+**Influence Thresholds & Bonuses:**
+- **2 Influence - "Duty Free"**: No cost for first route placement each round
+- **4 Influence - "Petrodollars"**: +1 GDP when oil/energy Exports are played
+- **6 Influence - "Sovereign Wealth"**: Convert 2 influence to 3 GDP (once per round)
+
+**Suzerainty**: +1 GDP whenever any player plays a Tactic
+
+*Why 3 slots?* Concentrated wealth but limited diversification.
+
+#### 15. Nigeria – "African Giant"
+**Route Slots**: 3 (developing economy)
+**Economic Identity**: Oil, large population, growth potential
+
+**Influence Thresholds & Bonuses:**
+- **2 Influence - "Nollywood"**: +1 card when establishing routes
+- **4 Influence - "Oil Revenue"**: +2 GDP from energy Exports
+- **6 Influence - "African Gateway"**: +1 influence with African partners
+
+**Suzerainty**: +1 GDP whenever a resource Event appears
+
+*Why 3 slots?* Developing infrastructure limits current capacity.
+
+---
+
+## Route Slot Economy
+
+### Game Math (4-Player Example)
+- **6 Trading Partners** × average 4 slots = **24 total route slots**
+- Each player targets **5-7 active routes** (20-28 total demand)
+- Creates **natural competition** for prime slots
+- Players will attempt **~10 Export placements** per game (accounting for destruction/replacement)
+
+### Strategic Implications
+- **Slot Scarcity**: Forces meaningful choices about route placement
+- **Influence Banking**: Establish routes for influence even if temporary
+- **Destruction Value**: Destroying routes frees valuable slots
+- **Market Selection**: Large = more opportunity, Small = easier control
+
+### Competition Dynamics
+- **Early Game**: Rush for small markets (easy influence)
+- **Mid Game**: Fight for medium markets (good bonuses)
+- **Late Game**: Invest heavily in large markets (powerful bonuses)
 
 ---
 
 *Last Updated: [Current Date]*
-*Version: 1.0*
-*Status: Ready for Prototype Testing*
+*Version: 2.0*
+*Status: Route Slot System Implemented*

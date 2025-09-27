@@ -45,22 +45,29 @@ This document defines the influence system for Trade Warz, inspired by Civilizat
 ## Influence Benefits System
 
 ### Scaling Benefits (Based on Influence Level)
-**0-2 Influence**: No benefits
-**3-4 Influence**: +1 GDP per round from this trading partner
-**5-6 Influence**: +2 GDP per round from this trading partner
-**7-8 Influence**: +3 GDP per round from this trading partner
-**9-10 Influence**: +4 GDP per round from this trading partner
+**Each trading partner has unique influence thresholds and bonuses - see trading_partners.md for specific details.**
+
+**General Pattern:**
+- **Small Markets**: Thresholds at 2, 4, 6 influence
+- **Medium Markets**: Thresholds at 3, 5, 7 influence  
+- **Large Markets**: Thresholds at 3, 6, 9 influence
+
+**Influence persists even after routes are destroyed** - this creates "influence banking" where players establish routes for influence even if they might be destroyed later.
 
 ### Suzerainty Bonuses (Most Influence)
 **Suzerainty**: Player with the most influence with a trading partner gets:
-- **Economic Bonus**: +2 GDP per round from this trading partner
+- **Special Ability**: Unique benefit based on trading partner (see trading_partners.md for specific abilities)
 - **Dispute Advantage**: +2 Influence in disputes involving this trading partner
-- **Special Ability**: Unique benefit based on trading partner type
+- **Economic Bonus**: Various bonuses depending on the trading partner
 
 ### Trading Partner Types & Suzerainty Abilities
-**Small Markets**: +1 export slot when you have suzerainty
-**Medium Markets**: +1 GDP per route to this trading partner when you have suzerainty
-**Large Markets**: +1 Influence in all disputes when you have suzerainty
+**Each trading partner has a unique suzerainty ability - see trading_partners.md for complete details.**
+
+**Examples:**
+- **India**: Copy a Policy card after it's played (once per round)
+- **Japan**: Your Tactics cost 1 less GDP
+- **Singapore**: Trade 1 card for random draw (once per round)
+- **Brazil**: Destroy an opponent's route to gain 3 GDP (once per round)
 
 ---
 
@@ -90,22 +97,29 @@ This document defines the influence system for Trade Warz, inspired by Civilizat
 2. **Update**: Move cubes on trading partner influence tracks
 3. **Check Suzerainty**: Determine who has most influence with each trading partner
 
-### Example Trading Partner: "Emerging Market"
-**Player A**: 5 influence (3-4 level: +1 GDP per round)
-**Player B**: 7 influence (7-8 level: +3 GDP per round) - **SUZERAINTY**
-**Player C**: 2 influence (0-2 level: no benefits)
-**Player D**: 4 influence (3-4 level: +1 GDP per round)
+### Example Trading Partner: Singapore (Small Market)
+**Player A**: 5 influence (4+ level: Banking Hub - Store 1 GDP between rounds)
+**Player B**: 7 influence (6+ level: Trade Master - Draw 2, keep 1 when establishing routes) - **SUZERAINTY**
+**Player C**: 2 influence (2+ level: Free Port - First Export each round costs 1 less)
+**Player D**: 3 influence (2+ level: Free Port - First Export each round costs 1 less)
 
 **Player B Benefits**:
-- +3 GDP per round (scaling benefit)
-- +2 GDP per round (suzerainty bonus)
-- +1 export slot (small market suzerainty ability)
-- +2 Influence in disputes involving this trading partner
+- Trade Master ability (draw 2, keep 1 when establishing routes)
+- +2 Influence in disputes involving Singapore
+- Suzerainty: Trade 1 card for random draw (once per round)
 
 ### Influence Warfare Example
 **Tactic Card**: "Economic Sanctions"
 - **Effect**: Target player loses 2 influence with chosen trading partner
 - **Strategic Use**: Reduce opponent's influence to steal suzerainty
+
+### Route Destruction with Persistent Influence Example
+**Round 3**: Player A has 8 influence with Japan, Player B destroys Player A's route to Japan
+**Result**: 
+- Player A's route is destroyed (loses route income)
+- Player A keeps all 8 influence with Japan (influence persists)
+- Player A still has "Automation Nation" bonus (draw extra card each turn)
+- Player A can re-establish route later and immediately benefit from existing influence
 
 ---
 

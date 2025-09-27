@@ -11,12 +11,12 @@
 
 #### Top Section
 - **Trading Partner Name**: Large, bold font
-- **Market Size Badge**: Color-coded indicator (Green=Large, Yellow=Medium, Red=Small)
-- **GDP Bonus**: Clear "+1", "+2", or "+3" indicator
+- **Market Size Badge**: Color-coded indicator (Gold=Large, Silver=Medium, Bronze=Small)
+- **Route Slots**: Visual indicator showing available slots (●●●●● for 5, ●●●● for 4, ●●● for 3)
 
 #### Middle Section
 - **Economic Identity**: Brief description of the nation's economic strengths
-- **Flavor Text**: Satirical commentary in italics
+- **Influence Bonuses**: Clear list of influence thresholds and their benefits
 - **Suzerainty Ability**: Clear description of the special benefit
 
 #### Bottom Section
@@ -40,100 +40,160 @@
 
 ## Card Specifications
 
-### Large Market Cards (+3 GDP)
+### Large Market Cards (5 Route Slots) - Gold Border
 
 #### India – "World's Call Center"
-- **Card Color**: Green border (Large Market)
-- **GDP Bonus**: "+3" prominently displayed
-- **Suzerainty Ability**: "Once per round, copy another player's policy card after it's played"
+- **Card Color**: Gold border (Large Market)
+- **Route Slots**: ●●●●● (5 slots)
+- **Influence Bonuses**:
+  - 3 📋 Outsourcing Partner
+  - 6 👁️ Tech Support
+  - 9 💰 Development Hub
+- **Suzerainty**: 👑 Copy a Policy (1/round)
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### Japan – "Land of the Rising Debt"
-- **Card Color**: Green border (Large Market)
-- **GDP Bonus**: "+3" prominently displayed
-- **Suzerainty Ability**: "Your tactics cost 1 less GDP"
+#### Japan – "Precision Factory"
+- **Card Color**: Gold border (Large Market)
+- **Route Slots**: ●●●●● (5 slots)
+- **Influence Bonuses**:
+  - 3 ⚡ Just-In-Time
+  - 6 🔧 Kaizen Culture
+  - 9 🤖 Automation Nation
+- **Suzerainty**: 👑 Tactics cost 1 less
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-### Medium Market Cards (+2 GDP)
-
-#### South Korea – "Samsungia"
-- **Card Color**: Yellow border (Medium Market)
-- **GDP Bonus**: "+2" prominently displayed
-- **Suzerainty Ability**: "Each round, peek at the top 2 tactics cards and keep 1"
+#### Brazil – "Resource Titan"
+- **Card Color**: Gold border (Large Market)
+- **Route Slots**: ●●●●● (5 slots)
+- **Influence Bonuses**:
+  - 3 🌱 Raw Materials
+  - 6 🤝 BRICS Partnership
+  - 9 👑 Commodity King
+- **Suzerainty**: 👑 Destroy route for 3 GDP (1/round)
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### Australia – "Mine-O-Rama"
-- **Card Color**: Yellow border (Medium Market)
-- **GDP Bonus**: "+2" prominently displayed
-- **Suzerainty Ability**: "Whenever you win a trade route, gain +1 extra GDP"
+### Medium Market Cards (4 Route Slots) - Silver Border
+
+#### Mexico – "Maquiladora Express"
+- **Card Color**: Silver border (Medium Market)
+- **Route Slots**: ●●●● (4 slots)
+- **Influence Bonuses**:
+  - 3 🌉 Border Economy
+  - 5 👷 Labor Advantage
+  - 7 🛣️ NAFTA Highway
+- **Suzerainty**: 👑 All routes give +1 GDP
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### Canada – "Maple Monopoly"
-- **Card Color**: Yellow border (Medium Market)
-- **GDP Bonus**: "+2" prominently displayed
-- **Suzerainty Ability**: "Ignore the first negative global effect each round"
+#### Turkey – "Crossroads Empire"
+- **Card Color**: Silver border (Medium Market)
+- **Route Slots**: ●●●● (4 slots)
+- **Influence Bonuses**:
+  - 3 💰 Transit Fees
+  - 5 🌍 East Meets West
+  - 7 👑 Regional Power
+- **Suzerainty**: 👑 Redirect global effect (1/round)
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### Mexico – "NAFTA Nachos"
-- **Card Color**: Yellow border (Medium Market)
-- **GDP Bonus**: "+2" prominently displayed
-- **Suzerainty Ability**: "GDP income from trade routes is increased by +1"
+#### South Korea – "Tech Dragons"
+- **Card Color**: Silver border (Medium Market)
+- **Route Slots**: ●●●● (4 slots)
+- **Influence Bonuses**:
+  - 3 🌊 K-Wave
+  - 5 🛡️ Chaebol Protection
+  - 7 ⚡ 5G Speed
+- **Suzerainty**: 👑 Peek 2 Tactics, keep 1 (1/round)
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### Turkey – "Strait to Business"
-- **Card Color**: Yellow border (Medium Market)
-- **GDP Bonus**: "+2" prominently displayed
-- **Suzerainty Ability**: "Once per round, redirect a global effect onto another player"
+#### Australia – "Pacific Miner"
+- **Card Color**: Silver border (Medium Market)
+- **Route Slots**: ●●●● (4 slots)
+- **Influence Bonuses**:
+  - 3 ⛏️ Dig Deep
+  - 5 🌏 Pacific Trade
+  - 7 🔒 Resource Lock
+- **Suzerainty**: 👑 +1 GDP when winning routes
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### Indonesia – "Spice Islands 2.0"
-- **Card Color**: Yellow border (Medium Market)
-- **GDP Bonus**: "+2" prominently displayed
-- **Suzerainty Ability**: "At the start of trade, gain +1 GDP if you have influence with 3+ partners"
+#### Canada – "Friendly Giant"
+- **Card Color**: Silver border (Medium Market)
+- **Route Slots**: ●●●● (4 slots)
+- **Influence Bonuses**:
+  - 3 🤝 USMCA Partner
+  - 5 🛡️ Arctic Shield
+  - 7 👑 Commonwealth
+- **Suzerainty**: 👑 Ignore first negative global effect
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### United Arab Emirates – "Dubai-land"
-- **Card Color**: Yellow border (Medium Market)
-- **GDP Bonus**: "+2" prominently displayed
-- **Suzerainty Ability**: "Gain +1 GDP whenever a player plays a tactic"
+#### Indonesia – "Island Network"
+- **Card Color**: Silver border (Medium Market)
+- **Route Slots**: ●●●● (4 slots)
+- **Influence Bonuses**:
+  - 3 🏝️ Archipelago
+  - 5 🤝 ASEAN Hub
+  - 7 ⚓ Maritime Control
+- **Suzerainty**: 👑 +1 GDP per different partner
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-### Small Market Cards (+1 GDP)
+### Small Market Cards (3 Route Slots) - Bronze Border
 
-#### Nigeria – "OPEC Jr."
-- **Card Color**: Red border (Small Market)
-- **GDP Bonus**: "+1" prominently displayed
-- **Suzerainty Ability**: "Whenever a resource event appears, you gain +1 GDP"
+#### Singapore – "Trade Nexus"
+- **Card Color**: Bronze border (Small Market)
+- **Route Slots**: ●●● (3 slots)
+- **Influence Bonuses**:
+  - 2 🆓 Free Port
+  - 4 🏦 Banking Hub
+  - 6 👑 Trade Master
+- **Suzerainty**: 👑 Trade 1 card for random (1/round)
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### South Africa – "BRICS 'n' Mortar"
-- **Card Color**: Red border (Small Market)
-- **GDP Bonus**: "+1" prominently displayed
-- **Suzerainty Ability**: "Gain +1 influence on any trading partner when you win a blind bid"
+#### Argentina – "Crisis Expert"
+- **Card Color**: Bronze border (Small Market)
+- **Route Slots**: ●●● (3 slots)
+- **Influence Bonuses**:
+  - 2 ⚠️ Crisis Mode
+  - 4 🥩 Beef Baron
+  - 6 👑 Default King
+- **Suzerainty**: 👑 Draw 1 when losing bids
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### Singapore – "Port of Call"
-- **Card Color**: Red border (Small Market)
-- **GDP Bonus**: "+1" prominently displayed
-- **Suzerainty Ability**: "Once per round, trade one card in hand for a random draw"
+#### Switzerland – "Vault of Europe"
+- **Card Color**: Bronze border (Small Market)
+- **Route Slots**: ●●● (3 slots)
+- **Influence Bonuses**:
+  - 2 🏦 Swiss Account
+  - 4 🛡️ Safe Haven
+  - 6 💰 Banking Cartel
+- **Suzerainty**: 👑 Store 2 GDP between rounds
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### Vietnam – "The Other Workshop of the World"
-- **Card Color**: Red border (Small Market)
-- **GDP Bonus**: "+1" prominently displayed
-- **Suzerainty Ability**: "Whenever you play a policy, reduce its cost by 1 GDP"
+#### Vietnam – "Rising Tiger"
+- **Card Color**: Bronze border (Small Market)
+- **Route Slots**: ●●● (3 slots)
+- **Influence Bonuses**:
+  - 2 👷 Cheap Labor
+  - 4 🇨🇳 China Alternative
+  - 6 🏭 Manufacturing Surge
+- **Suzerainty**: 👑 Policies cost 1 less
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### Switzerland – "Neutral Bankers"
-- **Card Color**: Red border (Small Market)
-- **GDP Bonus**: "+1" prominently displayed
-- **Suzerainty Ability**: "Store 1 unspent GDP between rounds"
+#### UAE – "Desert Oasis"
+- **Card Color**: Bronze border (Small Market)
+- **Route Slots**: ●●● (3 slots)
+- **Influence Bonuses**:
+  - 2 🆓 Duty Free
+  - 4 🛢️ Petrodollars
+  - 6 👑 Sovereign Wealth
+- **Suzerainty**: 👑 +1 GDP when anyone plays Tactic
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
-#### Argentina – "Perón and On and On"
-- **Card Color**: Red border (Small Market)
-- **GDP Bonus**: "+1" prominently displayed
-- **Suzerainty Ability**: "When you lose a bid, draw 1 card"
+#### Nigeria – "African Giant"
+- **Card Color**: Bronze border (Small Market)
+- **Route Slots**: ●●● (3 slots)
+- **Influence Bonuses**:
+  - 2 🎬 Nollywood
+  - 4 🛢️ Oil Revenue
+  - 6 🌍 African Gateway
+- **Suzerainty**: 👑 +1 GDP when resource Event appears
 - **Influence Tracks**: 6 tracks (supports up to 6 players)
 
 ---
@@ -145,6 +205,7 @@
 - **Size**: 2.5" × 3.5" landscape
 - **Material**: Heavy cardstock, matte finish
 - **Finish**: Rounded corners, durable coating
+- **Color Coding**: Gold (Large), Silver (Medium), Bronze (Small) borders
 
 ### Influence Cubes
 - **Quantity**: 90 cubes total (6 colors × 15 trading partners)
@@ -166,15 +227,17 @@
 2. **Distribute Cubes**: Each player takes 15 cubes of their color
 3. **Initial Influence**: All players start with 0 influence on all trading partners
 4. **Suzerainty**: No player has suzerainty initially
+5. **Route Slots**: All route slots are empty and available
 
 ### During Gameplay
-1. **Influence Updates**: Move cubes on influence tracks as influence changes
-2. **Suzerainty Check**: After each influence update, check who has most influence
-3. **Benefit Application**: Apply scaling benefits and suzerainty bonuses
-4. **Visual Clarity**: Keep influence tracks clearly visible to all players
+1. **Route Placement**: Check available slots before placing Export cards
+2. **Influence Updates**: Move cubes on influence tracks as influence changes
+3. **Suzerainty Check**: After each influence update, check who has most influence
+4. **Benefit Application**: Apply scaling benefits and suzerainty bonuses
+5. **Visual Clarity**: Keep influence tracks and route slots clearly visible to all players
 
 ---
 
 *Last Updated: [Current Date]*
-*Version: 1.0*
-*Status: Ready for Prototype Testing*
+*Version: 2.0*
+*Status: Route Slot System Implemented*

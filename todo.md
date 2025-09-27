@@ -30,6 +30,10 @@
 - Card rarity distribution and balance
 - Trade route persistence mechanics clarified
 - Influence accumulation rules finalized
+- **Redesigned trading partner system with route slots**
+- **Removed GDP base bonuses from trading partners**
+- **Created unique influence thresholds for each partner**
+- **Established route slot economy for competitive tension**
 
 ---
 

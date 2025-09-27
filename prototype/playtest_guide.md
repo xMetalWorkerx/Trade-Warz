@@ -19,7 +19,8 @@
 - [ ] Explain the satirical theme (5 minutes)
 - [ ] Go through turn structure (5 minutes)
 - [ ] Explain dispute resolution (5 minutes)
-- [ ] Answer questions (5 minutes)
+- [ ] **IMPORTANT: Emphasize that trade routes and influence are PERMANENT** (2 minutes)
+- [ ] Answer questions (3 minutes)
 - [ ] **Total setup time: 20 minutes**
 
 ---
@@ -51,6 +52,7 @@
 - [ ] **Edge cases**: What situations need clarification?
 - [ ] **Timing**: When do effects resolve?
 - [ ] **Interactions**: How do cards work together?
+- [ ] **Persistence rules**: Do players understand routes and influence are permanent?
 
 ---
 
@@ -113,6 +115,8 @@ For each leader, ask:
 - **Trade Bloc Party**: How do alliances work exactly?
 - **Bureaucratic Gridlock**: When does the policy restriction apply?
 - **Copycat Factories**: How does copying revenue work?
+- **Route Persistence**: Do players understand routes stay on the board permanently?
+- **Influence Accumulation**: Do players understand influence never decreases naturally?
 
 ### Player Experience Issues
 - **Analysis paralysis**: Are players taking too long?

@@ -12,7 +12,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: USA
 - **Cost**: 5 GDP
 - **Influence**: 2
-- **Revenue**: 5 GDP/round
+- **Revenue**: 7 GDP/round
 - **Effect**: If you win a dispute, gain +1 GDP immediately.
 - **Flavor Text**: *"Click to accept terms and conditions… on global dominance."*
 
@@ -20,7 +20,7 @@
 **Type**: Export | **Rarity**: Common | **Leader**: USA
 - **Cost**: 3 GDP
 - **Influence**: 1
-- **Revenue**: 3 GDP/round
+- **Revenue**: 4 GDP/round
 - **Effect**: +1 Revenue if traded with Canada or Mexico.
 - **Flavor Text**: *"Served with liberty fries."*
 
@@ -28,7 +28,7 @@
 **Type**: Export | **Rarity**: Rare | **Leader**: USA
 - **Cost**: 6 GDP
 - **Influence**: 3
-- **Revenue**: 5 GDP/round
+- **Revenue**: 8 GDP/round
 - **Effect**: When placed, draw 1 extra card.
 - **Flavor Text**: *"Sequels guaranteed until morale improves."*
 
@@ -76,7 +76,7 @@
 **Type**: Export | **Rarity**: Common | **Leader**: China
 - **Cost**: 3 GDP
 - **Influence**: 2
-- **Revenue**: 3 GDP/round
+- **Revenue**: 4 GDP/round
 - **Effect**: Reduce the cost of your next Export by 1 GDP.
 - **Flavor Text**: *"If you ordered it, we made it."*
 
@@ -84,7 +84,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: China
 - **Cost**: 4 GDP
 - **Influence**: 2
-- **Revenue**: 4 GDP/round
+- **Revenue**: 5 GDP/round
 - **Effect**: If an opponent destroys this, they lose 2 GDP.
 - **Flavor Text**: *"Rare earth, common leverage."*
 
@@ -92,7 +92,7 @@
 **Type**: Export | **Rarity**: Rare | **Leader**: China
 - **Cost**: 6 GDP
 - **Influence**: 3
-- **Revenue**: 5 GDP/round
+- **Revenue**: 8 GDP/round
 - **Effect**: Gain +1 Influence with one trading partner of your choice.
 - **Flavor Text**: *"Now with fewer camels, more servers."*
 
@@ -140,7 +140,7 @@
 **Type**: Export | **Rarity**: Rare | **Leader**: Russia
 - **Cost**: 6 GDP
 - **Influence**: 2
-- **Revenue**: 6 GDP/round
+- **Revenue**: 8 GDP/round
 - **Effect**: If destroyed, gain +3 GDP.
 - **Flavor Text**: *"All roads lead to Gazprom."*
 
@@ -148,7 +148,7 @@
 **Type**: Export | **Rarity**: Common | **Leader**: Russia
 - **Cost**: 3 GDP
 - **Influence**: 1
-- **Revenue**: 3 GDP/round
+- **Revenue**: 4 GDP/round
 - **Effect**: Opponents lose 1 GDP if they dispute with you this round.
 - **Flavor Text**: *"Liquid courage, liquid leverage."*
 
@@ -156,7 +156,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: Russia
 - **Cost**: 5 GDP
 - **Influence**: 2
-- **Revenue**: 4 GDP/round
+- **Revenue**: 6 GDP/round
 - **Effect**: +1 Influence in disputes while this is active.
 - **Flavor Text**: *"Kalashnikovs are a growth industry."*
 

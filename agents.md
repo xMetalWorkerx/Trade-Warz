@@ -13,6 +13,7 @@ This document provides guidelines for AI assistants working on the Trade Warz bo
 - **Satirical**: Humorous take on real-world economics and geopolitics
 - **Asymmetric**: Each leader has unique abilities and signature cards
 - **Balanced**: Built-in catch-up mechanics prevent runaway leaders
+- **Persistent Economy**: Trade routes and influence are permanent, creating an escalating economic engine
 
 ## 🤖 How to Help Effectively
 
@@ -39,6 +40,16 @@ This document provides guidelines for AI assistants working on the Trade Warz bo
 - **Rarity Distribution**: 48% Common, 32% Uncommon, 20% Rare
 - **Leader Asymmetry**: Each leader has 8-12 card mini-deck with signature cards
 - **Dispute Resolution**: Reverse-GDP order (poorest player first)
+- **Route Persistence**: Trade routes remain active for the entire game unless explicitly destroyed
+- **Influence Accumulation**: Influence never decreases naturally, only through card effects
+
+### 5. Trading Partner Design
+- **Each partner has LIMITED route slots** (3-5 based on market size)
+- **No GDP base bonuses** - all GDP comes from Export cards and influence bonuses
+- **Unique influence thresholds per partner** - see trading_partners.md for specifics
+- **Influence persists after route destruction** - creates "influence banking"
+- **Slot scarcity creates competition** - total slots should roughly equal desired routes
+- **Market size affects slots**: Large=5, Medium=4, Small=3
 
 ## 📋 Common Tasks & How to Approach Them
 
@@ -49,6 +60,7 @@ When creating new cards:
 3. **Balance the power level** (is this too strong/weak?)
 4. **Maintain thematic consistency** (does this fit the satirical tone?)
 5. **Think about player interaction** (does this create interesting decisions?)
+6. **Remember permanence rules** (Export cards create permanent routes, influence accumulates)
 
 **Template for new cards:**
 ```markdown

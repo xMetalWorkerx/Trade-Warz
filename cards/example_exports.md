@@ -8,7 +8,7 @@
 **Type**: Export | **Rarity**: Common | **Leader**: USA
 - **Cost**: 3 GDP
 - **Influence**: +2
-- **Revenue**: 2 GDP per round
+- **Revenue**: 4 GDP per round
 - **CMYK Timing**: M (Personal effect)
 - **Effect**: +1 GDP revenue if this is your first route to a trading partner
 - **Flavor Text**: *"The corn that built America, one kernel at a time"*
@@ -18,7 +18,7 @@
 **Type**: Export | **Rarity**: Common | **Leader**: China  
 - **Cost**: 4 GDP
 - **Influence**: +3
-- **Revenue**: 2 GDP per round
+- **Revenue**: 4 GDP per round
 - **CMYK Timing**: M (Personal effect)
 - **Effect**: +1 GDP revenue if opponent has no routes to this trading partner
 - **Flavor Text**: *"404: Free Trade Not Found"*
@@ -28,7 +28,7 @@
 **Type**: Export | **Rarity**: Common | **Leader**: Saudi Arabia
 - **Cost**: 2 GDP
 - **Influence**: +1
-- **Revenue**: 3 GDP per round
+- **Revenue**: 4 GDP per round
 - **CMYK Timing**: M (Personal effect)
 - **Effect**: +1 GDP revenue if this is your only route to this trading partner
 - **Flavor Text**: *"The liquid that moves the world"*
@@ -40,7 +40,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: China
 - **Cost**: 5 GDP
 - **Influence**: +2
-- **Revenue**: 3 GDP per round
+- **Revenue**: 5 GDP per round
 - **CMYK Timing**: M (Personal effect)
 - **Effect**: +1 GDP revenue for each other route you have to the same trading partner
 - **Flavor Text**: *"One belt, one road, one massive infrastructure project"*
@@ -50,7 +50,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: USA
 - **Cost**: 4 GDP
 - **Influence**: +3
-- **Revenue**: 2 GDP per round
+- **Revenue**: 4 GDP per round
 - **CMYK Timing**: M (Personal effect)
 - **Effect**: +1 GDP revenue for each policy card you have in play
 - **Flavor Text**: *"Rebuilding the world, one policy at a time"*
@@ -60,7 +60,7 @@
 **Type**: Export | **Rarity**: Uncommon | **Leader**: Brazil
 - **Cost**: 3 GDP
 - **Influence**: +2
-- **Revenue**: 4 GDP per round
+- **Revenue**: 5 GDP per round
 - **CMYK Timing**: M (Personal effect)
 - **Effect**: +1 GDP revenue if you have the most routes to this trading partner
 - **Flavor Text**: *"From the lungs of the earth to the wallets of the world"*
@@ -72,7 +72,7 @@
 **Type**: Export | **Rarity**: Rare | **Leader**: Russia
 - **Cost**: 6 GDP
 - **Influence**: +1
-- **Revenue**: 4 GDP per round
+- **Revenue**: 6 GDP per round
 - **CMYK Timing**: M (Personal effect)
 - **Effect**: +2 GDP revenue if you destroy an opponent's route this round
 - **Flavor Text**: *"Turning off the taps since 2006"*
@@ -82,7 +82,7 @@
 **Type**: Export | **Rarity**: Rare | **Leader**: EU
 - **Cost**: 5 GDP
 - **Influence**: +2
-- **Revenue**: 3 GDP per round
+- **Revenue**: 5 GDP per round
 - **CMYK Timing**: M (Personal effect)
 - **Effect**: +1 GDP revenue for each different trading partner you have routes to
 - **Flavor Text**: *"Regulating trade since... well, we're still working on the paperwork"*
@@ -92,7 +92,7 @@
 **Type**: Export | **Rarity**: Rare | **Leader**: Saudi Arabia
 - **Cost**: 7 GDP
 - **Influence**: +1
-- **Revenue**: 5 GDP per round
+- **Revenue**: 7 GDP per round
 - **CMYK Timing**: M (Personal effect)
 - **Effect**: +1 GDP revenue for each other player who has no routes to this trading partner
 - **Flavor Text**: *"When we say jump, the world asks how high"*
@@ -103,9 +103,9 @@
 ## Design Notes
 
 ### Rarity Distribution
-- **Common**: 2-4 GDP cost, 2-3 GDP revenue, simple effects, moderate influence
-- **Uncommon**: 3-5 GDP cost, 2-4 GDP revenue, moderate complexity, varied influence
-- **Rare**: 4-7 GDP cost, 3-5 GDP revenue, complex effects, varied influence
+- **Common**: 2-4 GDP cost, 4-5 GDP revenue, simple effects, moderate influence
+- **Uncommon**: 3-5 GDP cost, 4-5 GDP revenue, moderate complexity, varied influence
+- **Rare**: 4-7 GDP cost, 5-7 GDP revenue, complex effects, varied influence
 
 ### Thematic Consistency
 - Each export reflects the leader's real-world economic strengths

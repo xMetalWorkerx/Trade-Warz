@@ -12,6 +12,12 @@
 ### Effect
 [Clear, concise description of what the card does]
 
+**IMPORTANT REMINDERS:**
+- **Export Cards**: Establish **permanent trade routes** that generate income each round
+- **Route Destruction**: Use explicit language like "Destroy target trade route" or "Remove all routes to [Trading Partner]"
+- **Influence Modifications**: Specify "reduce influence" not "lose influence" for card effects
+- **Ongoing Effects**: Use "each round" or "per round" not "this round" for persistent effects
+
 ### Flavor Text
 *[Optional satirical commentary that fits the game's tone]*
 

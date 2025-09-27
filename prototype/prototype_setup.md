@@ -20,25 +20,52 @@
 
 ---
 
-## Prototype Trading Partners (6)
+## Prototype Trading Partners (6) - 24 Total Route Slots
 
-### Large Markets (+3 GDP Base Bonus)
-1. **India** - "World's Call Center"
-   - Suzerainty: Once per round, copy another player's policy card after it's played
-2. **Japan** - "Land of the Rising Debt"  
-   - Suzerainty: Your tactics cost 1 less GDP
+### Large Markets (5 slots each)
+1. **India** - "World's Call Center" (5 slots)
+   - Influence: 3/6/9 thresholds
+   - 3: +1 card when playing Policy
+   - 6: Look at opponent's hand (1/round)
+   - 9: Policies cost 1 less
+   - Suzerainty: Copy a Policy card (1/round)
 
-### Medium Markets (+2 GDP Base Bonus)
-3. **Mexico** - "NAFTA Nachos"
-   - Suzerainty: GDP income from trade routes is increased by +1
-4. **Canada** - "Maple Monopoly"
-   - Suzerainty: Ignore the first negative global effect each round
+2. **Japan** - "Precision Factory" (5 slots)
+   - Influence: 3/6/9 thresholds
+   - 3: +1 GDP when winning disputes
+   - 6: Exports cost 1 less
+   - 9: Draw extra card each turn
+   - Suzerainty: Tactics cost 1 less
 
-### Small Markets (+1 GDP Base Bonus)
-5. **Singapore** - "Port of Call"
-   - Suzerainty: Once per round, trade one card in hand for a random draw
-6. **Argentina** - "Perón and On and On"
-   - Suzerainty: When you lose a bid, draw 1 card
+### Medium Markets (4 slots each)
+3. **Mexico** - "Maquiladora Express" (4 slots)
+   - Influence: 3/5/7 thresholds
+   - 3: +1 GDP if USA has routes here
+   - 5: Export placement costs 1 less
+   - 7: Your routes here give +1 GDP
+   - Suzerainty: All routes give +1 GDP
+
+4. **Turkey** - "Crossroads Empire" (4 slots)
+   - Influence: 3/5/7 thresholds
+   - 3: +1 GDP when players establish routes here
+   - 5: Redirect one Tactic per round
+   - 7: +2 influence in Middle East/Europe disputes
+   - Suzerainty: Redirect global effect (1/round)
+
+### Small Markets (3 slots each)
+5. **Singapore** - "Trade Nexus" (3 slots)
+   - Influence: 2/4/6 thresholds
+   - 2: First Export costs 1 less
+   - 4: Store 1 GDP between rounds
+   - 6: Draw 2, keep 1 when establishing routes
+   - Suzerainty: Trade 1 card for random (1/round)
+
+6. **Argentina** - "Crisis Expert" (3 slots)
+   - Influence: 2/4/6 thresholds
+   - 2: +1 card when you have least GDP
+   - 4: +2 GDP from agricultural Exports
+   - 6: Refuse to pay a GDP cost (1/round)
+   - Suzerainty: Draw 1 when losing bids
 
 ---
 
