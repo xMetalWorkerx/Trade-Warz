@@ -10,7 +10,8 @@ Trading partners function as "city-states" in Trade Warz, inspired by Civilizati
 - **Influence Tracks**: Each trading partner has influence tracks for all players (0-10 range)
 - **Scaling Benefits**: Higher influence provides better economic returns
 - **Suzerainty**: Player with most influence gets special bonuses
-- **Market Size**: Determines route slots (Small=3, Medium=4, Large=5)
+- **Market Size**: Determines route slots (Small=3, Medium=4, Large=5) and base GDP bonus (+1 Small, +2 Medium, +3 Large)
+- **Influence Trading**: Players may buy/sell influence with trading partners during Trade Phase
 
 ## Route Slot Distribution
 

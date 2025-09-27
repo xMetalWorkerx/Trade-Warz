@@ -64,6 +64,8 @@ Effects resolve in this specific order:
 
 **Placement**: Players place Export cards face-down on open Trade Partner slots during the 3-minute timer. No rearranging once revealed. **Once established, trade routes remain active for the entire game.**
 
+**Influence Trading**: During the Trade Phase, players may buy and sell influence with trading partners for GDP, creating a secondary economy and strategic depth.
+
 **Dispute Resolution**: Contested slots resolve in **reverse-GDP order** (poorest player first):
 1. Poorest player chooses one contested route they're involved in
 2. Resolution: **Printed Influence + blind GDP bid** wins

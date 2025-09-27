@@ -134,14 +134,23 @@
 
 ### Trade Phase
 1. **Placement**: Players place export cards face-down on trading partner slots
-2. **Timer**: 3-minute countdown starts when first export is placed
-3. **Disputes**: Resolve contested slots in reverse-GDP order (poorest first)
-4. **Resolution**: Printed Influence + blind GDP bid wins
+2. **Influence Trading**: Players may buy/sell influence with trading partners for GDP
+3. **Timer**: 3-minute countdown starts when first export is placed
+4. **Disputes**: Resolve contested slots in reverse-GDP order (poorest first)
+5. **Resolution**: Printed Influence + blind GDP bid wins
+
+### Influence Trading
+- **Timing**: During the 3-minute Trade Phase
+- **Currency**: GDP (primary game currency)
+- **Process**: Players negotiate prices, both must agree
+- **Effect**: Immediate influence transfer and GDP payment
+- **Pricing**: Market-driven, typical rate 1 influence = 2-3 GDP
 
 ### GDP Economy
 - **Trade Routes**: 60-70% of income (Export Value + Trading Partner Bonus)
 - **Policies**: 20-25% of income (ongoing effects)
 - **Tactics**: 10-15% of income (instant effects)
+- **Influence Trading**: Secondary economy for buying/selling influence
 
 ### Win Conditions
 - **Instant Win**: Reach 50 GDP immediately

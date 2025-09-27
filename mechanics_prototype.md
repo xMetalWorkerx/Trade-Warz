@@ -61,6 +61,79 @@
 - **Income Sources:** Trade routes (60-70%), Policies (20-25%), Tactics (10-15%)  
 - **Spending GDP:** Paid when establishing routes (after disputes), during blind bids, and for certain card costs
 
+*Board reminder:* a small CMYK ring printed near the round timer reads **C → M → Y → K**.
+
+### 3 Draw Phase
+
+* Each player draws up to their leader's hand size limit.
+* **USA**: Draw up to 8 cards
+* **China**: Draw up to 7 cards  
+* **Russia**: Draw up to 6 cards
+* The hand size is printed large on each Leader tile and shown enlarged in the rulebook.
+
+### 4 Policy Phase
+
+* Each player may play **one** Policy card face‑down, then reveal simultaneously on a 3‑2‑1 count.
+* **Tie resolution:** if timing or effects conflict, the **poorest player** (lowest current GDP) decides the order or wins any direct contest.
+* Certain Policies may impose additional GDP costs; resolve these immediately after reveal.
+
+### 5 Trade Phase (timed)
+
+**Placement** – Players may place Export cards **at any time** during the 3‑minute Trade timer, sliding them face‑down onto open Trade Partner slots. GDP costs are paid when routes are established (after disputes are resolved).
+
+* **No rearranging:** Once an Export card has been flipped face‑up (after all players reveal), it is locked in that slot for the remainder of the round and may not be moved.
+* You can keep adding Exports throughout the timer so long as slots remain and you can afford the GDP.
+
+**Influence Trading** – During the Trade timer, players may buy and sell influence with trading partners:
+
+* **Sales**: Sell 1+ influence with a trading partner for GDP
+* **Purchases**: Buy influence with a trading partner for GDP
+* **Negotiation**: Players negotiate prices; all trades are voluntary
+* **Immediate Effect**: Influence changes take effect immediately
+* **Public Information**: All influence levels are visible to all players
+* **Pricing**: Market-driven; typical rate 1 influence = 2-3 GDP (varies by situation)
+
+**Dispute Resolution** – After the timer ends, resolve contested slots in **Reverse‑GDP order**:
+
+*Expected Volume: Most rounds have 0-4 disputes total (players typically play 1-3 Exports each), keeping resolution quick and manageable.*
+
+1. The **poorest player** (lowest current GDP) chooses **one** contested route they're involved in and resolves it (Influence + blind bid; loser takes the card back to hand).
+
+2. Next‑poorest player chooses a contested route they're in, and so on.
+
+3. Continue cycling until every dispute is settled. Because each conflict involves at least two players, all fights clear in at most ⌈#contests / 2⌉ turns
+
+4. **Start** the 3‑minute sand‑timer / phone timer **when the first Export card is placed**.
+
+* **Steps:**
+
+  * Choose an open Trade Partner slot; slide Export cards in **face‑down**.
+  * Flip all chosen cards.
+  * Resolve each contested slot: highest **Printed Influence + blind GDP bid** wins. *Players hide GDP coins in fist, reveal; pay what you bid (1 GDP = 1 Influence).*
+  * Losing Export cards return to hand (hand‑size cap self‑balances).
+
+- Players may play **any number of Export cards** during this phase, limited only by open Trade Partner slots and available GDP for bids.
+
+- **30‑second warning:** ding or colored sand‑timer flip.
+
+* At the buzzer, immediately advance to Income.
+
+### 6 Income Phase
+
+* Untimed. Each player totals GDP from routes, Policies, Events, etc.
+* **GDP Sources**: Trade routes (60-70%), Policies (20-25%), Tactics (10-15%)
+* **Trade Route Formula**: Export Value + Trading Partner Bonus + Route Multipliers
+* **Influence Accumulation**: Each player gains influence with trading partners equal to influence from active routes
+* Slide a cube on the Leader's GDP track for quick tabletop auditing.
+* *See `design_docs/gdp_economy.md` for detailed economic framework*
+* *See `design_docs/influence_accumulation.md` for influence accumulation mechanics*
+* *See `design_docs/trading_partners.md` for trading partner roster and abilities*
+
+### 7 Cleanup Phase
+
+* Reset the Trade timer.
+* No hand size management needed - each leader maintains their own hand size limit.
+
 ---
 
 ## 🔄 Round Structure

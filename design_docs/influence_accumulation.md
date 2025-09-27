@@ -39,6 +39,56 @@ This document defines the influence system for Trade Warz, inspired by Civilizat
 - **Policy Cards**: Some policies may grant influence with specific trading partners
 - **Tactic Cards**: Some tactics may increase/decrease influence with trading partners
 - **Route Destruction**: Losing a route reduces influence with that trading partner
+- **Influence Trading**: Players may buy/sell influence with other players during Trade Phase
+
+---
+
+## Influence Trading System
+
+### Core Mechanics
+**Influence Trading**: Players may buy and sell influence with trading partners during the Trade Phase, creating a secondary economy where influence becomes a tradeable commodity.
+
+### Trading Rules
+- **Timing**: During the 3-minute Trade Phase, alongside route placement
+- **Currency**: GDP (primary game currency)
+- **Method**: Direct player-to-player transactions
+- **Minimum Trade**: 1 influence point
+- **Maximum Trade**: All influence with a trading partner
+
+### Trading Process
+1. **Negotiation**: Players negotiate prices during Trade Phase
+2. **Agreement**: Both players must agree to the trade
+3. **Payment**: Immediate GDP transfer
+4. **Effect**: Influence changes take effect immediately
+
+### Pricing Guidelines
+- **Base Rate**: 1 influence = 2-3 GDP (roughly)
+- **Suzerainty Premium**: Influence that grants/denies suzerainty is worth more
+- **Market Forces**: Supply and demand determine actual prices
+- **Situational Value**: Influence value varies based on current game state
+
+### Strategic Scenarios
+
+**Excess Influence Sale**
+- Player has 7 influence with India, but only needs 5 for next benefit tier
+- Can sell 2 influence to another player for GDP
+- Other player gets closer to suzerainty, seller gets cash for other investments
+
+**Suzerainty Competition**
+- Player A has 6 influence with Japan, Player B has 5 influence
+- Player B offers Player C GDP to buy their 3 influence with Japan
+- Player B becomes suzerain, gains tactical cost reduction
+
+**Influence Consolidation**
+- Player has scattered influence across multiple trading partners
+- Sells influence with less valuable partners to buy influence with focus partner
+- Concentrates power for maximum benefit
+
+### Benefits of Influence Trading
+- **Economic Depth**: Creates secondary economy beyond route income
+- **Strategic Options**: Players can specialize or diversify influence
+- **Player Interaction**: More negotiation and deal-making
+- **Catch-up Mechanics**: Weaker players can sell excess influence for cash
 
 ---
 
