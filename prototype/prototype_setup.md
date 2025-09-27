@@ -86,6 +86,23 @@
 
 ---
 
+## Core Rules Clarification
+
+**IMPORTANT: Trade routes and influence persist throughout the game - see mechanics_prototype.md for detailed rules**
+
+### Trade Route Persistence
+- **Once established, trade routes remain active for the entire game** unless explicitly removed by card effects
+- Routes generate GDP and influence every round they remain active
+- Only specific Tactic or Policy effects that say "destroy" or "remove" can eliminate routes
+
+### Influence Accumulation
+- **Influence accumulates throughout the game and never decreases naturally**
+- Each active trade route generates influence with its Trade Partner every round
+- Influence only decreases when explicitly removed by card effects
+- Accumulated influence provides dispute advantages and suzerainty benefits
+
+---
+
 ## Simplified Rules for Prototype
 
 ### Trade Phase

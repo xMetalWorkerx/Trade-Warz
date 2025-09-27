@@ -28,6 +28,8 @@
 - GDP economy framework and balance system
 - Leader asymmetry and unique abilities
 - Card rarity distribution and balance
+- Trade route persistence mechanics clarified
+- Influence accumulation rules finalized
 
 ---
 

@@ -31,6 +31,8 @@ This document defines the influence system for Trade Warz, inspired by Civilizat
 1. **End of Round**: After Income phase, each player gains influence with trading partners equal to influence from active routes
 2. **Per Trading Partner**: Influence is tracked separately for each trading partner
 3. **Persistent**: Influence remains with trading partners until modified by cards or route destruction
+4. **Never Decreases Naturally**: Influence never decreases naturally - only specific card effects can reduce it
+5. **Trade Routes Generate Influence**: Trade routes generate influence every round they remain active
 
 ### Influence Sources
 - **Trade Routes**: Gain influence equal to route's influence value each round

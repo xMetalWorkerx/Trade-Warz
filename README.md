@@ -62,7 +62,7 @@ Effects resolve in this specific order:
 
 ### Trade Phase (The Heart of the Game)
 
-**Placement**: Players place Export cards face-down on open Trade Partner slots during the 3-minute timer. No rearranging once revealed.
+**Placement**: Players place Export cards face-down on open Trade Partner slots during the 3-minute timer. No rearranging once revealed. **Once established, trade routes remain active for the entire game.**
 
 **Dispute Resolution**: Contested slots resolve in **reverse-GDP order** (poorest player first):
 1. Poorest player chooses one contested route they're involved in
@@ -90,6 +90,7 @@ Effects resolve in this specific order:
 - Each leader's unique deck and abilities
 - Four shared deck rarity system ensures fresh combos every session
 - Expect ~2 "jaw-dropper" rare cards per player per game from each global deck
+- Persistent economic engine: trade routes and influence accumulate throughout the game
 
 ## 🎨 Game Variants
 
