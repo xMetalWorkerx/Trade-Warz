@@ -204,6 +204,8 @@ Players simultaneously draw up to their leader's hand size limit from ANY combin
 - No limit on number of Exports played (except available slots and GDP)
 - **No takebacks:** Once placed, cards cannot be moved
 - GDP costs are paid AFTER dispute resolution
+  
+  Physical placement: If using slot strips, slide the short edge of your Export under the Trading Partner’s strip at the chosen numbered slot, leaving the title/influence visible. Keep both cards tucked during disputes; winner remains tucked, loser returns to hand.
 
 #### Dispute Resolution (After Timer)
 When multiple players claim the same Trade Partner slot:

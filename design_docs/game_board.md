@@ -32,6 +32,7 @@ The main game board serves as the world map where trading partners are placed, c
 - **Size**: 3" × 2" each (landscape trading partner cards)
 - **Placement**: Free placement anywhere on world map
 - **Design**: Cards placed directly on map surface
+ - **Optional**: Place a slot strip (tuck-under rail) along one long edge to host 3/4/5 route slots
 
 #### Fixed Board Elements
 - **Communal Decks**: Center of board (fixed spots)
@@ -134,6 +135,7 @@ The main game board serves as the world map where trading partners are placed, c
 - **Size**: 3" × 2" (landscape orientation)
 - **Placement**: Directly on world map surface
 - **No fixed spots**: Players choose placement during setup
+ - **Slot Strips**: Matching 3/4/5-slot rails can be placed flush to a long edge; Exports tuck 10–12 mm under the lip for clear occupancy
 
 ### Visual Design
 

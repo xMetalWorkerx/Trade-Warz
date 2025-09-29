@@ -152,6 +152,7 @@ All GDP now comes from:
 - **Clear slot indicators** on trading partner cards
 - **Easy to see** which slots are occupied
 - **Simple tracking** of available vs filled slots
+- **Optional slot strips**: physical 3/4/5-slot tuck-under rails that make slot occupancy and disputes unambiguous
 
 ### Rule Clarity
 - **Slot availability checked before placement**
