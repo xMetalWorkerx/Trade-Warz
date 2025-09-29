@@ -9,19 +9,19 @@ This document defines the physical specifications for all Trade Warz components,
 ## Game Board
 
 ### Main Game Board
-- **Size**: 22" × 17" (slightly smaller than construction paper)
+- **Size**: 20" × 30" (large format for impressive table presence)
 - **Material**: Heavy cardboard or chipboard with matte lamination
-- **Folding**: 2-panel fold for storage (11" × 17" when folded)
+- **Folding**: 3-panel fold for storage (6.67" × 20" when folded)
 - **Design**: Stylized world map with satirical elements
 - **Color Scheme**: Muted earth tones with bright regional accents
 - **Fixed Elements**: 
   - Communal deck areas (4" × 3" each)
-  - GDP tracks along edges (17" × 1")
-  - Round tracker (6" × 1")
-  - Rules reference area (6" × 4")
+  - GDP tracks along edges (30" × 1")
+  - Round tracker (8" × 1")
+  - Rules reference area (8" × 4")
 
 ### Board Layout
-- **Central World Map**: 18" × 12" play area for trading partner placement
+- **Central World Map**: 16" × 24" play area for trading partner placement
 - **Communal Areas**: Center of board for decks and shared components
 - **Player Areas**: Left and right edges for GDP tracking
 - **Reference Areas**: Top and bottom for game state tracking
@@ -156,7 +156,7 @@ This document defines the physical specifications for all Trade Warz components,
 ## Storage & Organization
 
 ### Box Specifications
-- **Size**: 12" × 9" × 3" (standard board game box)
+- **Size**: 20" × 15" × 3" (large format board game box)
 - **Material**: Heavy cardboard with glossy finish
 - **Design**: Trade Warz branding with satirical artwork
 
