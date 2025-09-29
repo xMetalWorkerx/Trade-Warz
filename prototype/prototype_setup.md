@@ -13,6 +13,7 @@
 - **3-minute timer** (phone timer or sand timer)
 - **Influence tracking** (colored cubes or tokens)
 - **Trading partner cards** (6 for prototype)
+- **Slot strips** (tuck-under rails: 3-slot/4-slot/5-slot as needed)
 
 ### Players
 - **2-4 players** (optimal: 4)
@@ -99,6 +100,7 @@
   - **Leader Decks**: Each player gets their leader's 8 cards
   - **Global Decks**: Shuffle remaining cards into 4 piles (Exports, Policies, Tactics, Events)
 - Place 6 trading partner cards in the center
+- Place a matching slot strip next to each trading partner (3/4/5-slot to match market size); align strip so Exports can tuck under its lip
 - Each player draws 5 cards (from any deck)
 - Set up 3-minute timer
 
@@ -121,6 +123,7 @@
 - **Once established, trade routes remain active for the entire game** unless explicitly removed by card effects
 - Routes generate GDP and influence every round they remain active
 - Only specific Tactic or Policy effects that say "destroy" or "remove" can eliminate routes
+  - Physical reminder: leave the winning Export tucked under the partner’s slot strip until destroyed
 
 ### Influence Accumulation
 - **Influence accumulates throughout the game and never decreases naturally**
