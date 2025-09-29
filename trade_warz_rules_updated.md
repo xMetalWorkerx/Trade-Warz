@@ -52,7 +52,7 @@
 
 - **Gaining Influence:** Each active route generates influence equal to the Export card's influence value each round
 - **Influence Uses:** Accumulated influence helps win disputes (+1 dispute power per influence with that specific partner)
-- **Influence Tracking:** Use small cubes or tokens on the Trade Partner cards to track each player's influence
+- **Influence Tracking (Single Track):** Each Trade Partner board has one shared 0–9 influence track. At the start of the game, each player places a GDP coin on 0 for every Trading Partner (unless modified by a Leader or Trading Partner setup effect). Move your coin along the 0–9 spaces as your influence changes. When you reach a multiple of 10 with a single partner, move your coin back to 0 and add an additional coin stacked on 0 to represent the tens (e.g., 10 influence = 2 coins on 0).
 - **Influence is Permanent:** Unlike GDP which is spent, influence accumulates and persists
 
 ### GDP Economy
@@ -271,8 +271,7 @@ Each leader features unique:
 - Leader boards (3-6)
 - Trade Partner cards (8-10)
 - Card decks: 8 per Leader + 45 Global cards + 15 Events
-- GDP tokens (pennies work great!)
-- Influence cubes
+- GDP tokens (pennies work great!) — also used to track influence on the single 0–9 TP tracks
 - 3-minute timer
 - GDP tracking cubes for Leader boards
 
