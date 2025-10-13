@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Debt Crisis",
+    "type": "event",
+    "rarity": "rare",
+    "leader": "Global",
+    "effect": "Each player must pay 3 GDP. Players who cannot must discard one Export they control (their choice).",
+    "flavor": "Austerity for thee, liquidity for me."
+  },
+  {
+    "name": "Trade War Escalation",
+    "type": "event",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "effect": "This round, all Tactics cost –1 GDP (min 0). All Exports produce –1 GDP.",
+    "flavor": "Everyone loses, someone tweets victory."
+  },
+  {
+    "name": "Globalization Backlash",
+    "type": "event",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "effect": "Each player may discard one Export to gain +4 GDP.",
+    "flavor": "Reshoring: because shipping is hard."
+  },
+  {
+    "name": "Internet Blackout",
+    "type": "event",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "effect": "Until end of round, effects that reveal or steal cards have no effect. (Draws proceed normally.)",
+    "flavor": "Have you tried turning the world off and on again?"
+  },
+  {
+    "name": "Refugee Crisis",
+    "type": "event",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "effect": "The richest player must give 3 GDP split evenly (rounded down) among the two lowest-GDP players (choose on ties).",
+    "flavor": "Human costs, political math."
+  },
+  {
+    "name": "Populist Uprising",
+    "type": "event",
+    "rarity": "rare",
+    "leader": "Global",
+    "effect": "Each player discards one Policy (their choice). Players with no Policy lose 2 GDP.",
+    "flavor": "Eat the elites, hold the receipts."
+  },
+  {
+    "name": "Resource Shortage",
+    "type": "event",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "effect": "All Exports with printed Revenue 5 produce –1 GDP this round.",
+    "flavor": "Premium goods, premium drought."
+  },
+  {
+    "name": "Supply Chain Snarl",
+    "type": "event",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "effect": "In the next Trade phase, each player may place at most 1 Export.",
+    "flavor": "Your container is at sea… emotionally."
+  },
+  {
+    "name": "Canal Blockage",
+    "type": "event",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "effect": "For each player, the leftmost Export slot produces 0 GDP this round.",
+    "flavor": "One boat. Infinite memes."
+  },
+  {
+    "name": "Central Bank Shock",
+    "type": "event",
+    "rarity": "rare",
+    "leader": "Global",
+    "effect": "Each player chooses: **Gain +4 GDP and discard a random card**, or **Lose 2 GDP and draw 2 cards**.",
+    "flavor": "Surprise rate hike! Choose your pain."
+  },
+  {
+    "name": "Trade War Escalates",
+    "type": "event",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "effect": "Remove 1 unoccupied route slot from each Large Market trading partner.",
+    "flavor": "When giants fight, everyone loses trade opportunities."
+  }
+]

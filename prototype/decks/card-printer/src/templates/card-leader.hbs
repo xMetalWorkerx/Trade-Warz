@@ -1,0 +1,92 @@
+{{!-- Leader Card Template --}}
+{{!-- Leader cards can be Export, Policy, or Tactic types but from leader-specific decks --}}
+<div class="card card-leader card-leader-{{type}}" data-card-type="leader" data-sub-type="{{type}}" data-rarity="{{rarity}}">
+  {{!-- Bleed and safe zone guides (removable) --}}
+  <div class="bleed-guide"></div>
+  <div class="safe-guide"></div>
+  
+  {{!-- Card border with gold accent --}}
+  <div class="card-border" style="border-color: {{typeColor}};">
+    
+    {{!-- Leader Badge at top --}}
+    <div class="leader-badge-top">
+      <span class="leader-icon">👑</span>
+      <span class="leader-name-top">{{leader}}</span>
+    </div>
+    
+    {{!-- Card Header --}}
+    <div class="card-header">
+      <div class="card-name-section">
+        {{#if (eq type 'tactic')}}
+        <div class="tactic-icon">⚡</div>
+        {{/if}}
+        <h2 class="card-name">{{name}}</h2>
+      </div>
+      <div class="card-rarity">
+        <span class="rarity-symbol" style="color: {{rarityColor}};" title="{{rarityLabel}}">{{raritySymbol}}</span>
+      </div>
+    </div>
+    
+    {{!-- Stats Bar (varies by sub-type) --}}
+    <div class="card-stats {{#if (eq type 'export')}}card-stats-export{{else}}card-stats-single{{/if}}">
+      {{#if cost}}
+      <div class="stat-box stat-cost">
+        <div class="stat-icon">💰</div>
+        <div class="stat-content">
+          <div class="stat-label">Cost</div>
+          <div class="stat-value">{{cost}}</div>
+        </div>
+      </div>
+      {{/if}}
+      
+      {{#if influence}}
+      <div class="stat-box stat-influence">
+        <div class="stat-icon">⚡</div>
+        <div class="stat-content">
+          <div class="stat-label">Influence</div>
+          <div class="stat-value">{{influence}}</div>
+        </div>
+      </div>
+      {{/if}}
+      
+      {{#if revenue}}
+      <div class="stat-box stat-revenue">
+        <div class="stat-icon">📈</div>
+        <div class="stat-content">
+          <div class="stat-label">Revenue</div>
+          <div class="stat-value">{{revenue}}/rd</div>
+        </div>
+      </div>
+      {{/if}}
+    </div>
+    
+    {{!-- Effect Text --}}
+    {{#if effect}}
+    <div class="card-effect {{#unless revenue}}card-effect-large{{/unless}}">
+      <div class="effect-label">Effect</div>
+      <div class="effect-text">{{effect}}</div>
+    </div>
+    {{/if}}
+    
+    {{!-- Flavor Text --}}
+    {{#if flavor}}
+    <div class="card-flavor">
+      <em>"{{flavor}}"</em>
+    </div>
+    {{/if}}
+    
+    {{!-- Card Footer --}}
+    <div class="card-footer">
+      <div class="card-type-badge card-type-badge-leader" style="background-color: {{typeColor}};">
+        {{#if (eq type 'export')}}Leader Export
+        {{else if (eq type 'policy')}}Leader Policy
+        {{else if (eq type 'tactic')}}Leader Tactic
+        {{else}}Leader Card{{/if}}
+      </div>
+      <div class="signature-badge">
+        ★ Signature ★
+      </div>
+    </div>
+    
+  </div>
+</div>

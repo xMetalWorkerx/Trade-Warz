@@ -1,0 +1,77 @@
+{{!-- Tactic Card Template --}}
+<div class="card card-tactic" data-card-type="tactic" data-rarity="{{rarity}}">
+  {{!-- Bleed and safe zone guides (removable) --}}
+  <div class="bleed-guide"></div>
+  <div class="safe-guide"></div>
+  
+  {{!-- Card border with type color --}}
+  <div class="card-border" style="border-color: {{typeColor}};">
+    
+    {{!-- Card Header with Lightning Bolt --}}
+    <div class="card-header">
+      <div class="card-name-section">
+        <div class="tactic-icon">⚡</div>
+        <h2 class="card-name">{{name}}</h2>
+      </div>
+      <div class="card-rarity">
+        <span class="rarity-symbol" style="color: {{rarityColor}};" title="{{rarityLabel}}">{{raritySymbol}}</span>
+      </div>
+    </div>
+    
+    {{!-- Instant banner --}}
+    <div class="instant-banner">
+      <span>⚡ INSTANT ⚡</span>
+    </div>
+    
+    {{!-- Stats Bar (Tactic only has cost, may be 0) --}}
+    {{#if cost}}
+    <div class="card-stats card-stats-single">
+      <div class="stat-box stat-cost">
+        <div class="stat-icon">💰</div>
+        <div class="stat-content">
+          <div class="stat-label">Cost</div>
+          <div class="stat-value">{{cost}}</div>
+        </div>
+      </div>
+    </div>
+    {{else}}
+    <div class="card-stats card-stats-single">
+      <div class="stat-box stat-cost stat-free">
+        <div class="stat-icon">🎁</div>
+        <div class="stat-content">
+          <div class="stat-label">Cost</div>
+          <div class="stat-value">FREE</div>
+        </div>
+      </div>
+    </div>
+    {{/if}}
+    
+    {{!-- Effect Text (larger for tactics) --}}
+    {{#if effect}}
+    <div class="card-effect card-effect-large">
+      <div class="effect-label">Effect</div>
+      <div class="effect-text">{{effect}}</div>
+    </div>
+    {{/if}}
+    
+    {{!-- Flavor Text --}}
+    {{#if flavor}}
+    <div class="card-flavor">
+      <em>"{{flavor}}"</em>
+    </div>
+    {{/if}}
+    
+    {{!-- Card Footer --}}
+    <div class="card-footer">
+      <div class="card-type-badge" style="background-color: {{typeColor}};">
+        Tactic
+      </div>
+      {{#if leader}}
+      <div class="card-leader-badge">
+        {{leader}}
+      </div>
+      {{/if}}
+    </div>
+    
+  </div>
+</div>

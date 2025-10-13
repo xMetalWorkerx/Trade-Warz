@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Factory of Everything",
+    "type": "export",
+    "rarity": "common",
+    "leader": "China",
+    "cost": 3,
+    "influence": 2,
+    "revenue": 4,
+    "effect": "Reduce the cost of your next Export by 1 GDP.",
+    "flavor": "If you ordered it, we made it."
+  },
+  {
+    "name": "Rare Earth Metals",
+    "type": "export",
+    "rarity": "uncommon",
+    "leader": "China",
+    "cost": 4,
+    "influence": 2,
+    "revenue": 5,
+    "effect": "If an opponent destroys this, they lose 2 GDP.",
+    "flavor": "Rare earth, common leverage."
+  },
+  {
+    "name": "Silk Road 2.0",
+    "type": "export",
+    "rarity": "rare",
+    "leader": "China",
+    "cost": 6,
+    "influence": 3,
+    "revenue": 8,
+    "effect": "Gain +1 Influence with one trading partner of your choice.",
+    "flavor": "Now with fewer camels, more servers."
+  },
+  {
+    "name": "State Subsidies",
+    "type": "policy",
+    "rarity": "uncommon",
+    "leader": "China",
+    "cost": 3,
+    "effect": "Once per round, copy another Policy in play until end of round.",
+    "flavor": "Imitation is the sincerest form of capitalism."
+  },
+  {
+    "name": "Party Line",
+    "type": "policy",
+    "rarity": "rare",
+    "leader": "China",
+    "cost": 4,
+    "effect": "You may treat any Tactic as if it were yours.",
+    "flavor": "One party, one policy, one plan."
+  },
+  {
+    "name": "Cyber Espionage",
+    "type": "tactic",
+    "rarity": "rare",
+    "leader": "China",
+    "cost": 4,
+    "effect": "Look at an opponent's hand. Steal one card.",
+    "flavor": "Hack the planet — or at least your inbox."
+  },
+  {
+    "name": "Trade Flood",
+    "type": "tactic",
+    "rarity": "common",
+    "leader": "China",
+    "cost": 2,
+    "effect": "Choose one opponent; their next Export produces –2 GDP this round.",
+    "flavor": "Ship it cheap, drown the market."
+  }
+]

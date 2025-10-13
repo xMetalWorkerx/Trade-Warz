@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Trade Embargo",
+    "type": "tactic",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 4,
+    "effect": "Choose an opponent and one of their Exports: it produces 0 GDP this round and cannot be reassigned.",
+    "flavor": "No boats, no bucks."
+  },
+  {
+    "name": "Cyber Attack",
+    "type": "tactic",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "Look at an opponent's hand. Choose a Policy or Tactic there; they discard it. They draw 1 card.",
+    "flavor": "Phishing for profits."
+  },
+  {
+    "name": "Currency Devaluation",
+    "type": "tactic",
+    "rarity": "common",
+    "leader": "Global",
+    "cost": 2,
+    "effect": "Each player loses 1 GDP. Then you gain +2 GDP.",
+    "flavor": "Don't worry, your money's just smaller now."
+  },
+  {
+    "name": "Bribery Scandal",
+    "type": "tactic",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "Remove 2 Influence from an opponent at a Trading Partner of your choice.",
+    "flavor": "Influence is a receipt with extra steps."
+  },
+  {
+    "name": "Sudden Tariffs",
+    "type": "tactic",
+    "rarity": "common",
+    "leader": "Global",
+    "cost": 2,
+    "effect": "Choose an opponent; their highest-revenue Export produces –2 GDP this round.",
+    "flavor": "It's not personal, it's protectionist."
+  },
+  {
+    "name": "Social Media Meltdown",
+    "type": "tactic",
+    "rarity": "common",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "Target opponent discards a random card. You draw 1 card.",
+    "flavor": "Delete economy. Post again."
+  },
+  {
+    "name": "Smuggling Route",
+    "type": "tactic",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "This round, you may play an Export from your discard pile. It costs 2 GDP less (min 0).",
+    "flavor": "If customs didn't see it, it didn't happen."
+  },
+  {
+    "name": "Guerilla Economics",
+    "type": "tactic",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 2,
+    "effect": "Choose an opponent's active Policy. Its text is ignored until end of round.",
+    "flavor": "Regulation ambush."
+  },
+  {
+    "name": "Political Coup",
+    "type": "tactic",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 5,
+    "effect": "Choose one Trading Partner. Set all opponents' Influence there to 0 (your Influence is unchanged).",
+    "flavor": "New management. Same resources."
+  },
+  {
+    "name": "Stock Market Crash",
+    "type": "tactic",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 5,
+    "effect": "Each opponent loses 3 GDP. You lose 1 GDP.",
+    "flavor": "Buy the dip! …there is no bottom."
+  },
+  {
+    "name": "Meme Storm",
+    "type": "tactic",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "Exchange one random card with a target opponent. Then gain +1 GDP.",
+    "flavor": "Retweet recession."
+  },
+  {
+    "name": "Hostile Takeover",
+    "type": "tactic",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 5,
+    "effect": "Choose an Export in play. Pay its printed cost; take control of it. Its former owner gains +2 GDP.",
+    "flavor": "If you can't beat 'em, buy 'em."
+  },
+  {
+    "name": "Debt Trap",
+    "type": "tactic",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 2,
+    "effect": "Target player gains +4 GDP now. At their next Income, they must pay you 3 GDP (if able).",
+    "flavor": "Generous like a bear hug."
+  },
+  {
+    "name": "Corporate Espionage",
+    "type": "tactic",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "Peek at the top 3 cards of any one global deck (Export, Policy, or Tactic). Take 1; put the rest back in any order.",
+    "flavor": "Competitive intelligence, ethically flexible."
+  },
+  {
+    "name": "Revolving Door Politics",
+    "type": "tactic",
+    "rarity": "common",
+    "leader": "Global",
+    "cost": 1,
+    "effect": "Return a Tactic from your discard pile to your hand.",
+    "flavor": "Now hiring: former regulators."
+  }
+]

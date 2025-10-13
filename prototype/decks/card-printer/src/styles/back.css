@@ -1,0 +1,171 @@
+/* Trade Warz - Card Back Styles */
+/* Simple backs with letter codes */
+
+.card-back {
+  background: white;
+}
+
+.card-back-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  overflow: hidden;
+  
+  /* Print optimization */
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+/* Large letter code */
+.back-letter-container {
+  position: relative;
+  margin: 0;
+}
+
+.back-letter {
+  font-size: 120pt;
+  font-weight: 900;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 
+    0 0 10pt rgba(0, 0, 0, 0.3),
+    0 0 20pt rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  position: relative;
+}
+
+.back-letter-shadow {
+  font-size: 120pt;
+  font-weight: 900;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 4pt;
+  left: 4pt;
+  z-index: 1;
+}
+
+/* Type label */
+.back-type-label {
+  font-size: 14pt;
+  font-weight: 700;
+  letter-spacing: 2pt;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: -0.2in;
+  text-shadow: 0 1px 3pt rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  position: relative;
+}
+
+/* Decorative lines */
+.back-decoration {
+  position: absolute;
+  left: 0.4in;
+  right: 0.4in;
+  height: 2pt;
+  background: rgba(255, 255, 255, 0.4);
+  z-index: 1;
+}
+
+.back-decoration-top {
+  top: 0.5in;
+}
+
+.back-decoration-bottom {
+  bottom: 0.5in;
+}
+
+/* Game title */
+.back-game-title {
+  position: absolute;
+  bottom: 0.3in;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+}
+
+.game-title-main {
+  font-size: 16pt;
+  font-weight: 900;
+  letter-spacing: 3pt;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 2px 4pt rgba(0, 0, 0, 0.5);
+}
+
+.game-title-sub {
+  font-size: 7pt;
+  font-weight: 600;
+  letter-spacing: 1.5pt;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 0.04in;
+  text-shadow: 0 1px 2pt rgba(0, 0, 0, 0.4);
+}
+
+/* Corner markers for orientation */
+.back-corner {
+  position: absolute;
+  width: 0.15in;
+  height: 0.15in;
+  border: 2pt solid rgba(255, 255, 255, 0.4);
+  z-index: 1;
+}
+
+.back-corner-tl {
+  top: 0.25in;
+  left: 0.25in;
+  border-right: none;
+  border-bottom: none;
+}
+
+.back-corner-tr {
+  top: 0.25in;
+  right: 0.25in;
+  border-left: none;
+  border-bottom: none;
+}
+
+.back-corner-bl {
+  bottom: 0.25in;
+  left: 0.25in;
+  border-right: none;
+  border-top: none;
+}
+
+.back-corner-br {
+  bottom: 0.25in;
+  right: 0.25in;
+  border-left: none;
+  border-top: none;
+}
+
+/* Pattern overlay (subtle) */
+.card-back-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.05) 0,
+    rgba(255, 255, 255, 0.05) 1pt,
+    transparent 1pt,
+    transparent 6pt
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+

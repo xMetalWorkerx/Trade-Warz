@@ -1,0 +1,71 @@
+{{!-- Policy Card Template --}}
+<div class="card card-policy" data-card-type="policy" data-rarity="{{rarity}}">
+  {{!-- Bleed and safe zone guides (removable) --}}
+  <div class="bleed-guide"></div>
+  <div class="safe-guide"></div>
+  
+  {{!-- Card border with type color --}}
+  <div class="card-border" style="border-color: {{typeColor}};">
+    
+    {{!-- Card Header --}}
+    <div class="card-header">
+      <div class="card-name-section">
+        <h2 class="card-name">{{name}}</h2>
+      </div>
+      <div class="card-rarity">
+        <span class="rarity-symbol" style="color: {{rarityColor}};" title="{{rarityLabel}}">{{raritySymbol}}</span>
+      </div>
+    </div>
+    
+    {{!-- Stats Bar (Policy only has cost) --}}
+    <div class="card-stats card-stats-single">
+      {{#if cost}}
+      <div class="stat-box stat-cost">
+        <div class="stat-icon">💰</div>
+        <div class="stat-content">
+          <div class="stat-label">Cost</div>
+          <div class="stat-value">{{cost}}</div>
+        </div>
+      </div>
+      {{/if}}
+      
+      {{#if cmykTiming}}
+      <div class="stat-box stat-timing">
+        <div class="stat-icon">⏱️</div>
+        <div class="stat-content">
+          <div class="stat-label">Timing</div>
+          <div class="stat-value">{{cmykTiming}}</div>
+        </div>
+      </div>
+      {{/if}}
+    </div>
+    
+    {{!-- Effect Text (larger for policies) --}}
+    {{#if effect}}
+    <div class="card-effect card-effect-large">
+      <div class="effect-label">Effect</div>
+      <div class="effect-text">{{effect}}</div>
+    </div>
+    {{/if}}
+    
+    {{!-- Flavor Text --}}
+    {{#if flavor}}
+    <div class="card-flavor">
+      <em>"{{flavor}}"</em>
+    </div>
+    {{/if}}
+    
+    {{!-- Card Footer --}}
+    <div class="card-footer">
+      <div class="card-type-badge" style="background-color: {{typeColor}};">
+        Policy
+      </div>
+      {{#if leader}}
+      <div class="card-leader-badge">
+        {{leader}}
+      </div>
+      {{/if}}
+    </div>
+    
+  </div>
+</div>

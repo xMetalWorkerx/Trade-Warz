@@ -1,0 +1,128 @@
+[
+  {
+    "name": "IMF Bailout",
+    "type": "policy",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "Gain +5 GDP now. Next round, your Income is reduced by –2 GDP.",
+    "flavor": "Strings attached, knots guaranteed."
+  },
+  {
+    "name": "WTO Rules",
+    "type": "policy",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 2,
+    "effect": "Your Exports can't be targeted by Tactics during the Trade phase. (Events still apply.)",
+    "flavor": "Please file your complaint in triplicate."
+  },
+  {
+    "name": "Carbon Tax",
+    "type": "policy",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "Choose an opponent. Next Trade phase, they may place only 1 Export.",
+    "flavor": "Limited time. Limited everything."
+  },
+  {
+    "name": "Infrastructure Spending",
+    "type": "policy",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "The first Export you play each round costs –1 GDP.",
+    "flavor": "Fill potholes, fill coffers."
+  },
+  {
+    "name": "Currency Controls",
+    "type": "policy",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 2,
+    "effect": "Whenever you would lose GDP from an opponent's card, reduce that loss by 1 (min 0).",
+    "flavor": "Capital flight now boarding—denied."
+  },
+  {
+    "name": "Tax Haven Loopholes",
+    "type": "policy",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "You may bank up to 3 unspent GDP between rounds.",
+    "flavor": "Hide-and-seek for adults."
+  },
+  {
+    "name": "Privatization Push",
+    "type": "policy",
+    "rarity": "common",
+    "leader": "Global",
+    "cost": 2,
+    "effect": "You may discard another Policy you control to gain +4 GDP.",
+    "flavor": "Public problems, private profits."
+  },
+  {
+    "name": "Rent-Seeking Oligarchs",
+    "type": "policy",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "At Income, take 1 GDP from the richest opponent (tie → your choice).",
+    "flavor": "We prefer passive income from active governments."
+  },
+  {
+    "name": "Balanced Budget (lol)",
+    "type": "policy",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 1,
+    "effect": "When played, discard down to 1 card. Then gain +5 GDP.",
+    "flavor": "We balanced it by throwing everything out."
+  },
+  {
+    "name": "Green Energy Incentives",
+    "type": "policy",
+    "rarity": "common",
+    "leader": "Global",
+    "cost": 2,
+    "effect": "Choose one of your Exports: it becomes immune to Event-based destruction and produces +1 GDP/round.",
+    "flavor": "Powered by vibes and subsidies."
+  },
+  {
+    "name": "Corporate Lobbying",
+    "type": "policy",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 3,
+    "effect": "Once per round, when an opponent plays a Policy that targets you, cancel it and draw 1 card.",
+    "flavor": "Democracy, but with better Wi-Fi."
+  },
+  {
+    "name": "Intellectual Property Rights",
+    "type": "policy",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 2,
+    "effect": "Opponents cannot copy, steal, or take control of your Exports.",
+    "flavor": "If you liked it then you should've put a patent on it."
+  },
+  {
+    "name": "Universal Basic GDP",
+    "type": "policy",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 4,
+    "effect": "At Income, gain +2 GDP. Also choose one opponent to gain +1 GDP.",
+    "flavor": "Lifting all boats, some yachts more than others."
+  },
+  {
+    "name": "Deregulation Fiesta",
+    "type": "policy",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 2,
+    "effect": "Your Tactics cost –1 GDP (min 0).",
+    "flavor": "What could possibly go wrong?"
+  }
+]

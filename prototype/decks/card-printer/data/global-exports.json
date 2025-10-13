@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Coffee Beans (Brazil)",
+    "type": "export",
+    "rarity": "common",
+    "leader": "Global",
+    "cost": 3,
+    "influence": 1,
+    "revenue": 4,
+    "effect": "If this Export wasn't targeted by a Tactic this round, gain +1 GDP at Income.",
+    "flavor": "Productivity juice, now with inflation foam."
+  },
+  {
+    "name": "Eurozone Cars (EU)",
+    "type": "export",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 6,
+    "influence": 3,
+    "revenue": 7,
+    "effect": "When placed, gain +1 Influence with any Trading Partner.",
+    "flavor": "Precision engineering, imprecise emissions."
+  },
+  {
+    "name": "Rare Wines (France)",
+    "type": "export",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 4,
+    "influence": 2,
+    "revenue": 4,
+    "effect": "If this route is assigned to **Japan** or any player controls **Japan** as a Trading Partner, this produces +1 GDP/round.",
+    "flavor": "Earworms you can trade on."
+  },
+  {
+    "name": "Gold Mines (South Africa)",
+    "type": "export",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 4,
+    "influence": 2,
+    "revenue": 5,
+    "effect": "The first time this would be destroyed each round, prevent that destruction.",
+    "flavor": "Shiny rocks beat shaky markets."
+  },
+  {
+    "name": "Maple Syrup (Canada)",
+    "type": "export",
+    "rarity": "common",
+    "leader": "Global",
+    "cost": 2,
+    "influence": 1,
+    "revenue": 3,
+    "effect": "Opponents pay +1 GDP to dispute this route.",
+    "flavor": "Tariffs can't stop the syrup."
+  },
+  {
+    "name": "Shipping Fleet (Singapore)",
+    "type": "export",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 5,
+    "influence": 2,
+    "revenue": 6,
+    "effect": "When placed, you may reassign one of your other Exports to a different Trading Partner (resolve disputes normally).",
+    "flavor": "We move goods, drama, and deadlines."
+  },
+  {
+    "name": "Tourism Industry (Thailand)",
+    "type": "export",
+    "rarity": "common",
+    "leader": "Global",
+    "cost": 3,
+    "influence": 1,
+    "revenue": 4,
+    "effect": "If no one targets you with a Tactic this round, gain +1 GDP at Income.",
+    "flavor": "Five-star bubble economy."
+  },
+  {
+    "name": "Oil Sands (Canada)",
+    "type": "export",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 6,
+    "influence": 2,
+    "revenue": 7,
+    "effect": "During any round an Event is revealed, this produces –1 GDP.",
+    "flavor": "Thick, rich, and PR-poor."
+  },
+  {
+    "name": "Tech Outsourcing (Philippines)",
+    "type": "export",
+    "rarity": "common",
+    "leader": "Global",
+    "cost": 2,
+    "influence": 1,
+    "revenue": 3,
+    "effect": "When placed, draw 1 card, then discard 1 card.",
+    "flavor": "Press 1 for profit, 2 for synergy."
+  },
+  {
+    "name": "Spice Trade (Indonesia)",
+    "type": "export",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 3,
+    "influence": 2,
+    "revenue": 4,
+    "effect": "If you control routes to 3+ different Trading Partners, this produces +1 GDP/round.",
+    "flavor": "Network effects since 1511."
+  },
+  {
+    "name": "Textile Mills (Vietnam)",
+    "type": "export",
+    "rarity": "common",
+    "leader": "Global",
+    "cost": 3,
+    "influence": 2,
+    "revenue": 4,
+    "effect": "The next Export you play this round costs –1 GDP.",
+    "flavor": "Threads of destiny, priced to move."
+  },
+  {
+    "name": "Luxury Watches (Switzerland)",
+    "type": "export",
+    "rarity": "rare",
+    "leader": "Global",
+    "cost": 5,
+    "influence": 1,
+    "revenue": 6,
+    "effect": "While active, you may bank up to 2 unspent GDP between rounds.",
+    "flavor": "Time is money; we sell both."
+  },
+  {
+    "name": "Resource Boom (Nigeria)",
+    "type": "export",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 3,
+    "influence": 1,
+    "revenue": 3,
+    "effect": "At Income, if you have less GDP than the leader, this produces +2 GDP this round.",
+    "flavor": "Boom today, reform tomorrow."
+  },
+  {
+    "name": "Construction Craze (UAE)",
+    "type": "export",
+    "rarity": "uncommon",
+    "leader": "Global",
+    "cost": 4,
+    "influence": 2,
+    "revenue": 5,
+    "effect": "If an Event destroys any Export this round, destroy this after Income.",
+    "flavor": "Skyscrapers on speedrun mode."
+  }
+]

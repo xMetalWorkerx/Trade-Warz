@@ -1,0 +1,301 @@
+/* Trade Warz - Common Card Styles */
+/* Shared styles for all card types */
+
+/* ============================================================================
+   CARD CONTAINER & DIMENSIONS
+   ============================================================================ */
+
+.card {
+  /* Card dimensions: 2.5" × 3.5" (portrait) */
+  /* When rotated 90° clockwise, it fits in a 3.5" × 2.5" slot */
+  width: 2.5in;
+  height: 3.5in;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  background: white;
+  
+  /* Rotate card content 90° clockwise for portrait layout */
+  transform: translate(-50%, -50%) rotate(90deg);
+  transform-origin: center center;
+  
+  /* Print optimization */
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+/* ============================================================================
+   BLEED & SAFE ZONE GUIDES
+   ============================================================================ */
+
+.bleed-guide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 0.5pt dashed rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.safe-guide {
+  position: absolute;
+  top: var(--safe-zone, 0.2in);
+  left: var(--safe-zone, 0.2in);
+  right: var(--safe-zone, 0.2in);
+  bottom: var(--safe-zone, 0.2in);
+  border: 0.5pt dashed rgba(0, 0, 255, 0.2);
+  pointer-events: none;
+  z-index: 1000;
+}
+
+/* Option to hide guides for final print */
+.no-guides .bleed-guide,
+.no-guides .safe-guide {
+  display: none;
+}
+
+/* ============================================================================
+   CARD BORDER & LAYOUT
+   ============================================================================ */
+
+.card-border {
+  position: absolute;
+  top: var(--safe-zone, 0.2in);
+  left: var(--safe-zone, 0.2in);
+  right: var(--safe-zone, 0.2in);
+  bottom: var(--safe-zone, 0.2in);
+  
+  border: 2pt solid #333;
+  border-radius: 0.1in;
+  
+  background: white;
+  
+  display: flex;
+  flex-direction: column;
+  padding: 0.12in;
+  gap: 0.08in;
+}
+
+/* ============================================================================
+   TYPOGRAPHY
+   ============================================================================ */
+
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+               "Helvetica Neue", Arial, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.3;
+}
+
+.card-name {
+  font-size: 11pt;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  color: #1a1a1a;
+}
+
+/* ============================================================================
+   CARD HEADER
+   ============================================================================ */
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.08in;
+  min-height: 0.3in;
+}
+
+.card-name-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.06in;
+}
+
+.card-rarity {
+  flex-shrink: 0;
+}
+
+.rarity-symbol {
+  font-size: 14pt;
+  line-height: 1;
+  display: block;
+}
+
+/* ============================================================================
+   STATS BAR
+   ============================================================================ */
+
+.card-stats {
+  display: flex;
+  gap: 0.06in;
+  flex-wrap: wrap;
+}
+
+.card-stats-single {
+  justify-content: flex-start;
+}
+
+.stat-box {
+  flex: 1;
+  min-width: 0;
+  
+  display: flex;
+  align-items: center;
+  gap: 0.04in;
+  
+  border: 1pt solid #333;
+  border-radius: 0.04in;
+  padding: 0.04in 0.06in;
+  background: #f9f9f9;
+}
+
+.stat-icon {
+  font-size: 9pt;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.stat-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.01in;
+  min-width: 0;
+}
+
+.stat-label {
+  font-size: 6pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3pt;
+  color: #666;
+  line-height: 1;
+}
+
+.stat-value {
+  font-size: 9pt;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1;
+}
+
+/* ============================================================================
+   EFFECT TEXT
+   ============================================================================ */
+
+.card-effect {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.04in;
+  min-height: 0;
+}
+
+.card-effect-large {
+  flex: 1.5;
+}
+
+.card-effect-event {
+  flex: 2;
+}
+
+.effect-label {
+  font-size: 7pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5pt;
+  color: #666;
+}
+
+.effect-text {
+  font-size: 8pt;
+  line-height: 1.35;
+  color: #1a1a1a;
+}
+
+/* ============================================================================
+   FLAVOR TEXT
+   ============================================================================ */
+
+.card-flavor {
+  margin-top: auto;
+  font-size: 7pt;
+  line-height: 1.3;
+  color: #555;
+  font-style: italic;
+  text-align: center;
+  padding: 0.04in 0;
+  border-top: 0.5pt solid #e0e0e0;
+}
+
+/* ============================================================================
+   CARD FOOTER
+   ============================================================================ */
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.06in;
+  margin-top: auto;
+  padding-top: 0.04in;
+  border-top: 0.5pt solid #e0e0e0;
+}
+
+.card-type-badge {
+  font-size: 6.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4pt;
+  color: white;
+  padding: 0.02in 0.08in;
+  border-radius: 0.03in;
+  white-space: nowrap;
+}
+
+.card-leader-badge {
+  font-size: 6.5pt;
+  font-weight: 600;
+  color: #666;
+  border: 0.5pt solid #999;
+  padding: 0.02in 0.06in;
+  border-radius: 0.03in;
+  white-space: nowrap;
+}
+
+/* ============================================================================
+   PRINT OPTIMIZATION
+   ============================================================================ */
+
+@media print {
+  .card {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    color-adjust: exact;
+  }
+  
+  /* Ensure backgrounds print */
+  .card-border,
+  .stat-box,
+  .card-type-badge {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+/* ============================================================================
+   SCREEN PREVIEW OPTIMIZATION
+   ============================================================================ */
+
+@media screen {
+  .card {
+    /* Add subtle shadow for preview */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+}

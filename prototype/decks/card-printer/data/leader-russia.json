@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Pipeline Empire",
+    "type": "export",
+    "rarity": "common",
+    "leader": "Russia",
+    "cost": 3,
+    "influence": 1,
+    "revenue": 4,
+    "effect": "Opponents lose 1 GDP if they dispute with you this round.",
+    "flavor": "Liquid courage, liquid leverage."
+  },
+  {
+    "name": "Arms Deals",
+    "type": "export",
+    "rarity": "uncommon",
+    "leader": "Russia",
+    "cost": 5,
+    "influence": 2,
+    "revenue": 6,
+    "effect": "+1 Influence in disputes while this is active.",
+    "flavor": "Kalashnikovs are a growth industry."
+  },
+  {
+    "name": "Strongman Politics",
+    "type": "policy",
+    "rarity": "common",
+    "leader": "Russia",
+    "cost": 2,
+    "effect": "Ignore the first negative Event each round.",
+    "flavor": "Democracy? Nyet."
+  },
+  {
+    "name": "Energy Leverage",
+    "type": "policy",
+    "rarity": "rare",
+    "leader": "Russia",
+    "cost": 4,
+    "effect": "Once per round, force one opponent to pay 1 GDP to you.",
+    "flavor": "Pay up or freeze."
+  },
+  {
+    "name": "Media Manipulation",
+    "type": "policy",
+    "rarity": "uncommon",
+    "leader": "Russia",
+    "cost": 3,
+    "effect": "Opponents cannot target your Exports this round.",
+    "flavor": "Broadcasting fake GDP figures since 2000."
+  },
+  {
+    "name": "Gas Leak",
+    "type": "tactic",
+    "rarity": "rare",
+    "leader": "Russia",
+    "cost": 5,
+    "effect": "Destroy one Export in play. Gain +2 GDP.",
+    "flavor": "Oops. Another 'accident.'"
+  },
+  {
+    "name": "Black Market Deals",
+    "type": "tactic",
+    "rarity": "common",
+    "leader": "Russia",
+    "cost": 2,
+    "effect": "Gain +2 GDP immediately. Draw 1 card.",
+    "flavor": "If you can't sell it legally, sell it illegally."
+  }
+]

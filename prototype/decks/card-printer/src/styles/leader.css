@@ -1,0 +1,77 @@
+/* Trade Warz - Leader Card Styles */
+/* Gold theme for leader cards */
+
+.card-leader .card-border {
+  background: linear-gradient(to bottom, #fefce8 0%, #ffffff 30%);
+  border-color: #ca8a04;
+  box-shadow: inset 0 0 0 1pt rgba(202, 138, 4, 0.2);
+}
+
+.card-leader .stat-box {
+  background: #fefce8;
+  border-color: #fbbf24;
+}
+
+.card-leader .effect-text {
+  color: #a16207;
+}
+
+.card-leader .card-type-badge-leader {
+  background: linear-gradient(135deg, #ca8a04 0%, #eab308 100%);
+}
+
+/* Leader-specific elements */
+.leader-badge-top {
+  background: linear-gradient(90deg, #ca8a04 0%, #eab308 50%, #ca8a04 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.06in;
+  font-size: 7.5pt;
+  font-weight: 900;
+  letter-spacing: 0.8pt;
+  text-transform: uppercase;
+  padding: 0.04in 0;
+  margin: -0.02in -0.02in 0.06in -0.02in;
+  border-radius: 0.03in;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.leader-icon {
+  font-size: 10pt;
+  line-height: 1;
+}
+
+.leader-name-top {
+  font-size: 7.5pt;
+  font-weight: 900;
+  letter-spacing: 1pt;
+}
+
+.signature-badge {
+  font-size: 6pt;
+  font-weight: 700;
+  color: #ca8a04;
+  background: #fef3c7;
+  border: 1pt solid #fbbf24;
+  padding: 0.02in 0.06in;
+  border-radius: 0.03in;
+  letter-spacing: 0.4pt;
+}
+
+/* Leader cards inherit sub-type styling */
+.card-leader-export .stat-box {
+  background: #eff6ff;
+  border-color: #60a5fa;
+}
+
+.card-leader-policy .stat-box {
+  background: #f0fdf4;
+  border-color: #4ade80;
+}
+
+.card-leader-tactic .stat-box {
+  background: #fef2f2;
+  border-color: #f87171;
+}

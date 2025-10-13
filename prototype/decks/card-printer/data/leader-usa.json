@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Big Tech IPO",
+    "type": "export",
+    "rarity": "uncommon",
+    "leader": "USA",
+    "cost": 5,
+    "influence": 2,
+    "revenue": 7,
+    "effect": "If you win a dispute, gain +1 GDP immediately.",
+    "flavor": "Click to accept terms and conditions… on global dominance."
+  },
+  {
+    "name": "Freedom Burgers",
+    "type": "export",
+    "rarity": "rare",
+    "leader": "USA",
+    "cost": 6,
+    "influence": 3,
+    "revenue": 8,
+    "effect": "When placed, draw 1 extra card.",
+    "flavor": "Sequels guaranteed until morale improves."
+  },
+  {
+    "name": "Bailout Bill",
+    "type": "policy",
+    "rarity": "common",
+    "leader": "USA",
+    "cost": 2,
+    "effect": "If you would lose an Export, instead pay 2 GDP to keep it.",
+    "flavor": "Too big to fail, too small to pay taxes."
+  },
+  {
+    "name": "Dollar Hegemony",
+    "type": "policy",
+    "rarity": "rare",
+    "leader": "USA",
+    "cost": 4,
+    "effect": "Once per round, convert 1 Influence into +1 GDP.",
+    "flavor": "In God we trust. Everyone else pays fees."
+  },
+  {
+    "name": "Patent Troll Army",
+    "type": "policy",
+    "rarity": "uncommon",
+    "leader": "USA",
+    "cost": 3,
+    "effect": "Opponents pay +1 GDP to play Policies.",
+    "flavor": "Innovation is litigation."
+  },
+  {
+    "name": "Trade Sanctions",
+    "type": "tactic",
+    "rarity": "common",
+    "leader": "USA",
+    "cost": 2,
+    "effect": "Choose one opponent; they lose 2 GDP.",
+    "flavor": "You're sanctioned, you're sanctioned — everybody's sanctioned!"
+  },
+  {
+    "name": "Shock and Audit",
+    "type": "tactic",
+    "rarity": "rare",
+    "leader": "USA",
+    "cost": 4,
+    "effect": "Destroy one Policy in play. Gain +2 GDP.",
+    "flavor": "Freedom is best served with paperwork."
+  }
+]

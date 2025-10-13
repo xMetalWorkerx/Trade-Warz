@@ -1,0 +1,50 @@
+{{!-- Event Card Template --}}
+<div class="card card-event" data-card-type="event" data-rarity="{{rarity}}">
+  {{!-- Bleed and safe zone guides (removable) --}}
+  <div class="bleed-guide"></div>
+  <div class="safe-guide"></div>
+  
+  {{!-- Card border with type color --}}
+  <div class="card-border" style="border-color: {{typeColor}};">
+    
+    {{!-- Global Event Banner --}}
+    <div class="event-banner">
+      <span>🌍 GLOBAL EVENT 🌍</span>
+    </div>
+    
+    {{!-- Card Header --}}
+    <div class="card-header card-header-event">
+      <div class="card-name-section">
+        <h2 class="card-name">{{name}}</h2>
+      </div>
+      <div class="card-rarity">
+        <span class="rarity-symbol" style="color: {{rarityColor}};" title="{{rarityLabel}}">{{raritySymbol}}</span>
+      </div>
+    </div>
+    
+    {{!-- Effect Text (largest for events - complex effects) --}}
+    {{#if effect}}
+    <div class="card-effect card-effect-event">
+      <div class="effect-text">{{effect}}</div>
+    </div>
+    {{/if}}
+    
+    {{!-- Flavor Text --}}
+    {{#if flavor}}
+    <div class="card-flavor">
+      <em>"{{flavor}}"</em>
+    </div>
+    {{/if}}
+    
+    {{!-- Card Footer --}}
+    <div class="card-footer">
+      <div class="card-type-badge" style="background-color: {{typeColor}};">
+        Event
+      </div>
+      <div class="event-note">
+        Affects All Players
+      </div>
+    </div>
+    
+  </div>
+</div>

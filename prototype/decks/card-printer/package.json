@@ -1,0 +1,31 @@
+{
+  "name": "trade-warz-card-printer",
+  "version": "1.0.0",
+  "description": "6-up poker card printer for Trade Warz board game prototype",
+  "type": "module",
+  "scripts": {
+    "install:pw": "npx playwright install --with-deps chromium",
+    "convert": "tsx src/converter.ts",
+    "build": "tsx src/generate.ts",
+    "build:all": "tsx src/generate.ts all",
+    "build:exports": "tsx src/generate.ts exports",
+    "build:policies": "tsx src/generate.ts policies",
+    "build:tactics": "tsx src/generate.ts tactics",
+    "build:events": "tsx src/generate.ts events",
+    "build:leaders": "tsx src/generate.ts leaders",
+    "preview": "open dist/*/preview.html"
+  },
+  "keywords": ["board-game", "prototype", "cards", "printing"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "playwright": "^1.48.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3"
+  }
+}
+

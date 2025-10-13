@@ -1,0 +1,38 @@
+{{!-- Card Back Template --}}
+{{!-- Simple back with letter code for card type identification --}}
+<div class="card card-back" data-card-type="back" data-back-letter="{{backLetter}}">
+  {{!-- Bleed guide --}}
+  <div class="bleed-guide"></div>
+  
+  {{!-- Card back content --}}
+  <div class="card-back-content" style="background-color: {{typeColor}};">
+    
+    {{!-- Large letter code --}}
+    <div class="back-letter-container">
+      <div class="back-letter">{{backLetter}}</div>
+      <div class="back-letter-shadow">{{backLetter}}</div>
+    </div>
+    
+    {{!-- Type label --}}
+    <div class="back-type-label">
+      {{typeLabel}}
+    </div>
+    
+    {{!-- Decorative lines --}}
+    <div class="back-decoration back-decoration-top"></div>
+    <div class="back-decoration back-decoration-bottom"></div>
+    
+    {{!-- Game title --}}
+    <div class="back-game-title">
+      <div class="game-title-main">TRADE WARZ</div>
+      <div class="game-title-sub">Economic Brinkmanship</div>
+    </div>
+    
+    {{!-- Corner markers (for orientation) --}}
+    <div class="back-corner back-corner-tl"></div>
+    <div class="back-corner back-corner-tr"></div>
+    <div class="back-corner back-corner-bl"></div>
+    <div class="back-corner back-corner-br"></div>
+    
+  </div>
+</div>

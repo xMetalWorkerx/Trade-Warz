@@ -1,0 +1,31 @@
+/* Trade Warz - Policy Card Styles */
+/* Green theme for policy cards */
+
+.card-policy .card-border {
+  background: linear-gradient(to bottom, #f0fdf4 0%, #ffffff 30%);
+  border-color: #16a34a;
+}
+
+.card-policy .stat-box {
+  background: #f0fdf4;
+  border-color: #4ade80;
+}
+
+.card-policy .stat-timing {
+  background: #fef3c7;
+  border-color: #fbbf24;
+}
+
+.card-policy .stat-timing .stat-value {
+  font-family: monospace;
+  font-size: 10pt;
+  font-weight: 900;
+}
+
+.card-policy .effect-text {
+  color: #15803d;
+}
+
+.card-policy .card-type-badge {
+  background-color: #16a34a;
+}
