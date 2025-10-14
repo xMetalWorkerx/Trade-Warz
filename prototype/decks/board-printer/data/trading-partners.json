@@ -1,0 +1,407 @@
+[
+  {
+    "code": "IND-001",
+    "name": "India",
+    "tagline": "World's Call Center",
+    "marketSize": "large",
+    "routeSlots": 5,
+    "influenceBonuses": [
+      {
+        "threshold": 3,
+        "bonus": "📋 Outsourcing Partner"
+      },
+      {
+        "threshold": 6,
+        "bonus": "👁️ Tech Support"
+      },
+      {
+        "threshold": 9,
+        "bonus": "💰 Development Hub"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "Copy a Policy (1/round)"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "JAP-001",
+    "name": "Japan",
+    "tagline": "Precision Factory",
+    "marketSize": "large",
+    "routeSlots": 5,
+    "influenceBonuses": [
+      {
+        "threshold": 3,
+        "bonus": "⚡ Just-In-Time"
+      },
+      {
+        "threshold": 6,
+        "bonus": "🔧 Kaizen Culture"
+      },
+      {
+        "threshold": 9,
+        "bonus": "🤖 Automation Nation"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "Tactics cost 1 less"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "BRA-001",
+    "name": "Brazil",
+    "tagline": "Resource Titan",
+    "marketSize": "large",
+    "routeSlots": 5,
+    "influenceBonuses": [
+      {
+        "threshold": 3,
+        "bonus": "🌱 Raw Materials"
+      },
+      {
+        "threshold": 6,
+        "bonus": "🤝 BRICS Partnership"
+      },
+      {
+        "threshold": 9,
+        "bonus": "👑 Commodity King"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "Destroy route for 3 GDP (1/round)"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "MEX-001",
+    "name": "Mexico",
+    "tagline": "Maquiladora Express",
+    "marketSize": "medium",
+    "routeSlots": 4,
+    "influenceBonuses": [
+      {
+        "threshold": 3,
+        "bonus": "🌉 Border Economy"
+      },
+      {
+        "threshold": 5,
+        "bonus": "👷 Labor Advantage"
+      },
+      {
+        "threshold": 7,
+        "bonus": "🛣️ NAFTA Highway"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "All routes give +1 GDP"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "TUR-001",
+    "name": "Turkey",
+    "tagline": "Crossroads Empire",
+    "marketSize": "medium",
+    "routeSlots": 4,
+    "influenceBonuses": [
+      {
+        "threshold": 3,
+        "bonus": "💰 Transit Fees"
+      },
+      {
+        "threshold": 5,
+        "bonus": "🌍 East Meets West"
+      },
+      {
+        "threshold": 7,
+        "bonus": "👑 Regional Power"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "Redirect global effect (1/round)"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "SOU-001",
+    "name": "South Korea",
+    "tagline": "Tech Dragons",
+    "marketSize": "medium",
+    "routeSlots": 4,
+    "influenceBonuses": [
+      {
+        "threshold": 3,
+        "bonus": "🌊 K-Wave"
+      },
+      {
+        "threshold": 5,
+        "bonus": "🛡️ Chaebol Protection"
+      },
+      {
+        "threshold": 7,
+        "bonus": "⚡ 5G Speed"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "Peek 2 Tactics, keep 1 (1/round)"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "AUS-001",
+    "name": "Australia",
+    "tagline": "Pacific Miner",
+    "marketSize": "medium",
+    "routeSlots": 4,
+    "influenceBonuses": [
+      {
+        "threshold": 3,
+        "bonus": "⛏️ Dig Deep"
+      },
+      {
+        "threshold": 5,
+        "bonus": "🌏 Pacific Trade"
+      },
+      {
+        "threshold": 7,
+        "bonus": "🔒 Resource Lock"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "+1 GDP when winning routes"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "CAN-001",
+    "name": "Canada",
+    "tagline": "Friendly Giant",
+    "marketSize": "medium",
+    "routeSlots": 4,
+    "influenceBonuses": [
+      {
+        "threshold": 3,
+        "bonus": "🤝 USMCA Partner"
+      },
+      {
+        "threshold": 5,
+        "bonus": "🛡️ Arctic Shield"
+      },
+      {
+        "threshold": 7,
+        "bonus": "👑 Commonwealth"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "Ignore first negative global effect"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "IND-001",
+    "name": "Indonesia",
+    "tagline": "Island Network",
+    "marketSize": "medium",
+    "routeSlots": 4,
+    "influenceBonuses": [
+      {
+        "threshold": 3,
+        "bonus": "🏝️ Archipelago"
+      },
+      {
+        "threshold": 5,
+        "bonus": "🤝 ASEAN Hub"
+      },
+      {
+        "threshold": 7,
+        "bonus": "⚓ Maritime Control"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "+1 GDP per different partner"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "SIN-001",
+    "name": "Singapore",
+    "tagline": "Trade Nexus",
+    "marketSize": "small",
+    "routeSlots": 3,
+    "influenceBonuses": [
+      {
+        "threshold": 2,
+        "bonus": "🆓 Free Port"
+      },
+      {
+        "threshold": 4,
+        "bonus": "🏦 Banking Hub"
+      },
+      {
+        "threshold": 6,
+        "bonus": "👑 Trade Master"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "Trade 1 card for random (1/round)"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "ARG-001",
+    "name": "Argentina",
+    "tagline": "Crisis Expert",
+    "marketSize": "small",
+    "routeSlots": 3,
+    "influenceBonuses": [
+      {
+        "threshold": 2,
+        "bonus": "⚠️ Crisis Mode"
+      },
+      {
+        "threshold": 4,
+        "bonus": "🥩 Beef Baron"
+      },
+      {
+        "threshold": 6,
+        "bonus": "👑 Default King"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "Draw 1 when losing bids"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "SWI-001",
+    "name": "Switzerland",
+    "tagline": "Vault of Europe",
+    "marketSize": "small",
+    "routeSlots": 3,
+    "influenceBonuses": [
+      {
+        "threshold": 2,
+        "bonus": "🏦 Swiss Account"
+      },
+      {
+        "threshold": 4,
+        "bonus": "🛡️ Safe Haven"
+      },
+      {
+        "threshold": 6,
+        "bonus": "💰 Banking Cartel"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "Store 2 GDP between rounds"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "VIE-001",
+    "name": "Vietnam",
+    "tagline": "Rising Tiger",
+    "marketSize": "small",
+    "routeSlots": 3,
+    "influenceBonuses": [
+      {
+        "threshold": 2,
+        "bonus": "👷 Cheap Labor"
+      },
+      {
+        "threshold": 4,
+        "bonus": "🇨🇳 China Alternative"
+      },
+      {
+        "threshold": 6,
+        "bonus": "🏭 Manufacturing Surge"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "Policies cost 1 less"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "UAE-001",
+    "name": "UAE",
+    "tagline": "Desert Oasis",
+    "marketSize": "small",
+    "routeSlots": 3,
+    "influenceBonuses": [
+      {
+        "threshold": 2,
+        "bonus": "🆓 Duty Free"
+      },
+      {
+        "threshold": 4,
+        "bonus": "🛢️ Petrodollars"
+      },
+      {
+        "threshold": 6,
+        "bonus": "👑 Sovereign Wealth"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "+1 GDP when anyone plays Tactic"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  },
+  {
+    "code": "NIG-001",
+    "name": "Nigeria",
+    "tagline": "African Giant",
+    "marketSize": "small",
+    "routeSlots": 3,
+    "influenceBonuses": [
+      {
+        "threshold": 2,
+        "bonus": "🎬 Nollywood"
+      },
+      {
+        "threshold": 4,
+        "bonus": "🛢️ Oil Revenue"
+      },
+      {
+        "threshold": 6,
+        "bonus": "🌍 African Gateway"
+      }
+    ],
+    "suzerainty": {
+      "name": "Suzerainty Bonus",
+      "description": "+1 GDP when resource Event appears"
+    },
+    "set": "Core",
+    "rarity": "Common"
+  }
+]

@@ -1,0 +1,37 @@
+{{!-- Reference Card Template (2.5" × 3.5" poker size) --}}
+<div class="card card-reference" data-id="{{id}}">
+  {{!-- Bleed and safe zone guides --}}
+  <div class="bleed-guide"></div>
+  <div class="safe-guide"></div>
+  
+  {{!-- Card border --}}
+  <div class="card-border">
+    
+    {{!-- Card Header --}}
+    <div class="card-header">
+      <h2 class="card-title">{{title}}</h2>
+      <div class="card-icon">📖</div>
+    </div>
+    
+    {{!-- Card Content --}}
+    <div class="card-content">
+      {{#if (isArray content)}}
+        <ul class="reference-list">
+          {{#each content}}
+          <li class="reference-item">{{this}}</li>
+          {{/each}}
+        </ul>
+      {{else}}
+        <div class="reference-text">{{content}}</div>
+      {{/if}}
+    </div>
+    
+    {{!-- Card Footer --}}
+    <div class="card-footer">
+      <div class="card-type-badge">Reference</div>
+      <div class="card-game">TRADE WARZ</div>
+    </div>
+    
+  </div>
+</div>
+

@@ -3,77 +3,153 @@
 ## Physical Layout
 
 ### Leader Board (Player Board)
-Each leader gets a substantial board that stays in front of the player (not on the main game board) with:
+**Size**: 8" × 6" portrait orientation (6" wide × 8" tall)
 
-**Top Section: Export Slots**
-- **4-6 numbered export slots** arranged horizontally along the top
-- Export cards slide into these slots when trade routes are established
-- Numbers correspond to trade route cards
+Each leader board stays in front of the player and displays:
 
-**Bottom Section: Policy Slots** 
-- **3-4 policy slots** arranged horizontally along the bottom
-- Policy cards slide into these slots when played
-- Cards stick out slightly under the board for easy identification and space efficiency
+**Header Section**:
+- **Leader Name**: Large, bold header
+- **Theme/Tagline**: Thematic description
+- **Portrait Placeholder**: 2" × 2" box for leader artwork
+
+**Stats Section**:
+- **Starting GDP**: Initial GDP value
+- **Hand Size**: Maximum cards in hand
+- **Trade Route Slots**: Number of trade route tracker slots (5)
+
+**Abilities Section**:
+- **Unique Abilities**: 2-3 leader-specific abilities with clear descriptions
+- Each ability includes name and effect text
+
+**Trade Route Tracker**:
+- **5 numbered slots** arranged horizontally
+- Used to track which of the player's trade routes are currently active
+- Helps players visualize their economic engine at a glance
+- Uniform across all leaders (all have 5 slots)
+
+**CMYK Reminder**:
+- Quick reference strip showing upkeep order: C → M → Y → K
+
+**Note**: Export cards are NOT placed on leader boards. They are placed adjacent to Trading Partner boards. The trade route tracker is just a visual aid to help players remember which routes they have active.
 
 ## Trade Route Mechanics
 
-### Trade Route Cards
-Each leader receives:
-- **One trade route card per possible export slot** (4-6 cards)
-- **One extra trade route card** (for flexibility/backup)
-- Total: 5-7 trade route cards per leader
+### How Routes Work
+When a player establishes a trade route:
+1. **Export card** is placed adjacent to the Trading Partner board in one of the route slots
+2. **Trade Route Tracker** on the leader board can be marked (optional) to show active routes
+3. Routes persist until explicitly destroyed by card effects
+4. Each route generates GDP during the Income phase
 
-### Establishing Trade Routes
-When a player wins a trade dispute or places an export unopposed:
-1. **Export card** goes into numbered slot on player's leader board
-2. **Corresponding trade route card** (matching the slot number) goes onto the Trading Partner's import slot
-3. This creates a visual connection between the player's export and its destination
+### Trade Route Tracker vs Route Slots
+**Important Distinction**:
+- **Trading Partner Route Slots**: Physical slots on trading partner boards where Export cards are placed
+  - Large markets: 5 slots
+  - Medium markets: 4 slots
+  - Small markets: 3 slots
+  - Limited resource - competition for these slots drives gameplay
+
+- **Leader Board Trade Route Tracker**: Visual aid on leader board (5 slots)
+  - NOT where Export cards go
+  - Used to track which routes you have active
+  - Helps players remember their economic engine
+  - Can use tokens/coins to mark active routes
 
 ## Design Decisions
 
-### Export Slot Count: Asymmetric (3-4 slots)
-- **USA**: 4 export slots (economic powerhouse)
-- **China**: 4 export slots (manufacturing advantage)
-- **Russia**: 3 export slots (focused energy strategy)
-- Small asymmetry creates leader personality without major balance issues
-- Affects economic capacity and strategic focus
+### Trade Route Tracker: Uniform (5 slots)
+**Decision**: All leaders have 5 tracker slots on their board
 
-### Trade Route Card Mechanics
-- **Extra trade route card** used for:
-  - **Suzerainty bonuses** from trading partners
-  - **Bomb policy effects** that grant additional capacity (uncommon and/or rare)
-- Trade route cards are **purely visual markers** - no GDP value or effects
-- Cards can be reused when exports are removed/destroyed
+**Rationale**:
+- Simplifies production (one board template)
+- Easier for playtesting and iteration
+- Leader asymmetry comes from abilities, not slot count
+- 5 slots provides room for growth and flexibility
+- Players are not limited to 5 routes - can mark overflow differently
 
-### Policy Slot Usage
-- **Policies are replaceable** - players can overwrite previous policies
-- **Policies can be destroyed** by Tactics or Events
-- Creates dynamic tactical layer with policy management
+### No Physical Card Slots on Leader Boards
+**Decision**: Leader boards don't have physical slots for Export/Policy cards
+
+**Rationale**:
+- Export cards go adjacent to Trading Partner boards (where the route actually is)
+- Policy cards stay in hand or separate play area
+- Keeps leader board focused on information display
+- Simpler board design and production
+- More flexible for different play styles
+
+### Leader-Specific Theming
+- **USA**: Blue/red/white color scheme, economic focus
+- **China**: Red/gold scheme, manufacturing emphasis  
+- **Russia**: Red/blue/white scheme, energy dominance
+- Color coding helps quick identification during play
 
 ## Leader Countries/Regions
 The three playable leaders in the prototype represent major economic powers:
 
-1. **USA** - Economic powerhouse with 4 export slots
-2. **China** - Manufacturing advantage with 4 export slots  
-3. **Russia** - Energy dominance with 3 export slots
+1. **USA** - Economic Powerhouse
+   - Starting GDP: 8
+   - Hand Size: 8 cards
+   - Trade Route Tracker: 5 slots
+   - Abilities: +1 GDP per route, +1 Influence in route disputes
+
+2. **China** - Manufacturing Advantage
+   - Starting GDP: 7
+   - Hand Size: 7 cards
+   - Trade Route Tracker: 5 slots
+   - Abilities: +1 Influence in all disputes, Cost reduction abilities
+
+3. **Russia** - Energy Dominance
+   - Starting GDP: 6
+   - Hand Size: 6 cards
+   - Trade Route Tracker: 5 slots
+   - Abilities: +2 GDP when destroying routes, +1 GDP per energy export
 
 *Additional leaders (EU, Saudi Arabia, Brazil) planned for future expansion.*
 
-### Leader Specifications
-- **Starting GDP**: USA (8), China (7), Russia (6)
-- **Hand Size**: USA (8 cards), China (7 cards), Russia (6 cards)
-- **Unique Abilities**: Each leader has distinct economic advantages
-- **Signature Cards**: 8 cards per leader (3 Exports, 3 Policies, 2 Tactics)
+### Printed Components
+- **3 Leader Boards**: USA, China, Russia (8" × 6" portrait)
+- **Printed on**: 2 sheets (2-up layout on US Letter)
+- **Generated by**: `prototype/decks/board-printer/`
+- **Print Time**: < 10 seconds to generate PDFs
 
-*See `prototype/leader_specs.md` for complete leader specifications.*
+*See `prototype/leader_specs.md` for complete leader specifications and abilities.*
 
 ## Visual Design Notes
-- Cards protruding under the board minimizes board space while maintaining clear organization
-- Numbered slots create clear correspondence between export placement and trade route cards
-- Large format allows for leader-specific artwork and information
+- 8" × 6" portrait format provides ample space for information
+- Clear hierarchy: Name → Stats → Abilities → Tracker
+- Leader-specific color themes for quick identification
+- 2" × 2" portrait placeholder ready for artwork
+- CMYK reminder strip helps with upkeep phase
+- Professional appearance suitable for playtesting
+
+## Production Notes
+
+### Board Printer System
+Located in `prototype/decks/board-printer/`, the automated system generates print-ready PDFs:
+
+**Usage**:
+```bash
+cd prototype/decks/board-printer
+npm run convert        # Update from leader_specs.md
+npm run build:leaders  # Generate leader board PDFs
+```
+
+**Output**: `dist/leaders/fronts.pdf` (2 sheets, 3 boards + 1 empty slot)
+
+### Printing Tips
+1. Print on 80-110lb cardstock (matte finish)
+2. Use 100% scale (no "fit to page")
+3. Cut along outer bleed guides (red dashed lines)
+4. Each board should measure 6" wide × 8" tall
+5. Preview in browser first: `dist/leaders/preview.html`
 
 ## Implementation Notes
-- ✅ Export slot counts updated to reflect prototype (3-4 slots)
+- ✅ Leader boards updated to 8" × 6" portrait format
+- ✅ Trade route tracker implemented (5 slots, uniform)
+- ✅ Leader-specific color themes implemented
+- ✅ Automated printing system complete
 - ✅ Suzerainty mechanics defined in trading partner system
-- ✅ Policy destruction mechanics integrated into Tactic and Event design
-- ✅ Complete leader specifications available in prototype directory
+- ✅ Complete leader specifications in prototype/leader_specs.md
+- ✅ Ready for physical prototype playtesting
+
+*Last Updated: 2025-10-14*

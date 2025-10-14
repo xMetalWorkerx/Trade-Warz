@@ -1,0 +1,69 @@
+{{!-- Player Aid Card Template (2.5" × 3.5" poker size) --}}
+<div class="card card-player-aid {{#if leaderCode}}card-aid-{{leaderCode}}{{/if}}" data-id="{{id}}">
+  {{!-- Bleed and safe zone guides --}}
+  <div class="bleed-guide"></div>
+  <div class="safe-guide"></div>
+  
+  {{!-- Card border --}}
+  <div class="card-border">
+    
+    {{!-- Card Header --}}
+    <div class="card-header">
+      <h2 class="card-title">{{title}}</h2>
+      {{#if leaderCode}}
+      <div class="card-flag">🏴</div>
+      {{else}}
+      <div class="card-icon">ℹ️</div>
+      {{/if}}
+    </div>
+    
+    {{!-- Card Content --}}
+    <div class="card-content">
+      {{#if leaderCode}}
+        {{!-- Leader-specific aid --}}
+        <div class="aid-stats">
+          <div class="aid-stat">
+            <span class="aid-label">Starting GDP:</span>
+            <span class="aid-value">{{content.startingGDP}}</span>
+          </div>
+          <div class="aid-stat">
+            <span class="aid-label">Hand Size:</span>
+            <span class="aid-value">{{content.handSize}}</span>
+          </div>
+          <div class="aid-stat">
+            <span class="aid-label">Trade Routes:</span>
+            <span class="aid-value">{{content.tradeRoutes}}</span>
+          </div>
+        </div>
+        <div class="aid-abilities">
+          {{#each content.abilities}}
+            {{#if (or (eq name "Economic Engine") (eq name "Dispute Advantage") (eq name "Manufacturing Efficiency") (eq name "Cost Reduction") (eq name "Energy Weapon") (eq name "Resource Control"))}}
+            <div class="aid-ability">
+              <strong>{{name}}:</strong> {{description}}
+            </div>
+            {{/if}}
+          {{/each}}
+        </div>
+      {{else}}
+        {{!-- Generic game flow aid --}}
+        {{#if (isArray content)}}
+          <div class="aid-text">
+            {{#each content}}
+            <div class="aid-line">{{this}}</div>
+            {{/each}}
+          </div>
+        {{else}}
+          <div class="aid-text">{{content}}</div>
+        {{/if}}
+      {{/if}}
+    </div>
+    
+    {{!-- Card Footer --}}
+    <div class="card-footer">
+      <div class="card-type-badge">Player Aid</div>
+      <div class="card-game">TRADE WARZ</div>
+    </div>
+    
+  </div>
+</div>
+

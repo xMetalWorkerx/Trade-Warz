@@ -1,0 +1,286 @@
+/* Trade Warz - Leader Board Styles */
+/* Portrait 8" × 6" (6" wide × 8" tall) boards */
+
+/* ============================================================================
+   LEADER BOARD BASE
+   ============================================================================ */
+
+.board-leader {
+  background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 40%);
+}
+
+/* ============================================================================
+   LEADER THEMES
+   ============================================================================ */
+
+.board-usa {
+  background: linear-gradient(to bottom, #eff6ff 0%, #ffffff 40%);
+  border-color: #1e40af;
+}
+
+.board-usa .board-content {
+  border-color: #1e40af;
+}
+
+.board-china {
+  background: linear-gradient(to bottom, #fee2e2 0%, #fffbeb 40%);
+  border-color: #dc2626;
+}
+
+.board-china .board-content {
+  border-color: #dc2626;
+}
+
+.board-russia {
+  background: linear-gradient(to bottom, #fef2f2 0%, #ffffff 40%);
+  border-color: #b91c1c;
+}
+
+.board-russia .board-content {
+  border-color: #b91c1c;
+}
+
+/* ============================================================================
+   HEADER SECTION
+   ============================================================================ */
+
+.leader-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.15in;
+  padding-bottom: 0.12in;
+  border-bottom: 3pt solid #e0e0e0;
+}
+
+.leader-title-section {
+  flex: 1;
+  min-width: 0;
+}
+
+.leader-name {
+  font-size: 20pt;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+}
+
+.leader-subtitle {
+  font-size: 9pt;
+  color: #666;
+  margin-top: 0.04in;
+  font-style: italic;
+}
+
+.leader-portrait-box {
+  width: 1.2in;
+  height: 1.2in;
+  flex-shrink: 0;
+}
+
+.portrait-placeholder {
+  width: 100%;
+  height: 100%;
+  border: 2pt dashed #ccc;
+  border-radius: 0.08in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+}
+
+.portrait-icon {
+  font-size: 40pt;
+  opacity: 0.3;
+}
+
+/* ============================================================================
+   STATS SECTION
+   ============================================================================ */
+
+.leader-stats {
+  display: flex;
+  gap: 0.08in;
+}
+
+.leader-stats .stat-box {
+  flex: 1;
+  background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+}
+
+.board-usa .stat-box {
+  border-color: #3b82f6;
+  background: linear-gradient(to bottom, #eff6ff, #dbeafe);
+}
+
+.board-china .stat-box {
+  border-color: #ef4444;
+  background: linear-gradient(to bottom, #fef2f2, #fee2e2);
+}
+
+.board-russia .stat-box {
+  border-color: #dc2626;
+  background: linear-gradient(to bottom, #fef2f2, #fee2e2);
+}
+
+/* ============================================================================
+   ABILITIES SECTION
+   ============================================================================ */
+
+.leader-abilities {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.08in;
+  padding: 0.12in;
+  background: #f9f9f9;
+  border-radius: 0.08in;
+  border: 2pt solid #e0e0e0;
+}
+
+.abilities-title {
+  font-size: 10pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  color: #1a1a1a;
+  padding-bottom: 0.06in;
+  border-bottom: 2pt solid #e0e0e0;
+}
+
+.abilities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08in;
+}
+
+.ability-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.02in;
+}
+
+.ability-name {
+  font-size: 9pt;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.ability-description {
+  font-size: 8pt;
+  line-height: 1.3;
+  color: #444;
+}
+
+/* ============================================================================
+   TRADE ROUTE TRACKER
+   ============================================================================ */
+
+.trade-route-tracker {
+  padding: 0.12in;
+  background: white;
+  border: 2pt solid #e0e0e0;
+  border-radius: 0.08in;
+}
+
+.tracker-label {
+  font-size: 8pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  color: #666;
+  text-align: center;
+  margin-bottom: 0.08in;
+}
+
+.tracker-slots {
+  display: flex;
+  gap: 0.08in;
+  justify-content: center;
+}
+
+.route-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.04in;
+}
+
+.slot-number {
+  font-size: 7pt;
+  font-weight: 700;
+  color: #666;
+}
+
+.slot-box {
+  width: 0.45in;
+  height: 0.45in;
+  border: 2pt solid #333;
+  border-radius: 0.04in;
+  background: white;
+}
+
+.board-usa .slot-box {
+  border-color: #3b82f6;
+  background: #eff6ff;
+}
+
+.board-china .slot-box {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+
+.board-russia .slot-box {
+  border-color: #dc2626;
+  background: #fef2f2;
+}
+
+/* ============================================================================
+   CMYK REMINDER STRIP
+   ============================================================================ */
+
+.cmyk-reminder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.12in;
+  padding: 0.06in;
+  background: #f5f5f5;
+  border: 1pt solid #ccc;
+  border-radius: 0.04in;
+  font-size: 8pt;
+}
+
+.cmyk-label {
+  font-weight: 700;
+  color: #666;
+  font-size: 7pt;
+  text-transform: uppercase;
+  letter-spacing: 0.5pt;
+}
+
+.cmyk-sequence {
+  display: flex;
+  align-items: center;
+  gap: 0.06in;
+  font-weight: 700;
+}
+
+.cmyk-c {
+  color: #06b6d4;
+}
+
+.cmyk-m {
+  color: #ec4899;
+}
+
+.cmyk-y {
+  color: #eab308;
+}
+
+.cmyk-k {
+  color: #1a1a1a;
+}
+

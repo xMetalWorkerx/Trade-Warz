@@ -3,68 +3,86 @@
 Concise specs to make the timed Trade Phase fast, readable, and tactile. Focus: slide-under export slots along the edge of each Trading Partner using simple “slot strips.”
 
 ### Component Checklist
-- Leader boards (3-6)
-- Trading Partner cards (use 6 for prototype)
-- Slot strips (tuck-under rails): 3-slot, 4-slot, 5-slot variants
+- Leader boards (3 for prototype: USA, China, Russia) - 8" × 6" portrait
+- Trading Partner boards (15 total) - 8" × 6" landscape
+  - 3 Large markets (5 route slots)
+  - 6 Medium markets (4 route slots)
+  - 6 Small markets (3 route slots)
 - 99 prototype cards (leader + global + events)
-- GDP tokens (coins work)
-- Influence cubes
+- GDP tokens (coins work) - also used for influence tracking
 - 3-minute timer
 
-### Slot Strips (Tuck-Under Rails)
-Purpose: Make route slots obvious and quick to resolve by sliding the short edge of an Export card under a thin rail at the Trading Partner’s edge. This creates clear occupancy without covering card text.
+**Note**: Route slots are integrated into the trading partner boards. No separate slot strips needed.
 
-Specs (for poker-size cards, 63 × 88 mm):
-- Strip heights: 18–20 mm
-- Tuck depth: 10–12 mm (leave card title/influence visible)
-- Lengths by market size (including 4 mm end margins):
-  - 3-slot: 70–76 mm
-  - 4-slot: 94–100 mm
-  - 5-slot: 118–124 mm
-- Slot dividers: 1 mm printed tick marks with small numbers (1…N)
-- Color coding: Small/Medium/Large market color strip to match docs
+### Trading Partner Board Layout
+**Size**: 8" × 6" landscape boards with integrated route slot indicators
 
-Construction options (choose any):
-1) Paper fast-build (5 min per strip)
-   - Print on 300 gsm cardstock. Score a 10–12 mm fold to form a shallow pocket lip. Tape underside ends to hold the lip. Place along the long edge of the partner card.
-2) Sleeve hack (ultra-fast)
-   - Put the partner card in a standard sleeve. Tape a 15–18 mm cardstock lip to the sleeve front, creating a pocket. Replace tape as it wears.
-3) Deluxe rail (if you have access)
-   - 3D print or laser-cut a low-profile rail with 10–12 mm capture depth and slot index notches.
+**Design Elements**:
+- **Partner Name & Tagline**: Large, clear header
+- **Suzerainty Box**: Flag/image placeholder (top-right)
+- **Influence Track**: Single track (0-9) for all players
+  - Players place GDP coins on numbered boxes
+  - Stack coins when reaching 10+ influence
+- **Trade Effects Section**: Lists 3 influence threshold bonuses + suzerainty ability
+- **Route Slots**: Integrated slot indicators at bottom of board
+  - Large markets: 5 slots
+  - Medium markets: 4 slots (5th grayed out)
+  - Small markets: 3 slots (4th-5th grayed out)
+  - Visual indicators show where to place Export cards adjacent to board
 
-Usage during play:
-- When placing, slide the Export’s short edge under the partner’s strip at the chosen numbered slot.
-- During disputes, keep both contested Exports tucked at the same slot until resolution; winner remains tucked, loser returns to hand.
-- Established routes stay tucked for persistence until destroyed.
+**Influence Tracking**:
+- All players use the same track on each trading partner board
+- Use GDP coins as markers (one color per player not needed)
+- Boxes numbered 0-9 with space for stacking
+- When a player reaches 10+ influence, stack another coin on top
 
-Readability rules:
-- Do not cover the Export’s title bar or influence icons.
-- Align all tucked cards flush to the strip to avoid drift.
-- If strips shift, realign immediately before resolving disputes.
+**Route Slot Usage**:
+- Export cards are placed adjacent below the trading partner board
+- Slot indicators printed on board show which slots are available
+- Visual guides (numbered Route 1-5) help organize card placement
 
-### Trading Partner Card Layout Guidance
-- Place the strip along the card’s long edge nearest the table center for easier reach.
-- Add a tiny arrow/icon on the partner card pointing to the strip side (“Routes tuck here →”).
-- Use the partner’s market size color ring on the strip for quick recognition.
+### Leader Board Layout
+**Size**: 8" × 6" portrait boards (6" wide × 8" tall)
 
-### Leader Boards (edge interactions)
-- Keep GDP track and hand-size reference clear; no tuck needed here.
-- Optional: a thin reminder band along the lower edge with CMYK order and “Timer starts on first Export.”
+**Design Elements**:
+- **Leader Name & Theme**: Large header with thematic subtitle
+- **Portrait Placeholder**: 2" × 2" box for leader artwork
+- **Starting Stats**: GDP, hand size, and trade route count
+- **Unique Abilities**: Clear text descriptions of 2-3 leader abilities
+- **Trade Route Tracker**: 5 numbered slots to track active routes
+  - All leaders have 5 slots (uniform across all leaders)
+  - Used to mark which of the player's routes are currently active
+- **CMYK Reminder Strip**: Quick reference for upkeep order (C → M → Y → K)
 
-### Dispute Workflow with Strips (quick reference)
-1. Timer ends → flip all newly placed Exports at each contested slot.
-2. Resolve in reverse GDP order. Keep both cards tucked until winner determined.
-3. Winner pays bid and leaves card tucked; loser returns card to hand.
-4. Proceed until all disputes cleared.
+**Trade Route Tracker**:
+- Shows which of the player's trade routes are active
+- Different from the route slots on trading partner boards
+- Helps players track their economy at a glance
 
-### Print Notes
-- Provide 3 PDFs: 3-slot, 4-slot, 5-slot strips with cut/fold guides.
-- Print at 100% scale on 300 gsm; matte finish preferred.
-- One strip per Trading Partner used that game.
+### Printing Instructions
+**Board Printer System**: Located in `prototype/decks/board-printer/`
 
-### Playtest Questions (for strips)
-- Was “which slots are full” instantly readable?
-- Did the tuck depth feel secure without hiding info?
-- Any disputes caused by physical ambiguity?
+```bash
+# Generate all boards
+cd prototype/decks/board-printer
+npm run build:all
+
+# Output: dist/leaders/fronts.pdf (2 sheets)
+# Output: dist/trading-partners/fronts.pdf (8 sheets)
+```
+
+**Print Settings**:
+- Paper: US Letter (8.5" × 11")
+- Stock: 80-110lb cardstock, matte finish
+- Layout: 2-up (2 boards per sheet)
+- Scale: 100% (no fit-to-page)
+- Total sheets: 10 (2 leaders + 8 trading partners)
+
+### Playtest Questions
+- Are the boards the right size for table space?
+- Is the influence track system clear and functional?
+- Do the route slot indicators help organize Export cards?
+- Is the trade route tracker useful for players?
+- Are the board dimensions comfortable for gameplay?
 
 Last updated: [Prototype]

@@ -1,0 +1,213 @@
+[
+  {
+    "id": "aid-usa",
+    "leaderCode": "usa",
+    "title": "USA",
+    "content": {
+      "startingGDP": 8,
+      "handSize": 8,
+      "tradeRoutes": 5,
+      "abilities": [
+        {
+          "name": "Starting GDP",
+          "description": "8"
+        },
+        {
+          "name": "Hand Size",
+          "description": "8 cards"
+        },
+        {
+          "name": "Export Slots",
+          "description": "4"
+        },
+        {
+          "name": "Theme",
+          "description": "Freedom, capitalism, economic dominance"
+        },
+        {
+          "name": "Economic Engine",
+          "description": "+1 GDP per active trade route"
+        },
+        {
+          "name": "Dispute Advantage",
+          "description": "+1 Influence in disputes involving trade routes"
+        },
+        {
+          "name": "Strengths",
+          "description": "High starting GDP, route-based economy, dispute advantages"
+        },
+        {
+          "name": "Weaknesses",
+          "description": "Expensive cards, vulnerable to route destruction"
+        },
+        {
+          "name": "Playstyle",
+          "description": "Build wide trade network, use economic policies for steady income"
+        },
+        {
+          "name": "Starting GDP",
+          "description": "High enough to establish early routes"
+        },
+        {
+          "name": "Hand Size",
+          "description": "Largest hand size provides information advantage and more strategic options"
+        },
+        {
+          "name": "Export Slots",
+          "description": "4 slots enable wide strategy"
+        }
+      ]
+    },
+    "type": "player-aid"
+  },
+  {
+    "id": "aid-china",
+    "leaderCode": "china",
+    "title": "China",
+    "content": {
+      "startingGDP": 7,
+      "handSize": 7,
+      "tradeRoutes": 5,
+      "abilities": [
+        {
+          "name": "Starting GDP",
+          "description": "7"
+        },
+        {
+          "name": "Hand Size",
+          "description": "7 cards"
+        },
+        {
+          "name": "Export Slots",
+          "description": "4"
+        },
+        {
+          "name": "Theme",
+          "description": "Manufacturing, digital economy, state control"
+        },
+        {
+          "name": "Manufacturing Efficiency",
+          "description": "+1 Influence in all disputes"
+        },
+        {
+          "name": "Cost Reduction",
+          "description": "Once per round, reduce export cost by 1 GDP"
+        },
+        {
+          "name": "Strengths",
+          "description": "High influence in disputes, cost reduction, copying abilities"
+        },
+        {
+          "name": "Weaknesses",
+          "description": "Lower starting GDP, vulnerable to policy disruption"
+        },
+        {
+          "name": "Playstyle",
+          "description": "Dispute-focused, copy opponent strategies, efficient resource use"
+        },
+        {
+          "name": "Starting GDP",
+          "description": "Slightly lower than USA but still competitive"
+        },
+        {
+          "name": "Hand Size",
+          "description": "Balanced hand size provides efficient card management"
+        },
+        {
+          "name": "Influence Bonus",
+          "description": "Makes disputes more favorable"
+        },
+        {
+          "name": "Copying Ability",
+          "description": "Creates interesting tactical decisions"
+        }
+      ]
+    },
+    "type": "player-aid"
+  },
+  {
+    "id": "aid-russia",
+    "leaderCode": "russia",
+    "title": "Russia",
+    "content": {
+      "startingGDP": 6,
+      "handSize": 6,
+      "tradeRoutes": 5,
+      "abilities": [
+        {
+          "name": "Starting GDP",
+          "description": "6"
+        },
+        {
+          "name": "Hand Size",
+          "description": "6 cards"
+        },
+        {
+          "name": "Export Slots",
+          "description": "3"
+        },
+        {
+          "name": "Theme",
+          "description": "Energy, resource control, aggressive tactics"
+        },
+        {
+          "name": "Energy Weapon",
+          "description": "+2 GDP when destroying opponent's route"
+        },
+        {
+          "name": "Resource Control",
+          "description": "+1 GDP per energy-related export"
+        },
+        {
+          "name": "Strengths",
+          "description": "High-value exports, destruction bonuses, energy focus"
+        },
+        {
+          "name": "Weaknesses",
+          "description": "Fewer export slots, expensive cards, aggressive playstyle"
+        },
+        {
+          "name": "Playstyle",
+          "description": "Focus on high-value routes, use destruction tactics, energy monopoly"
+        },
+        {
+          "name": "Starting GDP",
+          "description": "Lowest but has destruction bonuses to catch up"
+        },
+        {
+          "name": "Hand Size",
+          "description": "Smallest hand size forces focused strategy and efficient card use"
+        },
+        {
+          "name": "Export Slots",
+          "description": "Only 3 slots force focus on high-value routes"
+        },
+        {
+          "name": "Destruction Theme",
+          "description": "Creates aggressive, disruptive gameplay"
+        }
+      ]
+    },
+    "type": "player-aid"
+  },
+  {
+    "id": "aid-gameflow",
+    "title": "GAME FLOW",
+    "content": [
+      "WIN CONDITIONS:",
+      "• Reach 50 GDP instantly",
+      "• Highest GDP after 5 rounds",
+      "",
+      "TRADE PHASE (3 minutes):",
+      "• Place Exports on Trading Partners",
+      "• Trade influence for GDP",
+      "• Play Tactics",
+      "",
+      "DISPUTES:",
+      "• Poorest player chooses first",
+      "• Influence + GDP bid = total",
+      "• Winner pays bid, loser returns card"
+    ],
+    "type": "player-aid"
+  }
+]

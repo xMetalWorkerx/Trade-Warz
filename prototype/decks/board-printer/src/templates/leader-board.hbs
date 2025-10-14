@@ -1,0 +1,110 @@
+{{!-- Leader Board Template (8" × 6" portrait) --}}
+<div class="board board-leader board-{{leaderCode}}" data-leader="{{leaderCode}}">
+  {{!-- Bleed and safe zone guides --}}
+  <div class="bleed-guide"></div>
+  <div class="safe-guide"></div>
+  
+  {{!-- Board content area --}}
+  <div class="board-content">
+    
+    {{!-- Header Section --}}
+    <div class="leader-header">
+      <div class="leader-title-section">
+        <h1 class="leader-name">{{name}}</h1>
+        <div class="leader-subtitle">{{theme}}</div>
+      </div>
+      <div class="leader-portrait-box">
+        <div class="portrait-placeholder">
+          <span class="portrait-icon">👤</span>
+        </div>
+      </div>
+    </div>
+    
+    {{!-- Stats Section --}}
+    <div class="leader-stats">
+      <div class="stat-box stat-gdp">
+        <div class="stat-icon">💰</div>
+        <div class="stat-content">
+          <div class="stat-label">Starting GDP</div>
+          <div class="stat-value">{{startingGDP}}</div>
+        </div>
+      </div>
+      <div class="stat-box stat-hand">
+        <div class="stat-icon">🎴</div>
+        <div class="stat-content">
+          <div class="stat-label">Hand Size</div>
+          <div class="stat-value">{{handSize}}</div>
+        </div>
+      </div>
+      <div class="stat-box stat-routes">
+        <div class="stat-icon">📈</div>
+        <div class="stat-content">
+          <div class="stat-label">Trade Routes</div>
+          <div class="stat-value">{{tradeRouteSlots}}</div>
+        </div>
+      </div>
+    </div>
+    
+    {{!-- Abilities Section --}}
+    <div class="leader-abilities">
+      <h3 class="abilities-title">UNIQUE ABILITIES</h3>
+      <div class="abilities-list">
+        {{#each abilities}}
+          {{#if (or (eq name "Economic Engine") (eq name "Dispute Advantage") (eq name "Manufacturing Efficiency") (eq name "Cost Reduction") (eq name "Energy Weapon") (eq name "Resource Control"))}}
+          <div class="ability-item">
+            <div class="ability-name">{{name}}</div>
+            <div class="ability-description">{{description}}</div>
+          </div>
+          {{/if}}
+        {{/each}}
+      </div>
+    </div>
+    
+    {{!-- Trade Route Tracker --}}
+    <div class="trade-route-tracker">
+      <div class="tracker-label">ACTIVE TRADE ROUTES</div>
+      <div class="tracker-slots">
+        <div class="route-slot" data-slot="1">
+          <div class="slot-number">1</div>
+          <div class="slot-box"></div>
+        </div>
+        <div class="route-slot" data-slot="2">
+          <div class="slot-number">2</div>
+          <div class="slot-box"></div>
+        </div>
+        <div class="route-slot" data-slot="3">
+          <div class="slot-number">3</div>
+          <div class="slot-box"></div>
+        </div>
+        <div class="route-slot" data-slot="4">
+          <div class="slot-number">4</div>
+          <div class="slot-box"></div>
+        </div>
+        <div class="route-slot" data-slot="5">
+          <div class="slot-number">5</div>
+          <div class="slot-box"></div>
+        </div>
+      </div>
+    </div>
+    
+    {{!-- CMYK Reminder Strip --}}
+    <div class="cmyk-reminder">
+      <div class="cmyk-label">UPKEEP ORDER:</div>
+      <div class="cmyk-sequence">
+        <span class="cmyk-c">C</span> →
+        <span class="cmyk-m">M</span> →
+        <span class="cmyk-y">Y</span> →
+        <span class="cmyk-k">K</span>
+      </div>
+    </div>
+    
+    {{!-- Footer --}}
+    <div class="board-footer">
+      <div class="board-code">{{code}}</div>
+      <div class="board-set">{{set}}</div>
+      <div class="board-branding">TRADE WARZ</div>
+    </div>
+    
+  </div>
+</div>
+

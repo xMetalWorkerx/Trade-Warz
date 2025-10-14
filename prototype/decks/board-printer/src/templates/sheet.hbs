@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade Warz Boards - {{deckName}}</title>
+  
+  {{!-- Print page setup --}}
+  <style>
+    @page {
+      size: {{pageWidth}}{{unit}} {{pageHeight}}{{unit}};
+      margin: 0;
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: {{pageWidth}}{{unit}};
+      height: {{pageHeight}}{{unit}};
+    }
+    
+    .page {
+      width: {{pageWidth}}{{unit}};
+      height: {{pageHeight}}{{unit}};
+      position: relative;
+      page-break-after: always;
+      
+      padding:
+        {{marginTop}}{{unit}}
+        {{marginRight}}{{unit}}
+        {{marginBottom}}{{unit}}
+        {{marginLeft}}{{unit}};
+    }
+    
+    .page:last-child {
+      page-break-after: auto;
+    }
+    
+    .grid {
+      display: grid;
+      width: 100%;
+      height: 100%;
+      grid-template-columns: repeat({{cols}}, {{boardW}}{{unit}});
+      grid-template-rows: repeat({{rows}}, {{boardH}}{{unit}});
+      column-gap: {{gutterX}}{{unit}};
+      row-gap: {{gutterY}}{{unit}};
+    }
+    
+    .board-slot {
+      width: {{boardW}}{{unit}};
+      height: {{boardH}}{{unit}};
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .board-slot.empty {
+      background: #f5f5f5;
+      border: 2pt dashed #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #999;
+      font-size: 14pt;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    
+    {{!-- Page info for preview --}}
+    @media screen {
+      .page-info {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #333;
+        color: white;
+        padding: 8px 16px;
+        font-family: system-ui, -apple-system, sans-serif;
+        font-size: 12px;
+        z-index: 10000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .page-info button {
+        background: #4CAF50;
+        color: white;
+        border: none;
+        padding: 6px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 12px;
+      }
+      
+      .page-info button:hover {
+        background: #45a049;
+      }
+      
+      body {
+        padding-top: 40px;
+        background: #e0e0e0;
+      }
+      
+      .page {
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        background: white;
+      }
+    }
+    
+    @media print {
+      .page-info {
+        display: none !important;
+      }
+      
+      body {
+        padding-top: 0;
+        background: white;
+      }
+      
+      .page {
+        margin: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+  
+  {{!-- Inline all CSS for PDF rendering --}}
+  <style>
+    {{{inlinedCss}}}
+  </style>
+</head>
+<body>
+  {{!-- Preview info bar (hidden when printing) --}}
+  <div class="page-info">
+    <div>
+      <strong>{{deckName}}</strong> | 
+      {{totalBoards}} boards | 
+      {{pageCount}} sheet{{#if isPlural}}s{{/if}} | 
+      {{boardsPerSheet}}-up layout
+    </div>
+    <button onclick="window.print()">🖨️ Print</button>
+  </div>
+  
+  {{!-- Render each page --}}
+  {{#each pages}}
+  <div class="page" data-page="{{@index}}">
+    <div class="grid">
+      {{#each this}}
+        {{#if this}}
+          <div class="board-slot">
+            {{{this}}}
+          </div>
+        {{else}}
+          <div class="board-slot empty">
+            Empty Slot
+          </div>
+        {{/if}}
+      {{/each}}
+    </div>
+  </div>
+  {{/each}}
+</body>
+</html>
+

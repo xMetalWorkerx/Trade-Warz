@@ -2,39 +2,59 @@
 
 ## Physical Design
 
-### Card Layout
-- **Size**: Standard card size (2.5" × 3.5")
-- **Orientation**: Landscape
-- **Material**: Heavy cardstock with matte finish
+### Board Layout
+- **Size**: 8" wide × 6" tall (landscape orientation)
+- **Material**: 80-110lb cardstock with matte finish
+- **Printing**: 2-up layout on US Letter (2 boards per sheet = 8 sheets for 15 partners)
 
 ### Visual Elements
 
-#### Top Section
-- **Trading Partner Name**: Large, bold font
+#### Header Section (Top)
+- **Trading Partner Name**: Large, bold font (e.g., "HELVETIA")
+- **Tagline**: Subtitle with thematic flavor (e.g., "Banking Capital")
 - **Market Size Badge**: Color-coded indicator (Gold=Large, Silver=Medium, Bronze=Small)
-- **Route Slots**: Visual indicator showing available slots (●●●●● for 5, ●●●● for 4, ●●● for 3)
+- **Suzerainty Box**: Flag/image placeholder (top-right, ~1" × 1")
 
-#### Middle Section
-- **Economic Identity**: Brief description of the nation's economic strengths
-- **Influence Bonuses**: Clear list of influence thresholds and their benefits
-- **Suzerainty Ability**: Clear description of the special benefit
+#### Influence Track Section
+- **Single Track**: One track (0-9) shared by all players
+- **Track Design**: 10 numbered boxes for coin placement
+- **Markers**: Players use GDP coins to mark their influence
+- **Stacking**: When reaching 10+ influence, stack additional coins on top
+- **Visual**: Clear boxes with numbers 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-#### Bottom Section
-- **Influence Tracks**: 4-6 horizontal tracks (one per player)
-- **Track Range**: 0-10 with clear number indicators
-- **Player Colors**: Each track color-coded for different players
+#### Trade Effects Section (Middle)
+- **Section Title**: "TRADE EFFECTS / ABILITIES"
+- **Influence Bonuses**: 3 threshold bonuses with clear descriptions
+  - Shows threshold level (e.g., "3 influence:")
+  - Shows bonus effect
+  - Icon or bullet for each bonus
+- **Suzerainty Ability**: Highlighted with crown icon (👑)
+  - Clearly distinguished from regular bonuses
+  - Shows special benefit for highest influence
 
-### Influence Track Design
-- **Track Length**: 2" horizontal line
-- **Markers**: 0, 2, 4, 6, 8, 10 clearly marked
-- **Cubes**: Colored wooden cubes (1 per player per trading partner)
-- **Track Colors**: 
-  - Player 1: Blue
-  - Player 2: Red
-  - Player 3: Green
-  - Player 4: Yellow
-  - Player 5: Purple
-  - Player 6: Orange
+#### Route Slots Section (Bottom)
+- **Label**: "Place Export Cards adjacent below"
+- **Slot Indicators**: Visual markers for Route 1, Route 2, Route 3, etc.
+- **Adaptive Display**:
+  - Large markets: 5 slots visible
+  - Medium markets: 4 slots visible, 5th grayed/disabled
+  - Small markets: 3 slots visible, 4th-5th grayed/disabled
+- **Visual Guides**: Dashed boxes showing card placement areas
+
+### New Influence System Design
+**Key Change**: Single shared track instead of 6 separate player tracks
+
+**Benefits**:
+- Simpler board design
+- Less cluttered appearance
+- Reuses existing GDP coins (no new components)
+- Stacking mechanic adds tactile feedback
+- Easier to produce and print
+
+**Usage**:
+- Each player uses GDP coins of any type to mark their influence
+- Different players can be identified by position or coin denomination
+- When a player reaches 10 influence, they stack a second coin on the "0" box
 
 ---
 
@@ -200,44 +220,85 @@
 
 ## Component Requirements
 
-### Trading Partner Cards
-- **Quantity**: 15 cards (one per trading partner)
-- **Size**: 2.5" × 3.5" landscape
-- **Material**: Heavy cardstock, matte finish
-- **Finish**: Rounded corners, durable coating
-- **Color Coding**: Gold (Large), Silver (Medium), Bronze (Small) borders
+### Trading Partner Boards
+- **Quantity**: 15 boards (one per trading partner)
+- **Size**: 8" wide × 6" tall (landscape orientation)
+- **Material**: 80-110lb cardstock, matte finish
+- **Finish**: Cut corners for professional appearance
+- **Color Coding**: Gold (Large), Silver (Medium), Bronze (Small) accents
+- **Printing**: 2-up layout, 8 sheets total (with 1 empty slot)
 
-### Influence Cubes
-- **Quantity**: 90 cubes total (6 colors × 15 trading partners)
-- **Size**: 8mm wooden cubes
-- **Colors**: Blue, Red, Green, Yellow, Purple, Orange
-- **Material**: Wooden, painted or stained
+### Influence Tracking
+**Uses existing GDP coins** - no separate components needed
+
+**Method**:
+- Players place GDP coins on influence track boxes
+- Any coin denomination works (players can differentiate)
+- Stack coins when reaching 10+ influence
+- Simple, elegant system reusing existing components
 
 ### Storage
-- **Card Box**: Custom insert to hold 15 trading partner cards
-- **Cube Bags**: 6 small bags for each player's influence cubes
-- **Setup Tray**: Optional tray to organize trading partner cards during setup
+- **Board Storage**: Stack boards by market size
+- **Setup**: Place all 15 boards in center play area
+- **No Additional Components**: Influence uses GDP coins already in game
 
 ---
 
-## Setup Instructions
+## Printing & Setup Instructions
+
+### Printing the Boards
+**Board Printer System**: Located in `prototype/decks/board-printer/`
+
+```bash
+cd prototype/decks/board-printer
+npm run convert            # Update data from design docs
+npm run build:partners     # Generate trading partner PDFs
+```
+
+**Output**: `dist/trading-partners/fronts.pdf` (8 sheets, 15 boards)
+
+**Print Settings**:
+- Paper: US Letter (8.5" × 11")
+- Stock: 80-110lb cardstock, matte finish
+- Layout: 2-up (2 boards per sheet)
+- Scale: 100% (no "fit to page")
+- Preview first: `dist/trading-partners/preview.html`
 
 ### Game Setup
-1. **Place Trading Partner Cards**: Arrange all 15 cards in the center of the table
-2. **Distribute Cubes**: Each player takes 15 cubes of their color
-3. **Initial Influence**: All players start with 0 influence on all trading partners
-4. **Suzerainty**: No player has suzerainty initially
-5. **Route Slots**: All route slots are empty and available
+1. **Place Trading Partner Boards**: Arrange all 15 boards in the center of the table
+2. **Initial Influence**: All players start with 0 influence (no coins placed yet)
+3. **Suzerainty**: No player has suzerainty initially
+4. **Route Slots**: All route slots are empty and available
+5. **GDP Coins**: Keep supply of GDP coins accessible for influence tracking
 
 ### During Gameplay
 1. **Route Placement**: Check available slots before placing Export cards
-2. **Influence Updates**: Move cubes on influence tracks as influence changes
-3. **Suzerainty Check**: After each influence update, check who has most influence
-4. **Benefit Application**: Apply scaling benefits and suzerainty bonuses
-5. **Visual Clarity**: Keep influence tracks and route slots clearly visible to all players
+2. **Influence Updates**: Add/move coins on influence track as influence changes
+3. **Suzerainty Check**: After influence changes, verify who has most influence
+4. **Benefit Application**: Apply scaling benefits based on influence thresholds (3/6/9)
+5. **Stacking**: When reaching 10+ influence, stack coins starting from "0" box again
+6. **Visual Clarity**: Keep influence tracks and route slots clearly visible to all players
 
 ---
 
-*Last Updated: [Current Date]*
-*Version: 2.0*
-*Status: Route Slot System Implemented*
+## Implementation Notes
+
+### What Changed from Initial Design
+1. **Size**: Changed from 2.5"×3.5" cards to 8"×6" boards
+2. **Influence**: Changed from 6 separate player tracks to single shared track (0-9)
+3. **Markers**: Changed from colored cubes to GDP coins (reuse existing components)
+4. **Layout**: Route slots integrated into bottom of board with visual indicators
+5. **Production**: Automated printing system generates all 15 boards quickly
+
+### Ready for Playtesting
+- ✅ All 15 trading partner boards designed and generated
+- ✅ Influence tracking system simplified and tested
+- ✅ Route slot indicators integrated into board design
+- ✅ Print-ready PDFs available in board-printer/dist/
+- ✅ Quick regeneration for design iteration
+
+---
+
+*Last Updated: 2025-10-14*
+*Version: 3.0 - Board System Implemented*
+*Status: Ready for Prototype Printing & Playtesting*

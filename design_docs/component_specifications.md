@@ -31,18 +31,27 @@ This document defines the physical specifications for all Trade Warz components,
 ## Trading Partner Boards
 
 ### Physical Specifications
-- **Size**: 6" wide × 4" tall (minimum)
-- **Material**: Heavy cardstock or thin chipboard
-- **Finish**: Matte lamination for durability
-- **Orientation**: Landscape (6" × 4")
+- **Size**: 8" wide × 6" tall (landscape orientation)
+- **Material**: 80-110lb cardstock (heavy cardstock)
+- **Finish**: Matte finish for reduced glare
+- **Orientation**: Landscape (8" × 6")
 - **Quantity**: 15 trading partner boards
+- **Printing**: 2-up layout on US Letter (2 boards per sheet = 8 sheets total)
 
 ### Design Elements
-- **Influence Tracks**: 4-6 player tracks (0-10 range) with cube placement areas
-- **Route Slots**: 3-5 slots based on market size (Small=3, Medium=4, Large=5)
-- **Market Information**: Size indicator, base GDP bonus, thematic artwork
-- **Suzerainty Indicator**: Clear visual marker for current suzerain
-- **Influence Thresholds**: Visual indicators for benefit levels
+- **Influence Track**: Single track (0-9) shared by all players
+  - Players use GDP coins as markers
+  - Stack coins for 10+ influence
+  - Boxes sized for coin placement
+- **Route Slots**: Integrated slot indicators (3-5 based on market size)
+  - Large markets: 5 slots
+  - Medium markets: 4 slots (5th grayed)
+  - Small markets: 3 slots (4th-5th grayed)
+  - Visual indicators show card placement areas
+- **Market Information**: Size badge, tagline, thematic design
+- **Suzerainty Box**: Flag/image placeholder (1" × 1" top-right)
+- **Influence Thresholds**: Listed with bonuses at 3/6/9 influence
+- **Trade Effects**: Clear list of bonuses and suzerainty ability
 
 ### Trading Partner Categories
 
@@ -72,22 +81,32 @@ This document defines the physical specifications for all Trade Warz components,
 ## Leader Boards
 
 ### Physical Specifications
-- **Size**: 8" × 6" (portrait orientation)
-- **Material**: Heavy cardstock or thin chipboard
-- **Finish**: Matte lamination for durability
-- **Quantity**: 3-6 leader boards (prototype has 3)
+- **Size**: 8" × 6" (portrait orientation: 6" wide × 8" tall)
+- **Material**: 80-110lb cardstock (heavy cardstock)
+- **Finish**: Matte finish for reduced glare
+- **Quantity**: 3 leader boards for prototype (USA, China, Russia)
+- **Printing**: 2-up layout on US Letter (2 boards per sheet = 2 sheets total)
 
 ### Design Elements
-- **Export Slots**: 3-4 horizontal slots along top edge
-- **Policy Slots**: 3-4 horizontal slots along bottom edge
-- **GDP Track**: 0-50 GDP tracking along right edge
-- **Leader Information**: Name, hand size, unique abilities
-- **Thematic Artwork**: Leader-specific visual design
+- **Portrait Placeholder**: 2" × 2" box for leader artwork (top-right)
+- **Starting Stats Display**: GDP, hand size, trade route slots
+- **Unique Abilities Section**: 2-3 leader-specific abilities with descriptions
+- **Trade Route Tracker**: 5 numbered slots to track active routes
+  - Uniform across all leaders (5 slots each)
+  - Shows which player routes are currently active
+- **CMYK Reminder Strip**: Quick reference (C → M → Y → K)
+- **Leader Information**: Name, theme, abilities
+- **Thematic Design**: Leader-specific color schemes
+  - USA: Blue/red/white theme
+  - China: Red/gold theme
+  - Russia: Red/blue/white theme
 
-### Leader Specifications
-- **USA**: 4 export slots, 8 card hand size
-- **China**: 4 export slots, 7 card hand size
-- **Russia**: 3 export slots, 6 card hand size
+### Leader Specifications (Prototype)
+- **USA**: Starting GDP 8, Hand size 8, Trade routes 5
+- **China**: Starting GDP 7, Hand size 7, Trade routes 5
+- **Russia**: Starting GDP 6, Hand size 6, Trade routes 5
+
+**Note**: Trade route tracker shows active routes (5 slots for tracking), not export card capacity.
 
 ---
 
@@ -123,11 +142,19 @@ This document defines the physical specifications for all Trade Warz components,
 
 ## Game Components
 
-### Influence Cubes
-- **Size**: 8mm wooden cubes
+### Influence Tracking
+**Note**: The prototype uses GDP coins for influence tracking instead of separate colored cubes.
+
+- **Method**: Players place GDP coins on influence tracks
+- **Tracks**: Single track (0-9) on each trading partner board
+- **Stacking**: Stack coins when reaching 10+ influence
+- **Advantage**: Reuses existing GDP tokens, no additional components needed
+
+**Alternative (if separate tracking preferred)**:
+- **Size**: 8mm wooden cubes or tokens
 - **Colors**: 6 different colors (one per player)
-- **Quantity**: 20 cubes per color (120 total)
-- **Material**: Wood with colored finish
+- **Quantity**: 15 per color (90 total) - one per trading partner
+- **Material**: Wood with colored finish or cardboard tokens
 
 ### GDP Tokens
 - **Size**: 1" diameter
@@ -170,6 +197,40 @@ This document defines the physical specifications for all Trade Warz components,
 - **Quick Setup**: All components organized for 2-minute setup
 - **Clear Separation**: Each component type has designated storage
 - **Visual Guides**: Setup diagrams on box lid
+
+---
+
+## Prototype Production
+
+### Board Printer System
+Located in `prototype/decks/board-printer/` - automated system for generating print-ready PDFs.
+
+**Features**:
+- Converts markdown design docs → JSON → HTML → PDF
+- 2-up layout (2 boards per US Letter sheet)
+- Proper bleed and safe zones
+- Quick iteration (< 10 seconds to regenerate)
+- HTML preview before printing
+
+**Usage**:
+```bash
+cd prototype/decks/board-printer
+npm run convert      # Update data from design docs
+npm run build:all    # Generate all PDFs
+```
+
+**Output**:
+- `dist/leaders/fronts.pdf` - 2 sheets (3 leader boards)
+- `dist/trading-partners/fronts.pdf` - 8 sheets (15 trading partner boards)
+
+### Card Printer System
+Located in `prototype/decks/card-printer/` - generates poker-sized game cards.
+
+**Features**:
+- 6-up layout (6 cards per US Letter sheet)
+- Multiple card types (Export, Policy, Tactic, Event, Leader)
+- Color-coded backs
+- Professional appearance
 
 ---
 
@@ -222,6 +283,6 @@ This document defines the physical specifications for all Trade Warz components,
 
 ---
 
-*Last Updated: [Current Date]*
-*Version: 1.0*
-*Status: Ready for Production Planning*
+*Last Updated: 2025-10-14*
+*Version: 2.0 - Prototype Specifications*
+*Status: Ready for Prototype Printing & Playtesting*

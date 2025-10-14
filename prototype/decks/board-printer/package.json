@@ -1,0 +1,29 @@
+{
+  "name": "trade-warz-board-printer",
+  "version": "1.0.0",
+  "description": "8x6 board printer for Trade Warz leader boards and trading partner boards",
+  "type": "module",
+  "scripts": {
+    "convert": "tsx src/converter.ts",
+    "build": "tsx src/generate.ts",
+    "build:all": "tsx src/generate.ts all",
+    "build:leaders": "tsx src/generate.ts leaders",
+    "build:partners": "tsx src/generate.ts partners",
+    "build:reference": "tsx src/generate.ts reference",
+    "build:aids": "tsx src/generate.ts aids",
+    "preview": "open dist/*/preview.html"
+  },
+  "keywords": ["board-game", "prototype", "boards", "printing"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "playwright": "^1.48.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3"
+  }
+}
+

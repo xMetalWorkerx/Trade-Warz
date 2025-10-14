@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ref-turn-order",
+    "title": "TURN ORDER",
+    "content": [
+      "1. EVENT - Draw and resolve Event card",
+      "2. UPKEEP - Resolve CMYK effects",
+      "3. DRAW - Draw to hand size",
+      "4. POLICY - Play 1 Policy (optional)",
+      "5. TRADE - 3-minute timed phase",
+      "6. INCOME - Collect GDP from routes",
+      "7. CLEANUP - Reset for next round"
+    ],
+    "type": "reference"
+  },
+  {
+    "id": "ref-cmyk",
+    "title": "CMYK TIMING",
+    "content": [
+      "C (Cyan) = Global effects",
+      "M (Magenta) = Personal effects",
+      "Y (Yellow) = Opponent effects",
+      "K (Black) = Trading Partner effects",
+      "",
+      "Resolve in order: C → M → Y → K"
+    ],
+    "type": "reference"
+  },
+  {
+    "id": "ref-disputes",
+    "title": "DISPUTE RESOLUTION",
+    "content": [
+      "1. Identify all contested route slots",
+      "2. Resolve in reverse-GDP order (poorest first)",
+      "3. Both players bid GDP secretly",
+      "4. Calculate: Influence + GDP bid",
+      "5. Highest total wins",
+      "6. Winner pays bid, loser returns card to hand"
+    ],
+    "type": "reference"
+  },
+  {
+    "id": "ref-card-types",
+    "title": "CARD TYPES",
+    "content": [
+      "BLUE = Export (trade routes)",
+      "GREEN = Policy (ongoing effects)",
+      "RED = Tactic (instant actions)",
+      "PURPLE = Event (global effects)",
+      "GOLD = Leader (signature cards)"
+    ],
+    "type": "reference"
+  },
+  {
+    "id": "ref-influence",
+    "title": "INFLUENCE TRADING",
+    "content": [
+      "TIMING: During 3-minute Trade Phase",
+      "CURRENCY: GDP",
+      "PROCESS: Both players must agree",
+      "EFFECT: Immediate influence transfer",
+      "TYPICAL RATE: 1 influence = 2-3 GDP"
+    ],
+    "type": "reference"
+  }
+]

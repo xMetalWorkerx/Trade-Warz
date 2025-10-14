@@ -1,0 +1,83 @@
+{{!-- Trading Partner Board Template (8" × 6" landscape) --}}
+<div class="board board-partner board-{{marketSize}}" data-partner="{{code}}" data-market="{{marketSize}}">
+  {{!-- Bleed and safe zone guides --}}
+  <div class="bleed-guide"></div>
+  <div class="safe-guide"></div>
+  
+  {{!-- Board content area --}}
+  <div class="board-content">
+    
+    {{!-- Header Section --}}
+    <div class="partner-header">
+      <div class="partner-title-section">
+        <h1 class="partner-name">{{name}}</h1>
+        <div class="partner-tagline">"{{tagline}}"</div>
+        <div class="market-badge market-{{marketSize}}">
+          {{marketSizeLabel}} {{!-- e.g., "Large Market" --}}
+        </div>
+      </div>
+      <div class="suzerainty-box">
+        <div class="flag-placeholder">
+          <span class="flag-icon">🏴</span>
+        </div>
+        <div class="suzerainty-label">Suzerainty</div>
+      </div>
+    </div>
+    
+    {{!-- Influence Track Section --}}
+    <div class="influence-track-section">
+      <div class="influence-label">INFLUENCE</div>
+      <div class="influence-track">
+        {{#each influenceBoxes}}
+        <div class="influence-box" data-value="{{this}}">
+          <div class="box-number">{{this}}</div>
+          <div class="coin-area"></div>
+        </div>
+        {{/each}}
+      </div>
+      <div class="influence-note">Stack coins for 10+</div>
+    </div>
+    
+    {{!-- Trade Effects / Abilities Section --}}
+    <div class="trade-effects-section">
+      <h3 class="effects-title">TRADE EFFECTS / ABILITIES</h3>
+      <div class="effects-list">
+        {{#each influenceBonuses}}
+        <div class="effect-item">
+          <div class="effect-threshold">{{threshold}} influence:</div>
+          <div class="effect-bonus">{{bonus}}</div>
+        </div>
+        {{/each}}
+        
+        {{!-- Suzerainty Ability --}}
+        <div class="effect-item effect-suzerainty">
+          <div class="effect-threshold">👑 Suzerainty:</div>
+          <div class="effect-bonus">{{suzerainty.description}}</div>
+        </div>
+      </div>
+    </div>
+    
+    {{!-- Route Slots Section --}}
+    <div class="route-slots-section">
+      <div class="slots-label">Place Export Cards adjacent below</div>
+      <div class="route-slots">
+        {{#each routeSlotArray}}
+        <div class="route-slot {{#if disabled}}disabled{{/if}}" data-slot="{{this}}">
+          <div class="slot-label">Route {{this}}</div>
+          <div class="slot-indicator"></div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+    
+    {{!-- Footer --}}
+    <div class="board-footer">
+      <div class="board-code">{{code}}</div>
+      <div class="board-set">{{set}}</div>
+      <div class="board-rarity">{{rarity}}</div>
+      <div class="board-branding">TRADE WARZ</div>
+    </div>
+    
+  </div>
+</div>
+
