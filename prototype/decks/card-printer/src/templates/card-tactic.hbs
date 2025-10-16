@@ -7,10 +7,9 @@
   {{!-- Card border with type color --}}
   <div class="card-border" style="border-color: {{typeColor}};">
     
-    {{!-- Card Header with Lightning Bolt --}}
+    {{!-- Card Header --}}
     <div class="card-header">
       <div class="card-name-section">
-        <div class="tactic-icon">⚡</div>
         <h2 class="card-name">{{name}}</h2>
       </div>
       <div class="card-rarity">
@@ -18,14 +17,8 @@
       </div>
     </div>
     
-    {{!-- Instant banner --}}
-    <div class="instant-banner">
-      <span>⚡ INSTANT ⚡</span>
-    </div>
-    
-    {{!-- Stats Bar (Tactic only has cost, may be 0) --}}
-    {{#if cost}}
-    <div class="card-stats card-stats-single">
+    {{!-- Stats Bar --}}
+    <div class="card-stats">
       <div class="stat-box stat-cost">
         <div class="stat-icon">💰</div>
         <div class="stat-content">
@@ -34,21 +27,10 @@
         </div>
       </div>
     </div>
-    {{else}}
-    <div class="card-stats card-stats-single">
-      <div class="stat-box stat-cost stat-free">
-        <div class="stat-icon">🎁</div>
-        <div class="stat-content">
-          <div class="stat-label">Cost</div>
-          <div class="stat-value">FREE</div>
-        </div>
-      </div>
-    </div>
-    {{/if}}
     
-    {{!-- Effect Text (larger for tactics) --}}
+    {{!-- Effect Text --}}
     {{#if effect}}
-    <div class="card-effect card-effect-large">
+    <div class="card-effect">
       <div class="effect-label">Effect</div>
       <div class="effect-text">{{effect}}</div>
     </div>

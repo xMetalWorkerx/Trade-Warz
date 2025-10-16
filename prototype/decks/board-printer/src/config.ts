@@ -17,24 +17,47 @@ export const SAFE_MM = 6;   // inner safe zone (keep important content here)
 // SHEET LAYOUT (2-up: 2 boards per US Letter)
 // ============================================================================
 
-export const SHEET = {
+// Base sheet configuration
+export const SHEET_BASE = {
   unit: "in" as const,
   pageSize: {
     width: 8.5,   // US Letter width
     height: 11    // US Letter height
   },
   margin: {
-    top: 0.5,
+    top: 0.25,    // Small margins for print safety
     right: 0.25,
-    bottom: 0.5,
+    bottom: 0.25,
     left: 0.25
-  },
-  cols: 2,       // 2 boards per row
-  rows: 1,       // 1 row per sheet
-  gutter: {
-    x: 0.5,      // horizontal spacing between boards
-    y: 0         // no vertical spacing (single row)
   }
+};
+
+// Sheet layouts for different board types
+export const SHEET_LAYOUTS = {
+  // Leader boards (portrait 6"×8") - side by side
+  leader: {
+    cols: 2,       // 2 boards per row
+    rows: 1,       // 1 row per sheet
+    gutter: {
+      x: 0.5,      // horizontal spacing between boards
+      y: 0         // no vertical spacing (single row)
+    }
+  },
+  // Trading partner boards (landscape 8"×6") - one per page
+  tradingPartner: {
+    cols: 1,       // 1 board per column
+    rows: 1,       // 1 row per sheet (one board per page)
+    gutter: {
+      x: 0,        // no horizontal spacing
+      y: 0         // no vertical spacing
+    }
+  }
+};
+
+// Default sheet (for backward compatibility)
+export const SHEET = {
+  ...SHEET_BASE,
+  ...SHEET_LAYOUTS.tradingPartner  // Default to trading partner layout
 };
 
 // ============================================================================
@@ -68,7 +91,7 @@ export const BOARD_TYPES = {
     orientation: 'landscape' as const,
     label: 'Trading Partner Board',
     width: 8,    // landscape: 8" wide
-    height: 6,   // landscape: 6" tall
+    height: 5,   // landscape: 5" tall (further reduced)
     color: '#059669'  // Green theme
   }
 } as const;

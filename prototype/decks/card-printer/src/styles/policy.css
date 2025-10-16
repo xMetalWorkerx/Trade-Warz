@@ -11,6 +11,10 @@
   border-color: #4ade80;
 }
 
+.card-policy .stat-cost {
+  border-color: #fbbf24;
+}
+
 .card-policy .stat-timing {
   background: #fef3c7;
   border-color: #fbbf24;

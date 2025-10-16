@@ -18,6 +18,8 @@ import {
   BOARD_TYPES,
   MARKET_SIZES,
   SHEET,
+  SHEET_BASE,
+  SHEET_LAYOUTS,
   OUTPUT,
   DATA_PATHS,
   DECK_SPECS,
@@ -178,9 +180,11 @@ function compileBoards(
   deckName: string,
   boardWidth: number,
   boardHeight: number,
-  sheetTemplate: HandlebarsTemplateDelegate
+  sheetTemplate: HandlebarsTemplateDelegate,
+  layoutType: 'leader' | 'tradingPartner' = 'tradingPartner'
 ): string {
-  const boardsPerSheet = SHEET.cols * SHEET.rows;
+  const layout = SHEET_LAYOUTS[layoutType];
+  const boardsPerSheet = layout.cols * layout.rows;
   const pageCount = Math.ceil(boards.length / boardsPerSheet);
   
   // Pad to fill sheets
@@ -204,19 +208,19 @@ function compileBoards(
     pageCount,
     boardsPerSheet,
     isPlural: pageCount !== 1,
-    pageWidth: SHEET.pageSize.width,
-    pageHeight: SHEET.pageSize.height,
-    unit: SHEET.unit,
-    marginTop: SHEET.margin.top,
-    marginRight: SHEET.margin.right,
-    marginBottom: SHEET.margin.bottom,
-    marginLeft: SHEET.margin.left,
-    cols: SHEET.cols,
-    rows: SHEET.rows,
+    pageWidth: SHEET_BASE.pageSize.width,
+    pageHeight: SHEET_BASE.pageSize.height,
+    unit: SHEET_BASE.unit,
+    marginTop: SHEET_BASE.margin.top,
+    marginRight: SHEET_BASE.margin.right,
+    marginBottom: SHEET_BASE.margin.bottom,
+    marginLeft: SHEET_BASE.margin.left,
+    cols: layout.cols,
+    rows: layout.rows,
     boardW: boardWidth,
     boardH: boardHeight,
-    gutterX: SHEET.gutter.x,
-    gutterY: SHEET.gutter.y,
+    gutterX: layout.gutter.x,
+    gutterY: layout.gutter.y,
     inlinedCss,
     pages
   };
@@ -320,7 +324,7 @@ async function generateLeaders(): Promise<GenerationResult> {
   const boardHtmls = leaders.map(leader => renderLeaderBoard(leader, leaderTemplate));
   
   // Compile into sheets (portrait: 6" × 8")
-  const html = compileBoards(boardHtmls, "Leader Boards", 6, 8, sheetTemplate);
+  const html = compileBoards(boardHtmls, "Leader Boards", 6, 8, sheetTemplate, 'leader');
   
   // Write HTML
   const projectRoot = path.join(__dirname, "..");
@@ -371,7 +375,7 @@ async function generateTradingPartners(): Promise<GenerationResult> {
   );
   
   // Compile into sheets (landscape: 8" × 6")
-  const html = compileBoards(boardHtmls, "Trading Partner Boards", 8, 6, sheetTemplate);
+  const html = compileBoards(boardHtmls, "Trading Partner Boards", 8, 6, sheetTemplate, 'tradingPartner');
   
   // Write HTML
   const projectRoot = path.join(__dirname, "..");

@@ -7,13 +7,8 @@
   {{!-- Card border with type color --}}
   <div class="card-border" style="border-color: {{typeColor}};">
     
-    {{!-- Global Event Banner --}}
-    <div class="event-banner">
-      <span>🌍 GLOBAL EVENT 🌍</span>
-    </div>
-    
     {{!-- Card Header --}}
-    <div class="card-header card-header-event">
+    <div class="card-header">
       <div class="card-name-section">
         <h2 class="card-name">{{name}}</h2>
       </div>
@@ -22,9 +17,10 @@
       </div>
     </div>
     
-    {{!-- Effect Text (largest for events - complex effects) --}}
+    {{!-- Effect Text --}}
     {{#if effect}}
-    <div class="card-effect card-effect-event">
+    <div class="card-effect">
+      <div class="effect-label">Effect</div>
       <div class="effect-text">{{effect}}</div>
     </div>
     {{/if}}
@@ -40,9 +36,6 @@
     <div class="card-footer">
       <div class="card-type-badge" style="background-color: {{typeColor}};">
         Event
-      </div>
-      <div class="event-note">
-        Affects All Players
       </div>
     </div>
     

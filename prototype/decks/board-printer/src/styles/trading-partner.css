@@ -45,9 +45,9 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 0.15in;
-  padding-bottom: 0.10in;
-  border-bottom: 3pt solid #e0e0e0;
+  gap: 0.12in;
+  padding-bottom: 0.08in;
+  border-bottom: 2pt solid #e0e0e0;
 }
 
 .partner-title-section {
@@ -102,18 +102,18 @@
    ============================================================================ */
 
 .suzerainty-box {
-  width: 1.0in;
-  height: 1.0in;
+  width: 0.9in;
+  height: 0.9in;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.04in;
+  gap: 0.03in;
 }
 
 .flag-placeholder {
-  width: 0.9in;
-  height: 0.7in;
+  width: 0.8in;
+  height: 0.6in;
   border: 2pt dashed #ccc;
   border-radius: 0.04in;
   display: flex;
@@ -141,7 +141,7 @@
    ============================================================================ */
 
 .influence-track-section {
-  padding: 0.10in;
+  padding: 0.08in;
   background: white;
   border: 2pt solid #e0e0e0;
   border-radius: 0.08in;
@@ -212,7 +212,7 @@
 
 .trade-effects-section {
   flex: 1;
-  padding: 0.10in;
+  padding: 0.08in;
   background: #f9f9f9;
   border: 2pt solid #e0e0e0;
   border-radius: 0.08in;
@@ -269,7 +269,7 @@
    ============================================================================ */
 
 .route-slots-section {
-  padding: 0.08in;
+  padding: 0.06in;
   background: white;
   border: 2pt solid #e0e0e0;
   border-radius: 0.08in;
@@ -309,8 +309,8 @@
 }
 
 .slot-indicator {
-  width: 0.35in;
-  height: 0.50in;
+  width: 0.32in;
+  height: 0.45in;
   border: 2pt dashed #999;
   border-radius: 0.03in;
   background: #fafafa;

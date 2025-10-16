@@ -17,9 +17,8 @@
       </div>
     </div>
     
-    {{!-- Stats Bar (Policy only has cost) --}}
-    <div class="card-stats card-stats-single">
-      {{#if cost}}
+    {{!-- Stats Bar --}}
+    <div class="card-stats">
       <div class="stat-box stat-cost">
         <div class="stat-icon">💰</div>
         <div class="stat-content">
@@ -27,7 +26,6 @@
           <div class="stat-value">{{cost}}</div>
         </div>
       </div>
-      {{/if}}
       
       {{#if cmykTiming}}
       <div class="stat-box stat-timing">
@@ -40,9 +38,9 @@
       {{/if}}
     </div>
     
-    {{!-- Effect Text (larger for policies) --}}
+    {{!-- Effect Text --}}
     {{#if effect}}
-    <div class="card-effect card-effect-large">
+    <div class="card-effect">
       <div class="effect-label">Effect</div>
       <div class="effect-text">{{effect}}</div>
     </div>

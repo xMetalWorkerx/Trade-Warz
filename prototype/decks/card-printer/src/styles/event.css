@@ -8,35 +8,8 @@
 
 .card-event .effect-text {
   color: #7e22ce;
-  font-weight: 500;
-  font-size: 8.5pt;
 }
 
 .card-event .card-type-badge {
   background-color: #9333ea;
-}
-
-/* Event-specific elements */
-.event-banner {
-  background: linear-gradient(90deg, #9333ea 0%, #a855f7 50%, #9333ea 100%);
-  color: white;
-  text-align: center;
-  font-size: 8pt;
-  font-weight: 900;
-  letter-spacing: 1.2pt;
-  padding: 0.05in 0;
-  margin: -0.02in -0.02in 0.06in -0.02in;
-  border-radius: 0.03in;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
-}
-
-.card-header-event {
-  margin-top: 0.04in;
-}
-
-.event-note {
-  font-size: 6pt;
-  font-weight: 600;
-  font-style: italic;
-  color: #7e22ce;
 }

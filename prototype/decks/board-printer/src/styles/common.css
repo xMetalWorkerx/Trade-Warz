@@ -27,7 +27,7 @@
 /* Landscape boards (trading partners) */
 .board-partner {
   width: 8in;
-  height: 6in;
+  height: 5in;
 }
 
 /* ============================================================================
@@ -68,18 +68,18 @@
 
 .board-content {
   position: absolute;
-  top: 0.24in;
-  left: 0.24in;
-  right: 0.24in;
-  bottom: 0.24in;
+  top: 0.1in;
+  left: 0.1in;
+  right: 0.1in;
+  bottom: 0.1in;
   
   display: flex;
   flex-direction: column;
-  gap: 0.12in;
+  gap: 0.03in;
   
   border: 3pt solid #1a1a1a;
   border-radius: 0.15in;
-  padding: 0.15in;
+  padding: 0.05in;
   
   background: white;
 }
