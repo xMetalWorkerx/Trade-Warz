@@ -2,6 +2,10 @@
 
 This directory contains playtesting reports, feedback analysis, and balance testing data.
 
+## Quick Links
+
+- **Playtest Brief:** `playtest_brief.md` – bring this to sessions for the current rules snapshot, component checklist, and focus questions.
+
 ## Playtesting Process
 
 1. **Session Setup** - Record player count, experience levels, and session goals
